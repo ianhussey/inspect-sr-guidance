@@ -317,7 +317,7 @@
     "href": "license.html",
     "title": "22  License and citation",
     "section": "",
-    "text": "© Ian Hussey (2025)\nText and figures are licensed under a Creative Commons Attribution 4.0 (CC BY 4.0) license.\nCode is licensed under the MIT License.\nYou are free to copy, share, adapt, and reuse the contents of this book — text, figures, and code — for any purpose, including commercial use, provided you cite it.\nCitation:\nHussey, I. & Cummins, J. (2025) Improving your statistical inferences using Monte Carlo simulation studies in tidyverse. github.com/ianhussey/improving-your-statistical-inferences-through-monte-carlo-simulation-studies",
+    "text": "© Ian Hussey (2025)\nText and figures are licensed under a Creative Commons Attribution 4.0 (CC BY 4.0) license.\nCode is licensed under the MIT License.\nYou are free to copy, share, adapt, and reuse the contents of this book — text, figures, and code — for any purpose, including commercial use, provided you cite it.",
     "crumbs": [
       "Appendices",
       "<span class='chapter-number'>22</span>  <span class='chapter-title'>License and citation</span>"
