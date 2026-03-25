@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "INSPECT-SR Guidance",
     "section": "",
-    "text": "Introduction\nThis is the skeleton of a book we are slowly writing. For the moment, you should not expect any meaningful content here.\nThis Open Source eBook provides materials for the semester-long Master’s seminar course “Estimating the Credibility of Past Research” that Ian delivers at the University of Bern’s Institute of Psychology.\nThis book is split into four parts:",
+    "text": "Introduction\nINSPECT-SR (Wilkinson et al., 2025) is Cochrane’s Trustworthiness Assessment tool for randomised controlled trials (RCTs) in systematic reviews. It was designed for health RCTs but has utility in other fields too.\nINSPECT-SR does not assess internal or external validity (which are covered by Risk of Bias tools and GRADE), nor does it cover conflicts of interest.\nINSPECT-SR contains 21 checks across four domains to help judge whether a study’s data and findings can be trusted sufficiently to include it in a research synthesis (or indeed cite it in other contexts).\nThis guide includes guidance for the application of some of the component checks and the use of the tools and methods that implement them. In particular, the quantitative forensic meta-science methods included in INSPECT-SR’s Domain 4 (see below). This guidance is based on INSPECT-SR’s official guidance document (see osf [LINK TO BE ADDED]).",
     "crumbs": [
       "Introduction"
     ]
@@ -14,37 +14,47 @@
     "href": "index.html#introduction",
     "title": "INSPECT-SR Guidance",
     "section": "",
-    "text": "Concepts.\nMethods.\nOrganising.\nExercises.",
+    "text": "Citation\nWilkinson JD, Heal C, Flemyng E, Antoniou GA, Aburrow T, Alfirevic Z, et al. INSPECT-SR: a tool for assessing trustworthiness of randomised controlled trials. medRxiv 2025.09.03.25334905; doi: 10.1101/2025.09.03.25334905",
     "crumbs": [
       "Introduction"
     ]
   },
   {
-    "objectID": "index.html#how-to-use-this-book",
-    "href": "index.html#how-to-use-this-book",
+    "objectID": "index.html#overview-of-the-four-domains",
+    "href": "index.html#overview-of-the-four-domains",
     "title": "INSPECT-SR Guidance",
-    "section": "How to use this book",
-    "text": "How to use this book\nThis book is made up of individual Quarto (.qmd) files. Many of the exercises are easiest to complete in your own local copy of these .qmd files.\nWe suggest that you download a .zip of the contents of this book’s code and data from GitHub to run the code locally, complete the exercises, etc.\nYou can also copy and paste the code for any chapter directly from the website. Click the “&lt;/&gt; Code” button on the top right of each page to see the full .qmd file’s code. You can copy and paste this into a .qmd file. However, it’s probably easier to download all the .qmd files and data as mentioned above.",
+    "section": "Overview of the four domains",
+    "text": "Overview of the four domains\n\n\n\nDomain\nFocus\n\n\n\n\nDomain 1\nInspecting post-publication notices\n\n\nDomain 2\nInspecting conduct, governance and transparency\n\n\nDomain 3\nInspecting text and figures\n\n\nDomain 4\nInspecting results in the study\n\n\n\nFor each domain, the reviewer records a judgement of “no concerns”, “some concerns”, or “serious concerns”. These domain-level judgements inform an overall study-level judgement using the same scale.",
     "crumbs": [
       "Introduction"
     ]
   },
   {
-    "objectID": "index.html#other-learning-resources",
-    "href": "index.html#other-learning-resources",
+    "objectID": "index.html#how-to-use-inspect-sr-in-a-systematic-review",
+    "href": "index.html#how-to-use-inspect-sr-in-a-systematic-review",
     "title": "INSPECT-SR Guidance",
-    "section": "Other learning resources",
-    "text": "Other learning resources\nThere are many excellent Open Source resources to learn simulation studies in R and {tidyverse}. Readers are encouraged to seek them out to support the materials already provided in this book. I can particularly recommend the following ones:\n\nForensic Meta-Science: A hub for open-source forensic meta-science methods for assessing the trustworthiness of scientific research. Discover available guides and tools, or contribute to development.\nHeathers, J. (2025) An Introduction To Forensic Metascience eBook",
+    "section": "How to use INSPECT-SR in a systematic review",
+    "text": "How to use INSPECT-SR in a systematic review\n\nApply INSPECT-SR before Risk of Bias assessment. Trials judged as “serious concerns” should not be included, making Risk of Bias assessment unnecessary for those trials.\nTwo reviewers should apply INSPECT-SR independently, then compare and agree on judgements.\nTeams benefit from complementary expertise (clinical/content knowledge and statistical skills).\nThe assessment can be terminated early: if “serious concerns” are reached at any point, the remaining checks need not be completed.\nTrials rated “some concerns” should be included but subjected to sensitivity analysis.\nReport INSPECT-SR assessments in the systematic review (e.g., in characteristics of included/excluded studies).",
     "crumbs": [
       "Introduction"
     ]
   },
   {
-    "objectID": "index.html#contributing",
-    "href": "index.html#contributing",
+    "objectID": "index.html#making-judgements",
+    "href": "index.html#making-judgements",
     "title": "INSPECT-SR Guidance",
-    "section": "Contributing",
-    "text": "Contributing\nIf you are interested in contributing to or adapting this eBook, all code and data are available on GitHub.",
+    "section": "Making judgements",
+    "text": "Making judgements\n\nThe tool does not use a prescriptive algorithm. Domain-level judgements do not follow mechanically from individual check responses.\nA “yes” to a single check may be sufficient for “serious concerns” if the problem is severe enough, but should not automatically trigger that judgement.\nThe overall study-level judgement should typically be at least as severe as the most severe domain-level judgement.\n“Some concerns” across multiple domains may cumulatively warrant “serious concerns” overall.\nA judgement of “serious concerns” should only be used when it is clear, beyond reasonable doubt, that there are serious concerns.\nRecord explanatory text for each check response and for domain/study-level judgements.",
+    "crumbs": [
+      "Introduction"
+    ]
+  },
+  {
+    "objectID": "index.html#resources",
+    "href": "index.html#resources",
+    "title": "INSPECT-SR Guidance",
+    "section": "Resources",
+    "text": "Resources\n\nINSPECT-SR on OSF — latest versions of the guidance document\nFeedback survey — provide anonymous feedback on your experience with the tool\nRetraction Watch database — search for retractions and post-publication notices\nPubPeer — post-publication peer review comments\nCochrane implementation guidance — templates for reporting trustworthiness concerns to journals",
     "crumbs": [
       "Introduction"
     ]
