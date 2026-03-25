@@ -1,0 +1,18 @@
+# Critiquing specific types of articles <span class="badge badge-draft1">✎ Very rough draft</span>
+
+```{r}
+#| include: false
+if(file.exists("../_setup.R")){source("../_setup.R")}
+```
+
+## Original research
+
+- Applying trustworthiness assessment methods to original empirical articles
+
+## Meta-analyses
+
+- Specific considerations when assessing trustworthiness of meta-analytic studies
+
+## RCTs
+
+- Specific considerations when assessing trustworthiness of randomised controlled trials

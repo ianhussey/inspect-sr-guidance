@@ -1,0 +1,31 @@
+## Introduction {.unnumbered}
+
+This is the skeleton of a book we are slowly writing. For the moment, you should not expect any meaningful content here.
+
+This [Open Source](license.qmd) eBook provides materials for the semester-long Master's seminar course "Estimating the Credibility of Past Research" that Ian delivers at the University of Bern's Institute of Psychology.
+
+This book is split into four parts:
+
+1. **Concepts**. 
+2. **Methods**. 
+3. **Organising**.
+4. **Exercises**.
+
+## How to use this book
+
+This book is made up of individual Quarto (.qmd) files. Many of the exercises are easiest to complete in your own local copy of these .qmd files.
+
+We suggest that you [download a .zip of the contents of this book's code and data from GitHub](https://github.com/ianhussey/trustworthiness-assessment-a-forensic-meta-science-approach) to run the code locally, complete the exercises, etc.
+
+You can also copy and paste the code for any chapter directly from the website. Click the "\</\> Code" button on the top right of each page to see the full .qmd file's code. You can copy and paste this into a .qmd file. However, it's probably easier to download all the .qmd files and data as mentioned above.
+
+## Other learning resources
+
+There are many excellent Open Source resources to learn simulation studies in R and {tidyverse}. Readers are encouraged to seek them out to support the materials already provided in this book. I can particularly recommend the following ones:
+
+-   [Forensic Meta-Science: A hub for open-source forensic meta-science methods for assessing the trustworthiness of scientific research. Discover available guides and tools, or contribute to development.](https://trustworthy.scientific.claims/) 
+-   Heathers, J. (2025) An Introduction To Forensic Metascience [eBook](https://jamesheathers.curve.space/)
+
+## Contributing
+
+If you are interested in contributing to or adapting this eBook, all code and data are available on [GitHub](https://github.com/ianhussey/trustworthiness-assessment-a-forensic-meta-science-approach).

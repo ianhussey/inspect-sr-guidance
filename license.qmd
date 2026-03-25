@@ -1,0 +1,14 @@
+# License and citation
+
+&copy; Ian Hussey (2025)
+
+Text and figures are licensed under a [Creative Commons Attribution 4.0 (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/) license.
+
+Code is licensed under the [MIT License](https://opensource.org/licenses/MIT).
+
+You are free to copy, share, adapt, and reuse the contents of this book — text, figures, and code — for any purpose, including commercial use, provided you cite it.
+
+Citation:
+
+Hussey, I. & Cummins, J. (2025) Improving your statistical inferences using Monte Carlo simulation studies in tidyverse. github.com/ianhussey/improving-your-statistical-inferences-through-monte-carlo-simulation-studies
+

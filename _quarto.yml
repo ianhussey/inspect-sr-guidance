@@ -1,0 +1,83 @@
+project:
+  type: book
+  resources:
+    - "!slides/"
+
+book:
+  title: "INSPECT-SR Guidance"
+  subtitle: "INveStigating ProblEmatic Clinical Trials in Systematic Reviews"
+  author:
+    - name: Ian Hussey
+      orcid: 0000-0001-8906-7559
+      email: ian.hussey@unibe.ch
+    - name: Malte Elson
+      orcid: 0000-0001-7806-9583
+      email: malte.elson@unibe.ch
+    - name: Jack Wilkinson
+      orcid: 0000-0003-3513-4677
+      email: jack.wilkinson@manchester.ac.uk
+  date: today
+  chapters:
+    - index.qmd
+
+    - part: "Part I: Principles"
+      chapters: 
+        - chapters/scope_and_need.qmd # +what is sleuthing
+        - chapters/psychological_preparation.qmd
+        - chapters/organising_principles.qmd # judgements/conclusions from forensic methods; repeated and overlooked info; possibility and plausibility; complicated, boring, consequential.
+        
+    - part: "Part II: Checks"
+      chapters:
+        - chapters/interpretation_methods.qmd
+        - chapters/effect_size_methods.qmd
+        - chapters/repetition/consistency_methods.qmd
+        - chapters/recalculation_methods.qmd
+        - chapters/granularity_methods.qmd
+        - chapters/bounds_methods.qmd
+        - chapters/reconstruction_resampling_simulation-methods.qmd
+        - chapters/design_methods.qmd
+        - chapters/measurement_methods.qmd
+        - chapters/theory_specification_methods.qmd
+        - chapters/data_extraction_methods.qmd
+        
+    - part: "Appendices"
+      chapters:
+        #- appendices/lesson_plan.qmd
+        - license.qmd
+
+#bibliography: references.bib
+
+format:
+  html:
+    toc: true
+    toc_float: true
+    code-fold: false
+    code-overflow: wrap
+    code-tools: true
+    warning: false
+    df-print: kable
+    theme:
+      light: cosmo
+      dark: darkly
+    highlight-style:
+      light: breeze
+      dark: dracula
+    include-in-header:
+      text: |
+        <style>
+          .kable-table table { width: 70%; margin: 0 auto; }
+          .badge {
+            display: inline-flex; align-items: center; gap: 0.3em;
+            padding: 0.2em 0.65em; border-radius: 20px;
+            font-size: 0.72em; font-weight: 500; font-family: monospace;
+            vertical-align: middle; position: relative; top: -0.1em;
+          }
+          .badge-draft1   { background: #fdecea; color: #8b2a2a; border: 1px solid #f5b8b8; }
+          .badge-draft2   { background: #fef0e6; color: #8b4a1a; border: 1px solid #f5cfa0; }
+          .badge-draft3   { background: #fef9e7; color: #7a5c00; border: 1px solid #f5d97a; }
+          .badge-complete { background: #e6f4ea; color: #1e6e3a; border: 1px solid #b7dfbe; }
+        </style>
+
+editor: visual
+
+#cover-image: cover.png

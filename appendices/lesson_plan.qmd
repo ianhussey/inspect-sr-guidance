@@ -1,0 +1,16 @@
+# Lesson plan <span class="badge badge-draft1">✎ Very rough draft</span>
+
+```{r}
+#| include: false
+if(file.exists("../_setup.R")){source("../_setup.R")}
+```
+
+## Overview
+
+- Suggested lesson plan for teaching trustworthiness assessment using this book
+
+## Larger practice exercises
+
+- Foody et al. (2013)
+- Vahey et al. (2015)
+- "This Is The Worst Article Ever Written"

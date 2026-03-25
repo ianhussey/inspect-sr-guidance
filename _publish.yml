@@ -1,0 +1,4 @@
+- source: project
+  quarto-pub:
+    - id: 1e6c13a1-f2ff-44de-a16d-bbd623e620f1
+      url: https://ianhussey.quarto.pub/trustworthiness-assessment
