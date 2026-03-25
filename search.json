@@ -1,0 +1,316 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "INSPECT-SR Guidance",
+    "section": "",
+    "text": "Introduction\nThis is the skeleton of a book we are slowly writing. For the moment, you should not expect any meaningful content here.\nThis Open Source eBook provides materials for the semester-long Master’s seminar course “Estimating the Credibility of Past Research” that Ian delivers at the University of Bern’s Institute of Psychology.\nThis book is split into four parts:",
+    "crumbs": [
+      "Introduction"
+    ]
+  },
+  {
+    "objectID": "index.html#introduction",
+    "href": "index.html#introduction",
+    "title": "INSPECT-SR Guidance",
+    "section": "",
+    "text": "Concepts.\nMethods.\nOrganising.\nExercises.",
+    "crumbs": [
+      "Introduction"
+    ]
+  },
+  {
+    "objectID": "index.html#how-to-use-this-book",
+    "href": "index.html#how-to-use-this-book",
+    "title": "INSPECT-SR Guidance",
+    "section": "How to use this book",
+    "text": "How to use this book\nThis book is made up of individual Quarto (.qmd) files. Many of the exercises are easiest to complete in your own local copy of these .qmd files.\nWe suggest that you download a .zip of the contents of this book’s code and data from GitHub to run the code locally, complete the exercises, etc.\nYou can also copy and paste the code for any chapter directly from the website. Click the “&lt;/&gt; Code” button on the top right of each page to see the full .qmd file’s code. You can copy and paste this into a .qmd file. However, it’s probably easier to download all the .qmd files and data as mentioned above.",
+    "crumbs": [
+      "Introduction"
+    ]
+  },
+  {
+    "objectID": "index.html#other-learning-resources",
+    "href": "index.html#other-learning-resources",
+    "title": "INSPECT-SR Guidance",
+    "section": "Other learning resources",
+    "text": "Other learning resources\nThere are many excellent Open Source resources to learn simulation studies in R and {tidyverse}. Readers are encouraged to seek them out to support the materials already provided in this book. I can particularly recommend the following ones:\n\nForensic Meta-Science: A hub for open-source forensic meta-science methods for assessing the trustworthiness of scientific research. Discover available guides and tools, or contribute to development.\nHeathers, J. (2025) An Introduction To Forensic Metascience eBook",
+    "crumbs": [
+      "Introduction"
+    ]
+  },
+  {
+    "objectID": "index.html#contributing",
+    "href": "index.html#contributing",
+    "title": "INSPECT-SR Guidance",
+    "section": "Contributing",
+    "text": "Contributing\nIf you are interested in contributing to or adapting this eBook, all code and data are available on GitHub.",
+    "crumbs": [
+      "Introduction"
+    ]
+  },
+  {
+    "objectID": "chapters/check_1_1.html",
+    "href": "chapters/check_1_1.html",
+    "title": "1  1.1. Does the study have an associated retraction? ✎ Very rough draft",
+    "section": "",
+    "text": "Check the journal website and the Retraction Watch database for retractions. Use DOI for searching where possible. A “yes” typically warrants “serious concerns” for the domain and overall.",
+    "crumbs": [
+      "Domain 1: Inspecting post-publication notices",
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>1.1. Does the study have an associated retraction? <span class=\"badge badge-draft1\">✎ Very rough draft</span></span>"
+    ]
+  },
+  {
+    "objectID": "chapters/check_1_2.html",
+    "href": "chapters/check_1_2.html",
+    "title": "2  1.2. Does the study have an associated expression of concern or other relevant post-publication notice? ✎ Very rough draft",
+    "section": "",
+    "text": "Check the journal website, Retraction Watch database, and also post-publication comments (letters to editor, PubPeer). The PubPeer browser plugin automatically flags studies with comments. Consider the content carefully — not all critiques relate to trustworthiness.\nThere is also the ‘Concerning’ and ‘Annulled’ detectors.",
+    "crumbs": [
+      "Domain 1: Inspecting post-publication notices",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>1.2. Does the study have an associated expression of concern or other relevant post-publication notice? <span class=\"badge badge-draft1\">✎ Very rough draft</span></span>"
+    ]
+  },
+  {
+    "objectID": "chapters/check_1_3.html",
+    "href": "chapters/check_1_3.html",
+    "title": "3  1.3. Do other studies by the research team highlight causes for concern? ✎ Very rough draft",
+    "section": "",
+    "text": "Search the first, corresponding, and last author on the Retraction Watch database. A track record of integrity problems may introduce doubts about the index study.",
+    "crumbs": [
+      "Domain 1: Inspecting post-publication notices",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>1.3. Do other studies by the research team highlight causes for concern? <span class=\"badge badge-draft1\">✎ Very rough draft</span></span>"
+    ]
+  },
+  {
+    "objectID": "chapters/check_2_1.html",
+    "href": "chapters/check_2_1.html",
+    "title": "4  2.1. Are there concerns relating to ethical approval? ✎ Very rough draft",
+    "section": "",
+    "text": "Check for ethical approval details: reference number, approving body, and date. Where an approval number is available, search online to verify it hasn’t been taken from an unrelated study. Incomplete details in older studies may not indicate problems.",
+    "crumbs": [
+      "Domain 2: Inspecting conduct, governance and transparency",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>2.1. Are there concerns relating to ethical approval? <span class=\"badge badge-draft1\">✎ Very rough draft</span></span>"
+    ]
+  },
+  {
+    "objectID": "chapters/check_2_2.html",
+    "href": "chapters/check_2_2.html",
+    "title": "5  2.2. Are there concerns relating to the timing or absence of study registration? ✎ Very rough draft",
+    "section": "",
+    "text": "Absent or retrospective registration makes it difficult to determine whether reported methods and results reflect planned work. Consider the timing relative to recruitment. Registration expectations vary by era and jurisdiction.",
+    "crumbs": [
+      "Domain 2: Inspecting conduct, governance and transparency",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>2.2. Are there concerns relating to the timing or absence of study registration? <span class=\"badge badge-draft1\">✎ Very rough draft</span></span>"
+    ]
+  },
+  {
+    "objectID": "chapters/check_2_3.html",
+    "href": "chapters/check_2_3.html",
+    "title": "6  2.3. Are there important inconsistencies between the publication and the registration documents? ✎ Very rough draft",
+    "section": "",
+    "text": "Check for unexplained discrepancies in sample size, interventions, study dates, or eligibility criteria between the publication and the first version of the registration. Disagreements with post-trial-start registration amendments are particularly concerning. If there is no registration, answer “Not applicable.”",
+    "crumbs": [
+      "Domain 2: Inspecting conduct, governance and transparency",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>2.3. Are there important inconsistencies between the publication and the registration documents? <span class=\"badge badge-draft1\">✎ Very rough draft</span></span>"
+    ]
+  },
+  {
+    "objectID": "chapters/check_2_4.html",
+    "href": "chapters/check_2_4.html",
+    "title": "7  2.4. Is the recruitment of participants implausible? ✎ Very rough draft",
+    "section": "",
+    "text": "Consider whether the reported cohort size could plausibly be recruited in the reported timeframe, given the study setting, condition prevalence, and available resources. Domain knowledge is required.",
+    "crumbs": [
+      "Domain 2: Inspecting conduct, governance and transparency",
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>2.4. Is the recruitment of participants implausible? <span class=\"badge badge-draft1\">✎ Very rough draft</span></span>"
+    ]
+  },
+  {
+    "objectID": "chapters/check_2_5.html",
+    "href": "chapters/check_2_5.html",
+    "title": "8  2.5. Are there concerns about the plausibility of conducting the study using the reported methods and resources? ✎ Very rough draft",
+    "section": "",
+    "text": "Consider whether the protocol could realistically be implemented given the study setting, staffing, and funding.",
+    "crumbs": [
+      "Domain 2: Inspecting conduct, governance and transparency",
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>2.5. Are there concerns about the plausibility of conducting the study using the reported methods and resources? <span class=\"badge badge-draft1\">✎ Very rough draft</span></span>"
+    ]
+  },
+  {
+    "objectID": "chapters/check_3_1.html",
+    "href": "chapters/check_3_1.html",
+    "title": "9  3.1. Are there concerns relating to duplicated content, such as text or tables, or text that is incompatible with the study? ✎ Very rough draft",
+    "section": "",
+    "text": "Look for plagiarised text (using plagiarism software if available), “tortured phrases” (e.g., “counterfeit consciousness” for “artificial intelligence”), or text that doesn’t match the study context (e.g., describing a different population or intervention).\n\nTortured Phrases detector",
+    "crumbs": [
+      "Domain 3: Inspecting text and figures",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>3.1. Are there concerns relating to duplicated content, such as text or tables, or text that is incompatible with the study? <span class=\"badge badge-draft1\">✎ Very rough draft</span></span>"
+    ]
+  },
+  {
+    "objectID": "chapters/check_3_2.html",
+    "href": "chapters/check_3_2.html",
+    "title": "10  3.2. Is there evidence of manipulation or duplication of figures? ✎ Very rough draft",
+    "section": "",
+    "text": "Examine figures for signs of manipulation or duplication (e.g., identical plots across panels of different outcomes, manually added error bars, or shifted curves).\nImage forensics methods are beyond the scope of this website, but tools include the following:\n\nImageTwin [URL]\nProofig [URL]\nImagetrakr [URL]\nForensically [URL]\nFotoForensics [URL]\nGhiro [URL]",
+    "crumbs": [
+      "Domain 3: Inspecting text and figures",
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>3.2. Is there evidence of manipulation or duplication of figures? <span class=\"badge badge-draft1\">✎ Very rough draft</span></span>"
+    ]
+  },
+  {
+    "objectID": "chapters/check_4_1.html",
+    "href": "chapters/check_4_1.html",
+    "title": "11  4.1. Are there any unexplained discrepancies between reported data and participant eligibility criteria? ✎ Very rough draft",
+    "section": "",
+    "text": "Check whether reported participant characteristics are compatible with the eligibility criteria.",
+    "crumbs": [
+      "Domain 4: Inspecting results in the study",
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>4.1. Are there any unexplained discrepancies between reported data and participant eligibility criteria? <span class=\"badge badge-draft1\">✎ Very rough draft</span></span>"
+    ]
+  },
+  {
+    "objectID": "chapters/check_4_2.html",
+    "href": "chapters/check_4_2.html",
+    "title": "12  4.2. Are numbers of participants allocated to each group implausible given the allocation method? ✎ Very rough draft",
+    "section": "",
+    "text": "Check whether group sizes are consistent with the stated randomisation method. For example, blocked randomisation with a fixed block size of 4 cannot produce imbalances exceeding 2.",
+    "crumbs": [
+      "Domain 4: Inspecting results in the study",
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>4.2. Are numbers of participants allocated to each group implausible given the allocation method? <span class=\"badge badge-draft1\">✎ Very rough draft</span></span>"
+    ]
+  },
+  {
+    "objectID": "chapters/check_4_3.html",
+    "href": "chapters/check_4_3.html",
+    "title": "13  4.3. Are any baseline data implausible? ✎ Very rough draft",
+    "section": "",
+    "text": "Consider clinical/biological and numerical plausibility of baseline characteristics. Look for unusual patterns such as excess even/odd numbers, multiples of 5, or implausibly identical values across groups.\nThere are also quantitative methods for the assessment of whether groups are systematically too similar or too different assuming random assignment:\n\nBarnett’s Baseline Web app and associated R package\nCarlisle’s method [URL for implementations?]\nBolland’s reappraised R package [URL needed]\n\nSeparately, there are quantitative methods to assess whether a) reported p values and b) effect sizes for between-groups differences for continuous or categorical data can be reproduced from reported summary statistics (i.e., M/SD/N or counts):\n\nrecalc Web app\nBolland’s p value recalculator Web app [URL needed]",
+    "crumbs": [
+      "Domain 4: Inspecting results in the study",
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>4.3. Are any baseline data implausible? <span class=\"badge badge-draft1\">✎ Very rough draft</span></span>"
+    ]
+  },
+  {
+    "objectID": "chapters/check_4_4.html",
+    "href": "chapters/check_4_4.html",
+    "title": "14  4.4. Are there any discrepancies between results reported in figures, tables, and text? ✎ Very rough draft",
+    "section": "",
+    "text": "Check for contradictions where the same results appear in multiple places (figures, tables, main text, abstract).",
+    "crumbs": [
+      "Domain 4: Inspecting results in the study",
+      "<span class='chapter-number'>14</span>  <span class='chapter-title'>4.4. Are there any discrepancies between results reported in figures, tables, and text? <span class=\"badge badge-draft1\">✎ Very rough draft</span></span>"
+    ]
+  },
+  {
+    "objectID": "chapters/check_4_5.html",
+    "href": "chapters/check_4_5.html",
+    "title": "15  4.5. Are the numbers of participants lost to follow-up implausible? ✎ Very rough draft",
+    "section": "",
+    "text": "Consider whether attrition rates are plausible given the context, condition, follow-up duration, and study protocol.",
+    "crumbs": [
+      "Domain 4: Inspecting results in the study",
+      "<span class='chapter-number'>15</span>  <span class='chapter-title'>4.5. Are the numbers of participants lost to follow-up implausible? <span class=\"badge badge-draft1\">✎ Very rough draft</span></span>"
+    ]
+  },
+  {
+    "objectID": "chapters/check_4_6.html",
+    "href": "chapters/check_4_6.html",
+    "title": "16  4.6. Are there any unexplained inconsistencies in the numbers of participants? ✎ Very rough draft",
+    "section": "",
+    "text": "Check for inconsistencies in participant numbers across different parts of the manuscript, including the CONSORT diagram.\nThe consistency of sample sizes (Ns), means (M), and Standard Deviations between whole samples and subgroups:\n\nANCHOR (Assessing Numerical Consistency between wHOle sample and subgRoups) Web app",
+    "crumbs": [
+      "Domain 4: Inspecting results in the study",
+      "<span class='chapter-number'>16</span>  <span class='chapter-title'>4.6. Are there any unexplained inconsistencies in the numbers of participants? <span class=\"badge badge-draft1\">✎ Very rough draft</span></span>"
+    ]
+  },
+  {
+    "objectID": "chapters/check_4_7.html",
+    "href": "chapters/check_4_7.html",
+    "title": "17  4.7. Are any outcome data, including estimated treatment effects, implausible? ✎ Very rough draft",
+    "section": "",
+    "text": "Consider the plausibility of outcome values and treatment effects. Compare to other studies in the meta-analysis if available. Duplication of treatment effects between trials from the same team is particularly concerning.\nAs noted in 4.3, there are quantitative methods to assess whether reported SMD effect sizes for between-groups differences can be reproduced from reported summary statistics (i.e., M/SD/N).\n\nrecalc Web app\n\nThere are also methods to assess the risk that reported SDs are in fact Standard Errors. Note that confusion of SE and SD is extremely common and pollutes the results of meta-analyses (REF).\n\n[placeholder - tool in development]",
+    "crumbs": [
+      "Domain 4: Inspecting results in the study",
+      "<span class='chapter-number'>17</span>  <span class='chapter-title'>4.7. Are any outcome data, including estimated treatment effects, implausible? <span class=\"badge badge-draft1\">✎ Very rough draft</span></span>"
+    ]
+  },
+  {
+    "objectID": "chapters/check_4_8.html",
+    "href": "chapters/check_4_8.html",
+    "title": "18  4.8. Are the means and variances of integer data impossible? ✎ Very rough draft",
+    "section": "",
+    "text": "18.1 Tools for this check\nFor variables that can only take integer values, check whether reported means and standard deviations are mathematically possible for the given sample size using the GRIM and GRIMMER methods.",
+    "crumbs": [
+      "Domain 4: Inspecting results in the study",
+      "<span class='chapter-number'>18</span>  <span class='chapter-title'>4.8. Are the means and variances of integer data impossible? <span class=\"badge badge-draft1\">✎ Very rough draft</span></span>"
+    ]
+  },
+  {
+    "objectID": "chapters/check_4_8.html#tools-for-this-check",
+    "href": "chapters/check_4_8.html#tools-for-this-check",
+    "title": "18  4.8. Are the means and variances of integer data impossible? ✎ Very rough draft",
+    "section": "",
+    "text": "scrutiny — R package implementing GRIM and GRIMMER tests, with a convenient interface for checking multiple values at once\nNick Brown’s GRIM calculator — online GRIM checker\nPrePubMed GRIMMER — online GRIMMER checker\nNote to self: should the above link to GRIM generally, and then the GRIM etc pages debate the merits of different implementations?",
+    "crumbs": [
+      "Domain 4: Inspecting results in the study",
+      "<span class='chapter-number'>18</span>  <span class='chapter-title'>4.8. Are the means and variances of integer data impossible? <span class=\"badge badge-draft1\">✎ Very rough draft</span></span>"
+    ]
+  },
+  {
+    "objectID": "chapters/check_4_9.html",
+    "href": "chapters/check_4_9.html",
+    "title": "19  4.9. Are there errors in statistical results? ✎ Very rough draft",
+    "section": "",
+    "text": "19.1 Tools for this check\nCheck whether reported p-values are consistent with the reported summary data. For t-tests, verify using the group means, SDs, and sample sizes. For categorical data analysed by chi-squared test, attempt to reproduce the p-value from reported frequencies.\nBe cautious: p-values from continuous variables will not generally be exactly reproducible from rounded summary data. Consider consistency rather than exact reproduction.",
+    "crumbs": [
+      "Domain 4: Inspecting results in the study",
+      "<span class='chapter-number'>19</span>  <span class='chapter-title'>4.9. Are there errors in statistical results? <span class=\"badge badge-draft1\">✎ Very rough draft</span></span>"
+    ]
+  },
+  {
+    "objectID": "chapters/check_4_9.html#tools-for-this-check",
+    "href": "chapters/check_4_9.html#tools-for-this-check",
+    "title": "19  4.9. Are there errors in statistical results? ✎ Very rough draft",
+    "section": "",
+    "text": "recalc — R package for recalculating p values and effect sizes from means, SDs, and sample sizes\nGraphPad t-test calculator — online t-test calculator\nOpenEpi — open source epidemiologic statistics",
+    "crumbs": [
+      "Domain 4: Inspecting results in the study",
+      "<span class='chapter-number'>19</span>  <span class='chapter-title'>4.9. Are there errors in statistical results? <span class=\"badge badge-draft1\">✎ Very rough draft</span></span>"
+    ]
+  },
+  {
+    "objectID": "chapters/check_4_10.html",
+    "href": "chapters/check_4_10.html",
+    "title": "20  4.10. Are any other contradictions implied by the data? ✎ Very rough draft",
+    "section": "",
+    "text": "Look for other anomalies such as subgroup counts/means conflicting with overall results, means falling outside reported ranges, or logically impossible outcome combinations.",
+    "crumbs": [
+      "Domain 4: Inspecting results in the study",
+      "<span class='chapter-number'>20</span>  <span class='chapter-title'>4.10. Are any other contradictions implied by the data? <span class=\"badge badge-draft1\">✎ Very rough draft</span></span>"
+    ]
+  },
+  {
+    "objectID": "chapters/check_4_11.html",
+    "href": "chapters/check_4_11.html",
+    "title": "21  4.11. Are there inconsistencies in descriptions of methods and results across publications describing the study? ✎ Very rough draft",
+    "section": "",
+    "text": "Check for major unexplained discrepancies between publications associated with the study (e.g., conference abstract vs. main results paper), including conflicting results, group sizes, or methods.",
+    "crumbs": [
+      "Domain 4: Inspecting results in the study",
+      "<span class='chapter-number'>21</span>  <span class='chapter-title'>4.11. Are there inconsistencies in descriptions of methods and results across publications describing the study? <span class=\"badge badge-draft1\">✎ Very rough draft</span></span>"
+    ]
+  },
+  {
+    "objectID": "license.html",
+    "href": "license.html",
+    "title": "22  License and citation",
+    "section": "",
+    "text": "© Ian Hussey (2025)\nText and figures are licensed under a Creative Commons Attribution 4.0 (CC BY 4.0) license.\nCode is licensed under the MIT License.\nYou are free to copy, share, adapt, and reuse the contents of this book — text, figures, and code — for any purpose, including commercial use, provided you cite it.\nCitation:\nHussey, I. & Cummins, J. (2025) Improving your statistical inferences using Monte Carlo simulation studies in tidyverse. github.com/ianhussey/improving-your-statistical-inferences-through-monte-carlo-simulation-studies",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>22</span>  <span class='chapter-title'>License and citation</span>"
+    ]
+  }
+]
