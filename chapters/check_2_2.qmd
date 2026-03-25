@@ -1,0 +1,8 @@
+# 2.2. Are there concerns relating to the timing or absence of study registration? <span class="badge badge-draft1">✎ Very rough draft</span>
+
+```{r}
+#| include: false
+if(file.exists("../_setup.R")){source("../_setup.R")}
+```
+
+Absent or retrospective registration makes it difficult to determine whether reported methods and results reflect planned work. Consider the timing relative to recruitment. Registration expectations vary by era and jurisdiction.

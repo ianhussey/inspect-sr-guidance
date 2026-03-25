@@ -1,0 +1,8 @@
+# 2.5. Are there concerns about the plausibility of conducting the study using the reported methods and resources? <span class="badge badge-draft1">✎ Very rough draft</span>
+
+```{r}
+#| include: false
+if(file.exists("../_setup.R")){source("../_setup.R")}
+```
+
+Consider whether the protocol could realistically be implemented given the study setting, staffing, and funding.

@@ -20,25 +20,44 @@ book:
   chapters:
     - index.qmd
 
-    - part: "Part I: Principles"
-      chapters: 
-        - chapters/scope_and_need.qmd # +what is sleuthing
-        - chapters/psychological_preparation.qmd
-        - chapters/organising_principles.qmd # judgements/conclusions from forensic methods; repeated and overlooked info; possibility and plausibility; complicated, boring, consequential.
+    # - part: "Part I: Principles"
+    #   chapters: 
+    #     - chapters/scope_and_need.qmd # +what is sleuthing
+    #     - chapters/psychological_preparation.qmd
+    #     - chapters/organising_principles.qmd # judgements/conclusions from forensic methods; repeated and overlooked info; possibility and plausibility; complicated, boring, consequential.
         
-    - part: "Part II: Checks"
+    - part: "Domain 1: Inspecting post-publication notices"
       chapters:
-        - chapters/interpretation_methods.qmd
-        - chapters/effect_size_methods.qmd
-        - chapters/repetition/consistency_methods.qmd
-        - chapters/recalculation_methods.qmd
-        - chapters/granularity_methods.qmd
-        - chapters/bounds_methods.qmd
-        - chapters/reconstruction_resampling_simulation-methods.qmd
-        - chapters/design_methods.qmd
-        - chapters/measurement_methods.qmd
-        - chapters/theory_specification_methods.qmd
-        - chapters/data_extraction_methods.qmd
+        - chapters/check_1_1.qmd
+        - chapters/check_1_2.qmd
+        - chapters/check_1_3.qmd
+
+    - part: "Domain 2: Inspecting conduct, governance and transparency"
+      chapters:
+        - chapters/check_2_1.qmd
+        - chapters/check_2_2.qmd
+        - chapters/check_2_3.qmd
+        - chapters/check_2_4.qmd
+        - chapters/check_2_5.qmd
+
+    - part: "Domain 3: Inspecting text and figures"
+      chapters:
+        - chapters/check_3_1.qmd
+        - chapters/check_3_2.qmd
+
+    - part: "Domain 4: Inspecting results in the study"
+      chapters:
+        - chapters/check_4_1.qmd
+        - chapters/check_4_2.qmd
+        - chapters/check_4_3.qmd
+        - chapters/check_4_4.qmd
+        - chapters/check_4_5.qmd
+        - chapters/check_4_6.qmd
+        - chapters/check_4_7.qmd
+        - chapters/check_4_8.qmd
+        - chapters/check_4_9.qmd
+        - chapters/check_4_10.qmd
+        - chapters/check_4_11.qmd
         
     - part: "Appendices"
       chapters:

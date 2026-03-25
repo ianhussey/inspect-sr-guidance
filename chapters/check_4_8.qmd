@@ -1,0 +1,15 @@
+# 4.8. Are the means and variances of integer data impossible? <span class="badge badge-draft1">✎ Very rough draft</span>
+
+```{r}
+#| include: false
+if(file.exists("../_setup.R")){source("../_setup.R")}
+```
+
+For variables that can only take integer values, check whether reported means and standard deviations are mathematically possible for the given sample size using the [GRIM](/methods/grim/) and [GRIMMER](/methods/grimmer/) methods.
+
+## Tools for this check
+
+- [scrutiny](/tools/scrutiny/) — R package implementing GRIM and GRIMMER tests, with a convenient interface for checking multiple values at once
+- [Nick Brown's GRIM calculator](http://nickbrown.fr/GRIM) — online GRIM checker
+- [PrePubMed GRIMMER](http://www.prepubmed.org/grimmer/) — online GRIMMER checker
+- Note to self: should the above link to GRIM generally, and then the GRIM etc pages debate the merits of different implementations?

@@ -1,0 +1,17 @@
+# 3.2. Is there evidence of manipulation or duplication of figures? <span class="badge badge-draft1">✎ Very rough draft</span>
+
+```{r}
+#| include: false
+if(file.exists("../_setup.R")){source("../_setup.R")}
+```
+
+Examine figures for signs of manipulation or duplication (e.g., identical plots across panels of different outcomes, manually added error bars, or shifted curves).
+
+Image forensics methods are beyond the scope of this website, but tools include the following:
+
+- ImageTwin [URL]
+- Proofig [URL]
+- Imagetrakr [URL]
+- Forensically [URL]
+- FotoForensics [URL]
+- Ghiro [URL]

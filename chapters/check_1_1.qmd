@@ -1,0 +1,8 @@
+# 1.1. Does the study have an associated retraction? <span class="badge badge-draft1">✎ Very rough draft</span>
+
+```{r}
+#| include: false
+if(file.exists("../_setup.R")){source("../_setup.R")}
+```
+
+Check the journal website and the [Retraction Watch database](http://retractiondatabase.org/) for retractions. Use DOI for searching where possible. A "yes" typically warrants "serious concerns" for the domain and overall.

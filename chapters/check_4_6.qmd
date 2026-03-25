@@ -1,0 +1,12 @@
+# 4.6. Are there any unexplained inconsistencies in the numbers of participants? <span class="badge badge-draft1">✎ Very rough draft</span>
+
+```{r}
+#| include: false
+if(file.exists("../_setup.R")){source("../_setup.R")}
+```
+
+Check for inconsistencies in participant numbers across different parts of the manuscript, including the CONSORT diagram.
+
+The consistency of sample sizes (Ns), means (M), and Standard Deviations between whole samples and subgroups:
+
+- ANCHOR (Assessing Numerical Consistency between wHOle sample and subgRoups) [Web app](https://errors.shinyapps.io/ANCHOR/)

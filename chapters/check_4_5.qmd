@@ -1,0 +1,8 @@
+# 4.5. Are the numbers of participants lost to follow-up implausible? <span class="badge badge-draft1">✎ Very rough draft</span>
+
+```{r}
+#| include: false
+if(file.exists("../_setup.R")){source("../_setup.R")}
+```
+
+Consider whether attrition rates are plausible given the context, condition, follow-up duration, and study protocol.

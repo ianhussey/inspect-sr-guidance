@@ -1,0 +1,8 @@
+# 4.10. Are any other contradictions implied by the data? <span class="badge badge-draft1">✎ Very rough draft</span>
+
+```{r}
+#| include: false
+if(file.exists("../_setup.R")){source("../_setup.R")}
+```
+
+Look for other anomalies such as subgroup counts/means conflicting with overall results, means falling outside reported ranges, or logically impossible outcome combinations.

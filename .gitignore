@@ -1,3 +1,7 @@
 /.quarto/
 **/*.quarto_ipynb
-/_book/*
+_book/*
+old/*
+
+*.Rhistory
+*.DS_store

@@ -1,0 +1,8 @@
+# 4.2. Are numbers of participants allocated to each group implausible given the allocation method? <span class="badge badge-draft1">✎ Very rough draft</span>
+
+```{r}
+#| include: false
+if(file.exists("../_setup.R")){source("../_setup.R")}
+```
+
+Check whether group sizes are consistent with the stated randomisation method. For example, blocked randomisation with a fixed block size of 4 cannot produce imbalances exceeding 2.

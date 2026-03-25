@@ -1,0 +1,8 @@
+# 2.3. Are there important inconsistencies between the publication and the registration documents? <span class="badge badge-draft1">✎ Very rough draft</span>
+
+```{r}
+#| include: false
+if(file.exists("../_setup.R")){source("../_setup.R")}
+```
+
+Check for unexplained discrepancies in sample size, interventions, study dates, or eligibility criteria between the publication and the **first version** of the registration. Disagreements with post-trial-start registration amendments are particularly concerning. If there is no registration, answer "Not applicable."

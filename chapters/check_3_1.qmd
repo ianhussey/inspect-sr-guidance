@@ -1,0 +1,10 @@
+# 3.1. Are there concerns relating to duplicated content, such as text or tables, or text that is incompatible with the study? <span class="badge badge-draft1">✎ Very rough draft</span>
+
+```{r}
+#| include: false
+if(file.exists("../_setup.R")){source("../_setup.R")}
+```
+
+Look for plagiarised text (using plagiarism software if available), "tortured phrases" (e.g., "counterfeit consciousness" for "artificial intelligence"), or text that doesn't match the study context (e.g., describing a different population or intervention).
+
+- [Tortured Phrases detector](https://dbrech.irit.fr/pls/apex/f?p=9999:24)

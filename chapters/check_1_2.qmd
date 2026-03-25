@@ -1,0 +1,10 @@
+# 1.2. Does the study have an associated expression of concern or other relevant post-publication notice? <span class="badge badge-draft1">✎ Very rough draft</span>
+
+```{r}
+#| include: false
+if(file.exists("../_setup.R")){source("../_setup.R")}
+```
+
+Check the journal website, Retraction Watch database, and also post-publication comments (letters to editor, [PubPeer](https://www.pubpeer.com/)). The [PubPeer browser plugin](https://www.pubpeer.com/static/extensions) automatically flags studies with comments. Consider the content carefully — not all critiques relate to trustworthiness.
+
+There is also the ['Concerning'](https://dbrech.irit.fr/pls/apex/f?p=9999:34::::::) and ['Annulled'](https://dbrech.irit.fr/pls/apex/f?p=9999:33::::::) detectors.

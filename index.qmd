@@ -1,31 +1,50 @@
 ## Introduction {.unnumbered}
 
-This is the skeleton of a book we are slowly writing. For the moment, you should not expect any meaningful content here.
+INSPECT-SR ([Wilkinson et al., 2025](https://doi.org/10.1101/2025.09.03.25334905)) is Cochrane's Trustworthiness Assessment tool for randomised controlled trials (RCTs) in systematic reviews. It was designed for health RCTs but has utility in other fields too.
 
-This [Open Source](license.qmd) eBook provides materials for the semester-long Master's seminar course "Estimating the Credibility of Past Research" that Ian delivers at the University of Bern's Institute of Psychology.
+INSPECT-SR does not assess internal or external validity (which are covered by Risk of Bias tools and GRADE), nor does it cover conflicts of interest.
 
-This book is split into four parts:
+INSPECT-SR contains 21 checks across four domains to help judge whether a study's data and findings can be trusted sufficiently to include it in a research synthesis (or indeed cite it in other contexts).
 
-1. **Concepts**. 
-2. **Methods**. 
-3. **Organising**.
-4. **Exercises**.
+This guide includes guidance for the application of some of the component checks and the use of the tools and methods that implement them. In particular, the quantitative forensic meta-science methods included in INSPECT-SR's Domain 4 (see below). This guidance is based on INSPECT-SR's official guidance document (see osf [LINK TO BE ADDED]).
 
-## How to use this book
+### Citation
 
-This book is made up of individual Quarto (.qmd) files. Many of the exercises are easiest to complete in your own local copy of these .qmd files.
+Wilkinson JD, Heal C, Flemyng E, Antoniou GA, Aburrow T, Alfirevic Z, et al. INSPECT-SR: a tool for assessing trustworthiness of randomised controlled trials. medRxiv 2025.09.03.25334905; doi: [10.1101/2025.09.03.25334905](https://doi.org/10.1101/2025.09.03.25334905)
 
-We suggest that you [download a .zip of the contents of this book's code and data from GitHub](https://github.com/ianhussey/trustworthiness-assessment-a-forensic-meta-science-approach) to run the code locally, complete the exercises, etc.
+## Overview of the four domains
 
-You can also copy and paste the code for any chapter directly from the website. Click the "\</\> Code" button on the top right of each page to see the full .qmd file's code. You can copy and paste this into a .qmd file. However, it's probably easier to download all the .qmd files and data as mentioned above.
+| Domain | Focus |
+|--------|-------|
+| **Domain 1** | Inspecting post-publication notices |
+| **Domain 2** | Inspecting conduct, governance and transparency |
+| **Domain 3** | Inspecting text and figures |
+| **Domain 4** | Inspecting results in the study |
 
-## Other learning resources
+For each domain, the reviewer records a judgement of **"no concerns"**, **"some concerns"**, or **"serious concerns"**. These domain-level judgements inform an overall study-level judgement using the same scale.
 
-There are many excellent Open Source resources to learn simulation studies in R and {tidyverse}. Readers are encouraged to seek them out to support the materials already provided in this book. I can particularly recommend the following ones:
+## How to use INSPECT-SR in a systematic review
 
--   [Forensic Meta-Science: A hub for open-source forensic meta-science methods for assessing the trustworthiness of scientific research. Discover available guides and tools, or contribute to development.](https://trustworthy.scientific.claims/) 
--   Heathers, J. (2025) An Introduction To Forensic Metascience [eBook](https://jamesheathers.curve.space/)
+- Apply INSPECT-SR **before** Risk of Bias assessment. Trials judged as "serious concerns" should not be included, making Risk of Bias assessment unnecessary for those trials.
+- Two reviewers should apply INSPECT-SR independently, then compare and agree on judgements.
+- Teams benefit from complementary expertise (clinical/content knowledge and statistical skills).
+- The assessment can be terminated early: if "serious concerns" are reached at any point, the remaining checks need not be completed.
+- Trials rated "some concerns" should be included but subjected to sensitivity analysis.
+- Report INSPECT-SR assessments in the systematic review (e.g., in characteristics of included/excluded studies).
 
-## Contributing
+## Making judgements
 
-If you are interested in contributing to or adapting this eBook, all code and data are available on [GitHub](https://github.com/ianhussey/trustworthiness-assessment-a-forensic-meta-science-approach).
+- The tool does **not** use a prescriptive algorithm. Domain-level judgements do not follow mechanically from individual check responses.
+- A "yes" to a single check may be sufficient for "serious concerns" if the problem is severe enough, but should not automatically trigger that judgement.
+- The overall study-level judgement should typically be at least as severe as the most severe domain-level judgement.
+- "Some concerns" across multiple domains may cumulatively warrant "serious concerns" overall.
+- A judgement of "serious concerns" should only be used when it is clear, beyond reasonable doubt, that there are serious concerns.
+- Record explanatory text for each check response and for domain/study-level judgements.
+
+## Resources
+
+- [INSPECT-SR on OSF](https://osf.io/b74wj/files/osfstorage) — latest versions of the guidance document
+- [Feedback survey](https://www.qualtrics.manchester.ac.uk/jfe/form/SV_eOPavZZHDZ0fvN4) — provide anonymous feedback on your experience with the tool
+- [Retraction Watch database](http://retractiondatabase.org/) — search for retractions and post-publication notices
+- [PubPeer](https://www.pubpeer.com/) — post-publication peer review comments
+- [Cochrane implementation guidance](https://www.cochranelibrary.com/cdsr/editorial-policies/problematic-studies-implementation-guidance#7-1) — templates for reporting trustworthiness concerns to journals

@@ -1,0 +1,8 @@
+# 2.1. Are there concerns relating to ethical approval? <span class="badge badge-draft1">✎ Very rough draft</span>
+
+```{r}
+#| include: false
+if(file.exists("../_setup.R")){source("../_setup.R")}
+```
+
+Check for ethical approval details: reference number, approving body, and date. Where an approval number is available, search online to verify it hasn't been taken from an unrelated study. Incomplete details in older studies may not indicate problems.

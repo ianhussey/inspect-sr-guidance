@@ -3,7 +3,7 @@ https://quartopub.com/
   Terminal:
 
 ````
-cd ~/git/trustworthiness-assessment-a-forensic-meta-science-approach
+cd ~/git/inspect-sr-guidance
 quarto publish quarto-pub
 ````
 

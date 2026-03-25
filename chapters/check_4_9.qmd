@@ -1,0 +1,16 @@
+# 4.9. Are there errors in statistical results? <span class="badge badge-draft1">✎ Very rough draft</span>
+
+```{r}
+#| include: false
+if(file.exists("../_setup.R")){source("../_setup.R")}
+```
+
+Check whether reported p-values are consistent with the reported summary data. For t-tests, verify using the group means, SDs, and sample sizes. For categorical data analysed by chi-squared test, attempt to reproduce the p-value from reported frequencies.
+
+## Tools for this check
+
+- [recalc](/tools/recalc/) — R package for recalculating p values and effect sizes from means, SDs, and sample sizes
+- [GraphPad t-test calculator](https://www.graphpad.com/quickcalcs/ttest1/?format=sd) — online t-test calculator
+- [OpenEpi](https://www.openepi.com/Menu/OE_Menu.htm) — open source epidemiologic statistics
+
+Be cautious: p-values from continuous variables will not generally be exactly reproducible from rounded summary data. Consider consistency rather than exact reproduction.

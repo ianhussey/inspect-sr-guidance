@@ -1,0 +1,16 @@
+# 4.7. Are any outcome data, including estimated treatment effects, implausible? <span class="badge badge-draft1">✎ Very rough draft</span>
+
+```{r}
+#| include: false
+if(file.exists("../_setup.R")){source("../_setup.R")}
+```
+
+Consider the plausibility of outcome values and treatment effects. Compare to other studies in the meta-analysis if available. Duplication of treatment effects between trials from the same team is particularly concerning.
+
+As noted in 4.3, there are quantitative methods to assess whether reported SMD effect sizes for between-groups differences can be reproduced from reported summary statistics (i.e., M/SD/N).
+
+- recalc [Web app](https://errors.shinyapps.io/recalc_independent_t_test/)
+
+There are also methods to assess the risk that reported SDs are in fact Standard Errors. Note that confusion of SE and SD is extremely common and pollutes the results of meta-analyses (REF).
+
+- [placeholder - tool in development]
