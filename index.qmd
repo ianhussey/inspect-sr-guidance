@@ -59,7 +59,7 @@ As the field evolves, freely available automated or AI-driven tools to facilitat
 
 ## Resources
 
-- [INSPECT-SR on OSF](https://osf.io/b74wj/files/osfstorage) — latest versions of the guidance document
+- [Editable template](appendices/template.html) — a Word document template for recording and reporting INSPECT-SR assessments
 - [Feedback survey](https://www.qualtrics.manchester.ac.uk/jfe/form/SV_eOPavZZHDZ0fvN4) — provide anonymous feedback on your experience with the tool
 - [Retraction Watch database](http://retractiondatabase.org/) — search for retractions and post-publication notices
 - [PubPeer](https://www.pubpeer.com/) — post-publication peer review comments

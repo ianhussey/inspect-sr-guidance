@@ -2,6 +2,8 @@ project:
   type: book
   resources:
     - "!slides/"
+    - "files/Editable template for INSPECT-SR.docx"
+    - "static/favicon.ico"
 
 book:
   title: "INSPECT-SR Guidance"
@@ -15,6 +17,7 @@ book:
     #   email: ian.hussey@unibe.ch
   date: today
   date-format: "[Version 1.0 · ]MMMM YYYY"
+  favicon: static/favicon.ico
   downloads: [pdf]
   chapters:
     - index.qmd
@@ -54,12 +57,14 @@ book:
         
     - part: "Appendices"
       chapters:
+        - appendices/template.qmd
         - license.qmd
 
 #bibliography: references.bib
 
 format:
   html:
+    number-sections: false
     toc: true
     toc_float: true
     code-fold: false
@@ -102,4 +107,4 @@ format:
 
 editor: visual
 
-#cover-image: cover.png
+cover-image: cover.png

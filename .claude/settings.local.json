@@ -4,7 +4,10 @@
       "Bash(pdftotext -layout \"/Users/Ian/git/inspect-sr-guidance/INSPECT-SR guidance document v1.0.pdf\" /tmp/inspect-sr.txt)",
       "Read(//tmp/**)",
       "Bash(pip install:*)",
-      "Bash(python3 -c \":*)"
+      "Bash(python3 -c \":*)",
+      "Bash(git --version)",
+      "Bash(brew install:*)",
+      "Bash(brew link:*)"
     ]
   }
 }
