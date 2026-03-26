@@ -1,14 +1,14 @@
 /* Multi-column authors for HTML */
-  .quarto-title-authors {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr); /* Change '3' to your preferred number of columns */
-      grid-gap: 10px;
-    width: 100%;
-  }
+.quarto-title-meta-contents {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  width: 100%;
+}
 
 /* Ensure it stacks on small mobile screens */
-  @media (max-width: 768px) {
-    .quarto-title-authors {
-      grid-template-columns: 1fr;
-    }
+@media (max-width: 768px) {
+  .quarto-title-meta-contents {
+    grid-template-columns: 1fr;
   }
+}
