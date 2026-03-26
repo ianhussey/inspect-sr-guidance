@@ -20,7 +20,7 @@ This prompts the question of how we can identify problematic studies. The INSPEC
 
 ### A note on the guidance document
 
-The current version number of the INSPECT-SR guidance document is visible at the top of this page. It is anticipated that the guidance document will be continually revised in response to feedback and ongoing monitoring of use of the tool. This will include the addition of more examples to illustrate both correct and improper use of the checks. All revisions will be posted on the [Open Science Framework](https://osf.io/b74wj/files/osfstorage). Reviewers of the tool may provide anonymous feedback on their experience using [this survey](https://www.qualtrics.manchester.ac.uk/jfe/form/SV_eOPavZZHDZ0fvN4). This feedback will be monitored by the INSPECT-SR Study Management Group, and feedback will be used to update the guidance document. However, reviewers should not expect responses to questions posted on the feedback survey.
+The current version number of the INSPECT-SR guidance document is visible at the top of this page. It is anticipated that the guidance document will be continually revised in response to feedback and ongoing monitoring of use of the tool. This will include the addition of more examples to illustrate both correct and improper use of the checks. Reviewers of the tool may provide anonymous feedback on their experience using [this survey](https://www.qualtrics.manchester.ac.uk/jfe/form/SV_eOPavZZHDZ0fvN4). This feedback will be monitored by the INSPECT-SR Study Management Group, and feedback will be used to update the guidance document. However, reviewers should not expect responses to questions posted on the feedback survey.
 
 ## Overview of the INSPECT-SR tool
 
