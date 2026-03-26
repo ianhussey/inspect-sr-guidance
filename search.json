@@ -74,7 +74,17 @@
     "href": "index.html#resources",
     "title": "INSPECT-SR Guidance",
     "section": "Resources",
-    "text": "Resources\n\nEditable template — a Word document template for recording and reporting INSPECT-SR assessments\nFeedback survey — provide anonymous feedback on your experience with the tool\nRetraction Watch database — search for retractions and post-publication notices\nPubPeer — post-publication peer review comments\nCochrane implementation guidance — templates for reporting trustworthiness concerns to journals",
+    "text": "Resources\n\nEditable template — a Word document template for recording and reporting INSPECT-SR assessments\nFeedback survey — provide anonymous feedback on your experience with the tool\nRetraction Watch database — search for retractions and post-publication notices\nPubPeer — post-publication peer review comments\nCochrane implementation guidance — templates for reporting trustworthiness concerns to journals\ntrustworthy.scientific.claims — A hub for forensic meta-science tool development",
+    "crumbs": [
+      "Introduction"
+    ]
+  },
+  {
+    "objectID": "index.html#about",
+    "href": "index.html#about",
+    "title": "INSPECT-SR Guidance",
+    "section": "About",
+    "text": "About\nThis site is maintained by Ian Hussey. You can email me or open an issue or pull request on the GitHub repository if you find issues etc.",
     "crumbs": [
       "Introduction"
     ]

@@ -1,12 +1,18 @@
-/* Multi-column authors for HTML */
-.quarto-title-meta-contents {
+/* Override Quarto's default side-by-side layout for title meta */
+.quarto-title-meta {
+  display: grid !important;
+  grid-template-columns: 1fr !important;
+}
+
+/* Authors section: 5-column grid */
+.quarto-title-meta > div:first-child .quarto-title-meta-contents {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   grid-gap: 0;
   width: 100%;
 }
 
-.quarto-title-meta-contents p {
+.quarto-title-meta > div:first-child .quarto-title-meta-contents p {
   margin: 0;
   padding: 0;
   line-height: 1.4;
@@ -14,7 +20,7 @@
 
 /* Ensure it stacks on small mobile screens */
 @media (max-width: 768px) {
-  .quarto-title-meta-contents {
-    grid-template-columns: 1fr;
+  .quarto-title-meta > div:first-child .quarto-title-meta-contents {
+    grid-template-columns: repeat(2, 1fr);
   }
 }
