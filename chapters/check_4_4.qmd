@@ -1,8 +1,14 @@
-# 4.4. Are there any discrepancies between results reported in figures, tables, and text? <span class="badge badge-draft1">✎ Very rough draft</span>
+# 4.4. Are there any discrepancies between results reported in figures, tables, and text?
 
 ```{r}
 #| include: false
 if(file.exists("../_setup.R")){source("../_setup.R")}
 ```
 
-Check for contradictions where the same results appear in multiple places (figures, tables, main text, abstract).
+- The reviewer should check for contradictions where the same results are reported in multiple places (figures, tables, main text, abstract).
+- This includes checking for discrepancies between numbers of participants described and plotted in a figure.
+- The answer to this check should contribute to a domain-level judgement.
+
+## Example of check 4.4
+
+Mean outcome values are displayed using a bar chart in a published trial. The values shown in the bar chart are clearly not consistent with the corresponding values reported in the text. The reviewer answers "yes" for this check, and this response contributes to the domain-level judgement.

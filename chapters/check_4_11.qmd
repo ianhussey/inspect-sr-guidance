@@ -1,8 +1,14 @@
-# 4.11. Are there inconsistencies in descriptions of methods and results across publications describing the study? <span class="badge badge-draft1">✎ Very rough draft</span>
+# 4.11. Are there inconsistencies in descriptions of methods and results across publications describing the study?
 
 ```{r}
 #| include: false
 if(file.exists("../_setup.R")){source("../_setup.R")}
 ```
 
-Check for major unexplained discrepancies between publications associated with the study (e.g., conference abstract vs. main results paper), including conflicting results, group sizes, or methods.
+- The reviewer should check for major unexplained discrepancies between publications associated with the study, such as a conference abstract and a main results paper.
+- Conflicting results, group sizes, or descriptions of methods could warrant concerns.
+- The answer to this check should contribute to a domain-level judgement.
+
+## Example of check 4.11
+
+A reviewer compares a published trial manuscript to a conference abstract reporting the completed trial. The description of the study methods, including eligibility criteria and study dates, are consistent between the manuscript and abstract. However, the sample size reported in the manuscript is considerably larger than that reported in the conference abstract. No explanation for this discrepancy is included in the manuscript. In light of the unexplained discrepancy, the reviewer answers "yes" for this check, and this response contributes to the domain-level judgement.

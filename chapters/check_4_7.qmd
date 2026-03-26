@@ -1,16 +1,25 @@
-# 4.7. Are any outcome data, including estimated treatment effects, implausible? <span class="badge badge-draft1">✎ Very rough draft</span>
+# 4.7. Are any outcome data, including estimated treatment effects, implausible?
 
 ```{r}
 #| include: false
 if(file.exists("../_setup.R")){source("../_setup.R")}
 ```
 
-Consider the plausibility of outcome values and treatment effects. Compare to other studies in the meta-analysis if available. Duplication of treatment effects between trials from the same team is particularly concerning.
+- The reviewer should consider the plausibility of the outcome measurement values in each arm and estimated treatment effects.
+- 'Plausibility' includes clinical or biological plausibility and statistical plausibility. Domain knowledge is necessary to judge clinical or biological plausibility.
+- Magnitude, frequency, variance, and repetition of values for distinct measurements within a table should be considered.
+- While the estimated treatment effect is being considered, the reviewer should be careful not to overinterpret the point estimate (typically the observed difference or ratio in a summary of the outcome measure for each of two study groups) without careful consideration of associated statistical measures of uncertainty (confidence intervals, p-values). A large point estimate for a treatment effect is not necessarily unusual if it is accompanied by wide confidence intervals.
+- A significant result in a trial of a treatment for which there is no plausible mechanism of effect is not a cause for concern on its own. It is important to remember that a certain number of false positive results (Type 1 errors) are expected in trials of completely ineffective interventions.
+- It may be useful to compare the estimated effects and CIs to those from other studies in a meta-analysis, to identify unexplained discrepancies. Meta-analysis may be conducted after trustworthiness assessment has been performed, and so this might not come to light until later in the review process. It might therefore be necessary to revisit the assessment should problems come to light when conducting meta-analysis.
+- Duplication of estimated treatment effects between trials may also be judged to be implausible, particularly when this is evident across multiple outcome measures.
+- The answer to this check should contribute to a domain-level judgement.
 
-As noted in 4.3, there are quantitative methods to assess whether reported SMD effect sizes for between-groups differences can be reproduced from reported summary statistics (i.e., M/SD/N).
+## Examples of check 4.7
 
-- recalc [Web app](https://errors.shinyapps.io/recalc_independent_t_test/)
+1. A meta-analysis contains two trials from the same author team. The reviewer notices that the point estimates corresponding to the treatment effects in the two trials are identical. The reviewer compares results for several of the other outcome measures between the two trials and notices that the point estimates are identical, or nearly identical, for all of them. The reviewer judges this to be implausible and answers "yes" for this check, and this response contributes to the domain-level judgement.
 
-There are also methods to assess the risk that reported SDs are in fact Standard Errors. Note that confusion of SE and SD is extremely common and pollutes the results of meta-analyses (REF).
+2. A meta-analysis contains three trials from the same author team. The results from these three trials are highly divergent from those from ten other trials in the meta-analysis. There is more than a 6-fold difference between the lowest of the lower confidence limits of the three studies compared to the upper confidence limit observed after pooling the remaining ten trials. The reviewer judges this to be implausible and answers "yes" for this check, and this response contributes to the domain-level judgement.
 
-- [placeholder - tool in development]
+## Additional tools
+
+- [recalc web app](https://errors.shinyapps.io/recalc_independent_t_test/) — assess whether reported effect sizes can be reproduced from reported summary statistics

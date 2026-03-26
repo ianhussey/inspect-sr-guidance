@@ -1,10 +1,22 @@
-# 3.1. Are there concerns relating to duplicated content, such as text or tables, or text that is incompatible with the study? <span class="badge badge-draft1">✎ Very rough draft</span>
+# 3.1. Are there concerns relating to duplicated content, such as text or tables, or text that is incompatible with the study?
 
 ```{r}
 #| include: false
 if(file.exists("../_setup.R")){source("../_setup.R")}
 ```
 
-Look for plagiarised text (using plagiarism software if available), "tortured phrases" (e.g., "counterfeit consciousness" for "artificial intelligence"), or text that doesn't match the study context (e.g., describing a different population or intervention).
+- Plagiarised text may be detected using plagiarism software, or may be noticed while examining multiple studies included in a review.
+- Where software has been used in an attempt to conceal plagiarism (for example, by attempting to generate synonymous wording for the plagiarised text), this may produce 'tortured phrases' such as 'counterfeit consciousness' in place of 'artificial intelligence'. The reviewer should be alert to unusual phrases as a potential marker of plagiarism, while recognising that researchers may legitimately use software to assist with writing when writing in a language that is not their first language.
+- Problematic studies may feature text that does not make sense in the context of the study. For example, if an author has unethically copied passages of text from a paper describing another study, they might have accidentally retained text describing features such as the study population or intervention from that study, which might not be consistent with the index study.
+- While copying and editing of tables from other papers is known to be a feature of some problematic papers, we cannot currently recommend any software capable of reliably detecting this. The reviewer may however notice duplication of tables while looking across studies included in the systematic review, and any concerns of this nature can be reflected in the response to this check.
+- If reviewers do not have access to plagiarism software, and do not identify any other anomalous text, they may wish to respond to this as 'Unclear'.
+- Some cases of duplicated text are not necessarily problematic, for example, generic descriptions of methods or when authors recycle text ethically.
+- The answer to this check should contribute to a domain-level judgement.
+
+## Example of check 3.1
+
+A trial of laparoscopic drilling contained an identical results table to an earlier trial with authors from the same university. The reviewer was able to identify this apparent duplication as both trials were eligible for inclusion in the same systematic review. The reviewer answers "yes" for this check, and this response contributes to the domain-level judgement.
+
+## Additional tools
 
 - [Tortured Phrases detector](https://dbrech.irit.fr/pls/apex/f?p=9999:24)

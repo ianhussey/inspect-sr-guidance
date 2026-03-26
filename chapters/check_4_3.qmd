@@ -1,19 +1,32 @@
-# 4.3. Are any baseline data implausible? <span class="badge badge-draft1">✎ Very rough draft</span>
+# 4.3. Are any baseline data implausible?
 
 ```{r}
 #| include: false
 if(file.exists("../_setup.R")){source("../_setup.R")}
 ```
 
-Consider clinical/biological and numerical plausibility of baseline characteristics. Look for unusual patterns such as excess even/odd numbers, multiples of 5, or implausibly identical values across groups.
+- The reviewer should consider the plausibility of the baseline characteristics.
+- 'Plausibility' includes clinical or biological plausibility and numerical plausibility. Domain knowledge is necessary to judge clinical or biological plausibility.
+- It is important to remember that participants in a clinical trial may not be representative of any particular patient population, and so characteristics of trial participants are not expected to be "typical". Even if a reasonably representative sample is achieved, random variation means that the characteristics of the sample may not match those of the target population, and this does not indicate a problem.
+- Magnitude, frequency, variance, and repetition of values for distinct measurements within a table should be considered.
+- Known examples in problematic studies include an excess of even or odd numbers, and an excess of multiples of 5.
+- There are proposals to formally assess the degree of balance in baseline characteristics using one of several methods. These balance checks may be useful when applied appropriately by researchers with an understanding of the underlying methodology. However, these methods may malfunction if not used correctly, potentially leading to spurious concerns. As such, the routine use of these methods by non-experts is not recommended at present.
+- The routine use of methods to assess digit distribution (for example, for conformity with Benford's Law) is not recommended. Benford's law is not expected to be valid for the majority of variables found in RCT baseline tables.
+- The reviewer should consider whether unusual values could be due to reporting errors (for example, standard errors reported instead of standard deviations), which may not warrant concerns about trustworthiness but which would need to be corrected if the reviewer uses the data in a meta-analysis.
+- The answer to this check should contribute to a domain-level judgement.
 
-There are also quantitative methods for the assessment of whether groups are systematically too similar or too different assuming random assignment:
+## Example of check 4.3
 
-- Barnett's Baseline [Web app](https://aushsi.shinyapps.io/baseline/) and associated R package
-- Carlisle's method [URL for implementations?]
-- Bolland's reappraised R package [URL needed]
+A baseline table contains identical values for means, SDs or range limits for both study groups for nine of 11 reported baseline characteristics, reported to two decimal places. The reviewer judges that this is unlikely to be explained by the method of allocation used in the study (which was simple randomisation) and answers "yes" for this check, and this response contributes to the domain-level judgement.
 
-Separately, there are quantitative methods to assess whether a) reported p values and b) effect sizes for between-groups differences for continuous or categorical data can be reproduced from reported summary statistics (i.e., M/SD/N or counts):
+## Additional tools
 
-- recalc [Web app](https://errors.shinyapps.io/recalc_independent_t_test/)
-- Bolland's p value recalculator Web app [URL needed]
+There are quantitative methods for assessing whether groups are systematically too similar or too different, assuming random assignment:
+
+- [Barnett's Baseline web app](https://aushsi.shinyapps.io/baseline/) and associated R package
+- Carlisle's method
+- Bolland's reappraised R package
+
+There are also quantitative methods to assess whether reported p-values and effect sizes for between-groups differences can be reproduced from reported summary statistics:
+
+- [recalc web app](https://errors.shinyapps.io/recalc_independent_t_test/)

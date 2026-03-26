@@ -1,8 +1,17 @@
-# 2.5. Are there concerns about the plausibility of conducting the study using the reported methods and resources? <span class="badge badge-draft1">✎ Very rough draft</span>
+# 2.5. Are there concerns about the plausibility of conducting the study using the reported methods and resources?
 
 ```{r}
 #| include: false
 if(file.exists("../_setup.R")){source("../_setup.R")}
 ```
 
-Consider whether the protocol could realistically be implemented given the study setting, staffing, and funding.
+- The reviewer should consider the plausibility of implementing the protocol as described, given the study setting and reported resources (staffing, funding).
+- The reviewer should consider the number of additional participant visits required compared to usual clinical practice.
+- This check requires domain knowledge, for example to understand the time and resources required to administer screening questionnaires and outcome assessments.
+- The answer to this check should contribute to a domain-level judgement.
+
+## Examples of check 2.5
+
+1. A single-centre trial of people with moderate cognitive impairment reports the use of monthly MRI scans and blood tests for one year to monitor their progress and the reimbursement of patients for their travel time. The trial recruited 312 participants over 18 months but reports that no funding was received for the trial. The reviewer regards both the number of MRI scans and the reimbursement of participants for more than 3700 visits to be implausible in these circumstances and answers "yes" for this check, and this response contributes to the domain-level judgement.
+
+2. The trial investigates quality of life, measured using the Short Form-36 (SF-36) and Vascular Quality of Life questionnaire (VascuQoL), of patients with symptomatic peripheral arterial disease in the lower limbs with supervised exercise compared to endovascular treatment (balloon angioplasty or stenting). The study was conducted over a 6-month period by one researcher who was blinded to the intervention arm across 10 research institutions, and the authors state the questionnaires were delivered and completed in person by the researcher. The authors also state that supervised exercise programmes are not government funded and failed to report funding sources for the conduct of the study. The reviewer judges that it would be impractical for a single researcher to conduct the study at 10 different sites and that without any financial support, conduct of the study in the reported settings would be implausible, and therefore answers "yes" for this check, and this response contributes to the domain-level judgement.
