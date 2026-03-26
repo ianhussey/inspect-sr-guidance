@@ -1,16 +1,14 @@
-https://quartopub.com/
-
-  Terminal:
+Terminal:
 
 ````
 cd ~/git/inspect-sr-guidance
-quarto publish quarto-pub
+quarto publish gh-pages
 ````
 
 or
 
 ```
-quarto publish quarto-pub --no-render
+quarto publish gh-pages --no-render
 ```
 
 

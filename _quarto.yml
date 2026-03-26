@@ -7,24 +7,80 @@ book:
   title: "INSPECT-SR Guidance"
   subtitle: "INveStigating ProblEmatic Clinical Trials in Systematic Reviews"
   author:
-    - name: Ian Hussey
-      orcid: 0000-0001-8906-7559
-      email: ian.hussey@unibe.ch
-    - name: Malte Elson
-      orcid: 0000-0001-7806-9583
-      email: malte.elson@unibe.ch
     - name: Jack Wilkinson
       orcid: 0000-0003-3513-4677
       email: jack.wilkinson@manchester.ac.uk
+    - name: Calvin Heal
+    - name: Ella Flemyng
+    - name: Georgios A. Antoniou
+    - name: Tony Aburrow
+    - name: Zarko Alfirevic
+    - name: Alison Avenell
+      orcid: 0000-0003-4813-5628
+    - name: Virginia Barbour
+    - name: Vincenzo Berghella
+    - name: Dorothy V. M. Bishop
+      orcid: 0000-0002-2448-4033
+    - name: Esmée M Bordewijk
+    - name: Nicholas J. L. Brown
+    - name: Jana Christopher
+    - name: Mike Clarke
+    - name: Darren Dahly
+      orcid: 0000-0003-0110-324X
+    - name: Jane Dennis
+    - name: Patrick Dicker
+    - name: Jo Dumville
+    - name: Helen Frankish
+    - name: Andrew Grey
+    - name: Steph Grohmann
+    - name: Lyle C. Gurrin
+    - name: Jill A. Hayden
+    - name: James Heathers
+      orcid: 0000-0002-0936-026X
+    - name: Kylie E Hunter
+      orcid: 0000-0002-2796-9220
+    - name: Ian Hussey
+      orcid: 0000-0001-8906-7559
+      email: ian.hussey@unibe.ch
+    - name: Lukas Jung
+      orcid: 0009-0007-9174-1494
+      email: lukas.jung@unibe.ch
+    - name: Emily Lam
+    - name: Toby J. Lasserson
+    - name: Sarah Lensen
+    - name: Tianjing Li
+    - name: Wentao Li
+    - name: Jianping Liu
+    - name: Elizabeth Loder
+    - name: Andreas Lundh
+    - name: Gideon Meyerowitz-Katz
+      orcid: 0000-0002-1156-9345
+    - name: Ben W. Mol
+      orcid: 0000-0001-8337-550X
+    - name: Florian Naudet
+      orcid: 0000-0003-3760-3801
+    - name: Anna Noel-Storr
+    - name: Neil E. O’Connell
+      orcid: 0000-0003-1989-4537
+    - name: Lisa Parker
+    - name: Rita F. Redberg
+    - name: Barbara K. Redman
+    - name: Rachel Richardson
+    - name: Anna Lene Seidler
+    - name: Kyle Sheldrick
+    - name: Emma Sydenham
+    - name: Madelon van Wely
+    - name: Colby J. Vorland
+    - name: Rui Wang
+    - name: Stephanie Weibel
+    - name: Matthias Wjst
+    - name: Lisa Bero
+      orcid: 0000-0003-1893-6651
+    - name: Jamie J. Kirkham
+      orcid: 0000-0003-2579-9325
   date: today
   chapters:
     - index.qmd
-
-    # - part: "Part I: Principles"
-    #   chapters: 
-    #     - chapters/scope_and_need.qmd # +what is sleuthing
-    #     - chapters/psychological_preparation.qmd
-    #     - chapters/organising_principles.qmd # judgements/conclusions from forensic methods; repeated and overlooked info; possibility and plausibility; complicated, boring, consequential.
         
     - part: "Domain 1: Inspecting post-publication notices"
       chapters:
@@ -68,11 +124,12 @@ book:
 
 format:
   html:
+    css: styles.css
     toc: true
     toc_float: true
     code-fold: false
     code-overflow: wrap
-    code-tools: true
+    #code-tools: true
     warning: false
     df-print: kable
     theme:
@@ -99,4 +156,4 @@ format:
 
 editor: visual
 
-#cover-image: cover.png
+cover-image: cover.png
