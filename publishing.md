@@ -1,21 +1,26 @@
-https://quartopub.com/
+Terminal:
 
-  Terminal:
+Change directory
 
 ````
 cd ~/git/inspect-sr-guidance
-quarto publish quarto-pub
 ````
 
-or
+Render the pdf 
 
 ```
-quarto publish quarto-pub --no-render
+quarto render
+```
+
+Then update the website, which includes a link to the pdf
+
+```
+quarto publish gh-pages
 ```
 
 
 
-preview
+preview website locally
 
 ``` 
 quarto preview
