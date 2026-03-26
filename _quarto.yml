@@ -6,6 +6,7 @@ project:
     - "static/favicon.ico"
 
 book:
+  site-url: "https://ianhussey.github.io/inspect-sr-guidance/"
   title: "INSPECT-SR Guidance"
   subtitle: "INveStigating ProblEmatic Clinical Trials in Systematic Reviews"
   author:

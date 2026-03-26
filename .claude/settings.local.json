@@ -7,7 +7,10 @@
       "Bash(python3 -c \":*)",
       "Bash(git --version)",
       "Bash(brew install:*)",
-      "Bash(brew link:*)"
+      "Bash(brew link:*)",
+      "Bash(gh api:*)",
+      "Bash(python3 -m json.tool)",
+      "Bash(quarto render:*)"
     ]
   }
 }

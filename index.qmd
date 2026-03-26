@@ -10,7 +10,7 @@ INSPECT-SR contains 21 checks across four domains to help the reviewer make a ju
 
 INSPECT-SR, including this guidance document, should be cited using the reference for the INSPECT-SR manuscript:
 
-Wilkinson JD, Heal C, Flemyng E, Antoniou GA, Aburrow T, Alfirevic Z, Avenell A, Barbour V, Berghella V, Bishop DVM, Bordewijk EM, Brown NJL, Christopher J, Clarke M, Dahly DL, Dennis J, Dicker P, Dumville J, Grey A, Grohmann S, Gurrin LC, Hayden JA, Heathers JAJ, Hunter KE, Hussey I, Jung L, Lam E, Lasserson TJ, Lensen S, Li T, Li W, Liu J, Loder E, Lundh A, Meyerowitz-Katz G, Mol BW, Naudet F, Noel-Storr A, O'Connell N, Parker L, Redberg RF, Redman BK, Richardson R, Seidler AL, Sheldrick K, Sydenham E, van Wely M, Vorland C, Wang R, Weibel S, Wjst M, Bero L, Kirkham JJ. INSPECT-SR: a tool for assessing trustworthiness of randomised controlled trials. medRxiv 2025.09.03.25334905; doi: [10.1101/2025.09.03.25334905](https://doi.org/10.1101/2025.09.03.25334905)
+Wilkinson JD, Heal C, Flemyng E, Antoniou GA, Aburrow T, Alfirevic Z, Avenell A, Barbour V, Berghella V, Bishop DVM, Bordewijk EM, Brown NJL, Christopher J, Clarke M, Dahly DL, Dennis J, Dicker P, Dumville J, Grey A, Grohmann S, Gurrin LC, Hayden JA, Heathers JAJ, Hunter KE, Hussey I, Jung L, Lam E, Lasserson TJ, Lensen S, Li T, Li W, Liu J, Loder E, Lundh A, Meyerowitz-Katz G, Mol BW, Naudet F, Noel-Storr A, O'Connell N, Parker L, Redberg RF, Redman BK, Richardson R, Seidler AL, Sheldrick K, Sydenham E, van Wely M, Vorland C, Wang R, Weibel S, Wjst M, Bero L, Kirkham JJ. (2025) INSPECT-SR: a tool for assessing trustworthiness of randomised controlled trials. medRxiv 2025.09.03.25334905; doi: [10.1101/2025.09.03.25334905](https://doi.org/10.1101/2025.09.03.25334905)
 
 ## Motivation for INSPECT-SR
 
@@ -64,3 +64,9 @@ As the field evolves, freely available automated or AI-driven tools to facilitat
 - [Retraction Watch database](http://retractiondatabase.org/) — search for retractions and post-publication notices
 - [PubPeer](https://www.pubpeer.com/) — post-publication peer review comments
 - [Cochrane implementation guidance](https://www.cochranelibrary.com/cdsr/editorial-policies/problematic-studies-implementation-guidance#7-1) — templates for reporting trustworthiness concerns to journals
+- [trustworthy.scientific.claims](https://trustworthy.scientific.claims) — A hub for forensic meta-science tool development
+
+## About
+
+This site is maintained by Ian Hussey. You can [email](mailto:ian.hussey@unibe.ch) me or open an issue or pull request on the [GitHub repository](https://github.com/ianhussey/inspect-sr-guidance) if you find issues etc.  
+
