@@ -13,13 +13,3 @@ if(file.exists("../_setup.R")){source("../_setup.R")}
 
 A published manuscript included a multi-panel bar chart, including six bar charts showing a variety of outcomes measured on two study groups at several timepoints. Although the outcomes were measured on a variety of different scales (such as duration in days, distance in mm, or scores derived from clinical questionnaires), all six bar charts were identical apart from differing axes and titles. The reviewer answers "yes" for the check, and this response contributes to the domain-level judgement.
 
-## Image forensics tools
-
-Image forensics methods are beyond the scope of this website, but tools include the following:
-
-- ImageTwin
-- Proofig
-- Imagetrakr
-- Forensically
-- FotoForensics
-- Ghiro

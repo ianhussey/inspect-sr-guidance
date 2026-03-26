@@ -17,6 +17,3 @@ if(file.exists("../_setup.R")){source("../_setup.R")}
 
 2. A manuscript presents a sample size calculation suggesting that 40 participants were to be recruited. The results section of the manuscript describes results for more than twice as many participants as this, with no explanation for the discrepancy. The reviewer answers "yes" for this check, and this response contributes to the domain-level judgement.
 
-## Additional tools
-
-- [ANCHOR (Assessing Numerical Consistency between wHOle sample and subgRoups) web app](https://errors.shinyapps.io/ANCHOR/) — checks consistency of sample sizes, means, and standard deviations between whole samples and subgroups

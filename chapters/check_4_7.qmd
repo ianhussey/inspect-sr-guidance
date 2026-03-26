@@ -20,6 +20,3 @@ if(file.exists("../_setup.R")){source("../_setup.R")}
 
 2. A meta-analysis contains three trials from the same author team. The results from these three trials are highly divergent from those from ten other trials in the meta-analysis. There is more than a 6-fold difference between the lowest of the lower confidence limits of the three studies compared to the upper confidence limit observed after pooling the remaining ten trials. The reviewer judges this to be implausible and answers "yes" for this check, and this response contributes to the domain-level judgement.
 
-## Additional tools
-
-- [recalc web app](https://errors.shinyapps.io/recalc_independent_t_test/) — assess whether reported effect sizes can be reproduced from reported summary statistics

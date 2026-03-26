@@ -19,14 +19,3 @@ if(file.exists("../_setup.R")){source("../_setup.R")}
 
 A baseline table contains identical values for means, SDs or range limits for both study groups for nine of 11 reported baseline characteristics, reported to two decimal places. The reviewer judges that this is unlikely to be explained by the method of allocation used in the study (which was simple randomisation) and answers "yes" for this check, and this response contributes to the domain-level judgement.
 
-## Additional tools
-
-There are quantitative methods for assessing whether groups are systematically too similar or too different, assuming random assignment:
-
-- [Barnett's Baseline web app](https://aushsi.shinyapps.io/baseline/) and associated R package
-- Carlisle's method
-- Bolland's reappraised R package
-
-There are also quantitative methods to assess whether reported p-values and effect sizes for between-groups differences can be reproduced from reported summary statistics:
-
-- [recalc web app](https://errors.shinyapps.io/recalc_independent_t_test/)

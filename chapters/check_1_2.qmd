@@ -19,7 +19,3 @@ if(file.exists("../_setup.R")){source("../_setup.R")}
 
 2. While assessing a clinical trial of a weight-loss drug, the reviewer identifies a critical comment on PubPeer. On reviewing the comment, the reviewer learns that the criticism relates to the dose of drug used in the study. Because this is not relevant to the assessment of the study's trustworthiness, and because no other post-publication notices relating to the study were identified, the reviewer answers "no" for this check, and this response contributes to the domain-level judgement.
 
-## Additional tools
-
-- ['Concerning' detector](https://dbrech.irit.fr/pls/apex/f?p=9999:34::::::)
-- ['Annulled' detector](https://dbrech.irit.fr/pls/apex/f?p=9999:33::::::)
