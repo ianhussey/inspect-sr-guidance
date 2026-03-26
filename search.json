@@ -4,67 +4,47 @@
     "href": "index.html",
     "title": "INSPECT-SR Guidance",
     "section": "",
-    "text": "Introduction\nINSPECT-SR (Wilkinson et al., 2025) is a tool for assessing the trustworthiness of randomised controlled trials (RCTs) in systematic reviews. It was developed for health RCTs but has utility in other fields too.\nINSPECT-SR does not assess internal or external validity (which are covered by Risk of Bias tools and GRADE), nor does it cover conflicts of interest.\nINSPECT-SR contains 21 checks across four domains to help the reviewer make a judgement about whether a study’s data and findings can be trusted sufficiently to include it in a research synthesis.",
+    "text": "Introduction\nINSPECT-SR (Wilkinson et al., 2025) is Cochrane’s Trustworthiness Assessment tool for randomised controlled trials (RCTs) in systematic reviews. It was designed for health RCTs but has utility in other fields too.\nINSPECT-SR does not assess internal or external validity (which are covered by Risk of Bias tools and GRADE), nor does it cover conflicts of interest.\nINSPECT-SR contains 21 checks across four domains to help judge whether a study’s data and findings can be trusted sufficiently to include it in a research synthesis (or indeed cite it in other contexts).\nThis guide includes guidance for the application of some of the component checks and the use of the tools and methods that implement them. In particular, the quantitative forensic meta-science methods included in INSPECT-SR’s Domain 4 (see below). This guidance is based on INSPECT-SR’s official guidance document (see osf [LINK TO BE ADDED]).",
     "crumbs": [
       "Introduction"
     ]
   },
   {
-    "objectID": "index.html#citation",
-    "href": "index.html#citation",
+    "objectID": "index.html#introduction",
+    "href": "index.html#introduction",
     "title": "INSPECT-SR Guidance",
-    "section": "Citation",
-    "text": "Citation\nINSPECT-SR can be cited as:\nWilkinson JD, Heal C, Flemyng E, Antoniou GA, Aburrow T, Alfirevic Z, Avenell A, Barbour V, Berghella V, Bishop DVM, Bordewijk EM, Brown NJL, Christopher J, Clarke M, Dahly DL, Dennis J, Dicker P, Dumville J, Grey A, Grohmann S, Gurrin LC, Hayden JA, Heathers JAJ, Hunter KE, Hussey I, Jung L, Lam E, Lasserson TJ, Lensen S, Li T, Li W, Liu J, Loder E, Lundh A, Meyerowitz-Katz G, Mol BW, Naudet F, Noel-Storr A, O’Connell N, Parker L, Redberg RF, Redman BK, Richardson R, Seidler AL, Sheldrick K, Sydenham E, van Wely M, Vorland C, Wang R, Weibel S, Wjst M, Bero L, Kirkham JJ. INSPECT-SR: a tool for assessing trustworthiness of randomised controlled trials. medRxiv 2025.09.03.25334905; doi: 10.1101/2025.09.03.25334905",
+    "section": "",
+    "text": "Citation\nWilkinson JD, Heal C, Flemyng E, Antoniou GA, Aburrow T, Alfirevic Z, et al. INSPECT-SR: a tool for assessing trustworthiness of randomised controlled trials. medRxiv 2025.09.03.25334905; doi: 10.1101/2025.09.03.25334905",
     "crumbs": [
       "Introduction"
     ]
   },
   {
-    "objectID": "index.html#motivation-for-inspect-sr",
-    "href": "index.html#motivation-for-inspect-sr",
+    "objectID": "index.html#overview-of-the-four-domains",
+    "href": "index.html#overview-of-the-four-domains",
     "title": "INSPECT-SR Guidance",
-    "section": "Motivation for INSPECT-SR",
-    "text": "Motivation for INSPECT-SR\nSystematic reviews exploring health interventions aim to include all eligible studies. This will often involve, but not always exclusively focus on, randomised controlled trials (RCTs). Systematic reviews appraise and synthesise this evidence to arrive at an overall conclusion about whether an intervention is beneficial and whether it causes harm. Problematic studies pose a threat to the evidence synthesis paradigm. These are defined by Cochrane as “any published or unpublished study where there are serious questions about the trustworthiness of the data or findings, regardless of whether the study has been formally retracted”. Studies may be problematic because they include some false data or results, or they may be entirely fabricated. Research misconduct is just one possible explanation for false data. Another possibility would be the presence of catastrophic failures in the conduct of the trial, such as miscoding of participants’ allocated treatment (e.g., inverting active intervention and placebo groups), failure to properly randomise participants, or severe errors in the analysis code. Whether they are the result of deliberate malpractice or honest error, these issues may not be immediately apparent to journal editors and peer reviewers. Consequently, problematic studies may be published, and subsequently included in systematic reviews. Studies are, of course, routinely appraised on the basis of their methodological validity during the systematic review process. However, these assessments are predicated on the lower-level assumption that the studies and the data they are based on are authentic, and also that the authors did not make any major errors during data collection, analysis or reporting. In fact, many reports of problematic studies describe sound methodology, and so are not currently flagged by critical appraisal tools.\nThis prompts the question of how we can identify problematic studies. The INSPECT-SR (INveStigating ProblEmatic Clinical Trials in Systematic Reviews) tool has been developed for this purpose, using empirical evidence and consensus methodology. The development process has been described in a protocol paper and in associated results papers. The tool can be used to assess the trustworthiness of RCTs.\n\nA note on the guidance document\nThe current version number of the INSPECT-SR guidance document is visible at the top of this page. It is anticipated that the guidance document will be continually revised in response to feedback and ongoing monitoring of use of the tool. This will include the addition of more examples to illustrate both correct and improper use of the checks. Reviewers of the tool may provide anonymous feedback on their experience using this survey. This feedback will be monitored by the INSPECT-SR Study Management Group, and feedback will be used to update the guidance document. However, reviewers should not expect responses to questions posted on the feedback survey.",
+    "section": "Overview of the four domains",
+    "text": "Overview of the four domains\n\n\n\nDomain\nFocus\n\n\n\n\nDomain 1\nInspecting post-publication notices\n\n\nDomain 2\nInspecting conduct, governance and transparency\n\n\nDomain 3\nInspecting text and figures\n\n\nDomain 4\nInspecting results in the study\n\n\n\nFor each domain, the reviewer records a judgement of “no concerns”, “some concerns”, or “serious concerns”. These domain-level judgements inform an overall study-level judgement using the same scale.",
     "crumbs": [
       "Introduction"
     ]
   },
   {
-    "objectID": "index.html#overview-of-the-inspect-sr-tool",
-    "href": "index.html#overview-of-the-inspect-sr-tool",
+    "objectID": "index.html#how-to-use-inspect-sr-in-a-systematic-review",
+    "href": "index.html#how-to-use-inspect-sr-in-a-systematic-review",
     "title": "INSPECT-SR Guidance",
-    "section": "Overview of the INSPECT-SR tool",
-    "text": "Overview of the INSPECT-SR tool\nThe INSPECT-SR tool guides the reviewer through a series of 21 checks in four domains to help them make a judgement about the trustworthiness of a study. In this context, trustworthiness does not encompass internal or external validity, as assessed using Risk of Bias tools and GRADE, nor does it include conflicts of interest. The four domains in the tool are:\n\n\n\nDomain\nFocus\n\n\n\n\nDomain 1\nInspecting post-publication notices\n\n\nDomain 2\nInspecting conduct, governance and transparency\n\n\nDomain 3\nInspecting text and figures\n\n\nDomain 4\nInspecting results in the study\n\n\n\nThe checks in each domain assist the systematic reviewer in identifying any domain-level concerns relating to trustworthiness. The reviewer may then use the domain-level judgement to arrive at an overall judgement about the trustworthiness of a trial. We emphasise that concerns about a trial’s trustworthiness do not amount to an accusation of misconduct. INSPECT-SR is not concerned with determining whether inauthentic data have arisen due to deliberate misconduct or honest error.",
+    "section": "How to use INSPECT-SR in a systematic review",
+    "text": "How to use INSPECT-SR in a systematic review\n\nApply INSPECT-SR before Risk of Bias assessment. Trials judged as “serious concerns” should not be included, making Risk of Bias assessment unnecessary for those trials.\nTwo reviewers should apply INSPECT-SR independently, then compare and agree on judgements.\nTeams benefit from complementary expertise (clinical/content knowledge and statistical skills).\nThe assessment can be terminated early: if “serious concerns” are reached at any point, the remaining checks need not be completed.\nTrials rated “some concerns” should be included but subjected to sensitivity analysis.\nReport INSPECT-SR assessments in the systematic review (e.g., in characteristics of included/excluded studies).",
     "crumbs": [
       "Introduction"
     ]
   },
   {
-    "objectID": "index.html#application-of-the-inspect-sr-tool-to-assess-an-individual-study",
-    "href": "index.html#application-of-the-inspect-sr-tool-to-assess-an-individual-study",
+    "objectID": "index.html#making-judgements",
+    "href": "index.html#making-judgements",
     "title": "INSPECT-SR Guidance",
-    "section": "Application of the INSPECT-SR tool to assess an individual study",
-    "text": "Application of the INSPECT-SR tool to assess an individual study\nReviewers are advised to use the checks in each domain to arrive at a domain-level judgement about trustworthiness. The tool does not use a prescriptive algorithm to produce a domain-level judgement from the checks in the domain. For each domain, the reviewer records a judgement of “no concerns”, “some concerns”, or “serious concerns”. The purpose of the tool is to identify potentially problematic studies, and a reviewer may decide they have sufficient concerns about a study without having completed all of the checks included in the tool. For efficiency, the reviewer could terminate the assessment of a study if they consider a judgement of “serious concerns” to be warranted at any point during the assessment. This conclusion could be reached before all domains have been assessed. Furthermore, the reviewer might decide that they have serious concerns in relation to a particular domain having completed only a subset of the checks in that domain. In this situation, it would not be necessary to complete the remaining checks in the domain. This differs from Risk of Bias tools, where the expectation is that all domains should be assessed for each study.\nA response of “Yes” to an individual check should not generally automatically trigger a judgement of “serious concerns”, but may do so if the check reveals a problem that is sufficient to compromise the trustworthiness of the study. Having made a judgement in relation to all four domains (or having reached a judgement of “serious concerns” in relation to any of the first three, if the reviewer has opted to terminate the assessment on this basis) the reviewer is required to make an overall judgement about the trustworthiness of the trial, again using the options “no concerns”, “some concerns”, or “serious concerns”. It is expected that the overall judgement for a trial will typically be at least as severe as the judgement for the domain with the most severe rating. For example, where an assessment has been terminated following a rating of ‘serious concerns’ or a full assessment has been completed but one domain has been rated as “serious concerns”, it is expected that the overall study judgement will also be one of “serious concerns”. If the most severe domain-level judgement is “some concerns”, then it is expected that the overall study-level judgement should be at least “some concerns”, but the cumulative impact of judging there to be “some concerns” in several domains may be sufficient to warrant an overall judgement of “serious concerns” for the study. Reviewers should report the reasons for their domain and study-level judgements, to permit scrutiny. INSPECT-SR assessments should be reported in the appropriate section of the systematic review (e.g. in characteristics of included or excluded studies), to ensure transparency.\nA trial may be reported across several publications, including conference abstracts, preprints, protocol papers, and secondary analysis papers. As for Risk of Bias assessment, it will typically be necessary to consider all of the publications describing the trial to obtain the information necessary to complete the checks. The final check in the tool explicitly asks the reviewer to consider whether there are any contradictions in information reported in different publications relating to the index trial.",
-    "crumbs": [
-      "Introduction"
-    ]
-  },
-  {
-    "objectID": "index.html#incorporating-the-inspect-sr-tool-into-the-systematic-review-process",
-    "href": "index.html#incorporating-the-inspect-sr-tool-into-the-systematic-review-process",
-    "title": "INSPECT-SR Guidance",
-    "section": "Incorporating the INSPECT-SR tool into the systematic review process",
-    "text": "Incorporating the INSPECT-SR tool into the systematic review process\nAs is expected for other aspects of a systematic review, such as Risk of Bias assessment and data extraction, it is recommended that two reviewers first apply INSPECT-SR independently before comparing their assessments and reaching agreement in relation to any areas of disagreement. To address some domains content knowledge is necessary (for example, to consider items relating to biological plausibility). For other domains, a level of statistical competence, if not expertise, will likely be needed to consider numerical data from the study. Some familiarity with clinical trial design, conduct and analysis will be useful in making judgements. We recommend that the INSPECT-SR tool is applied prior to Risk of Bias assessment of eligible randomised trials, regardless of which Risk of Bias tool is used for this purpose. This is because any trial judged to warrant “serious concerns”, should not be included in the review, meaning there is no need to assess Risk of Bias for these trials. Trials that receive a study-level judgement of “some concerns” should not be automatically excluded from the review or left out of the synthesis entirely, but it is recommended that these studies should be subjected to sensitivity analysis to determine their influence on the results and conclusions of the review. As for Risk of Bias assessment, there are several possibilities for how this could be operationalised, and systematic review teams should specify their approach at the protocol stage. Possibilities include: 1) restricting the primary analysis to trials with a study-level judgement of “no concerns”, and including studies with a study-level judgement of “some concerns” in a sensitivity analysis; and 2) including studies with a study-level judgement of “some concerns” in the primary analysis with studies with “no concerns”, and then performing a sensitivity analysis restricted to studies with a study-level judgement of “no concerns”.\nA judgement of “serious concerns” is intended to be used only when there are features of the study that, either alone or in combination, warrant serious doubts about the trustworthiness of the study. On reaching a judgement of “serious concerns”, we recommend reviewing the check responses leading to this judgement to confirm that it is reasonable and justifiable as there may be an alternative explanation, such as journal word limits restricting what can be reported. “Serious concerns” should only be used if it is clear, beyond reasonable doubt, that there truly are serious concerns. As with other aspects of data extraction and critical appraisal of studies during the conduct of a systematic review, correspondence with study authors may be useful to clarify points of uncertainty in relation to trustworthiness assessment. If the individual participant data (IPD) can be accessed, it is possible to perform a more thorough trustworthiness assessment. If there are uncertainties remaining after application of INSPECT-SR, it is recommended to request the IPD from study authors in order to confirm or assuage concerns. An extension to INSPECT-SR that can be used for this purpose, INSPECT-IPD, is in development. Templates for reporting trustworthiness concerns to journals are available on Cochrane’s website.",
-    "crumbs": [
-      "Introduction"
-    ]
-  },
-  {
-    "objectID": "index.html#guidance-on-the-use-of-individual-checks-in-the-inspect-sr-tool",
-    "href": "index.html#guidance-on-the-use-of-individual-checks-in-the-inspect-sr-tool",
-    "title": "INSPECT-SR Guidance",
-    "section": "Guidance on the use of individual checks in the INSPECT-SR tool",
-    "text": "Guidance on the use of individual checks in the INSPECT-SR tool\nThe following describes key points to consider in relation to individual checks in the INSPECT-SR tool. Illustrative examples are provided. There are four response options corresponding to each check: “Yes”, “No”, “Unclear”, “Not Applicable”. Checks have been worded such that a positive response (“Yes”) corresponds to a potentially problematic feature of a study. Domain-level judgements do not follow from check responses in a deterministic or algorithmic fashion. For example, we have not specified a threshold corresponding to the number of checks that should be answered “Yes” to trigger domain-level judgements of “serious concerns”. The purpose of the checks is to help the reviewer reach a domain-level judgement about whether or not they have concerns about trustworthiness, and to articulate a basis for that judgement. In some cases, a “Yes” response for a single check might be sufficient to trigger serious concerns for the domain and therefore for the study, depending on the nature and extent of the problem identified. However, a reviewer should not automatically assign a judgement of “serious concerns” on the basis that one or more checks were answered “Yes”.\nIt is necessary to record and report some explanatory text detailing the reason for each check response in the appropriate section of the review. Depending on whether or not the trial is included or excluded, this should be in the characteristics of included or excluded studies tables. Some of the checks may be difficult to assess without topic expertise, and a comprehensive assessment is likely to require input from a review team with content and statistical method expertise; although the tool does not require any advanced statistical analyses, the ability to perform and interpret some basic statistical tests is required for some checks, and an understanding of key features of clinical trial processes, such as randomisation procedures, is useful to assess compatibility between reported methods and results. It is recommended to have two team members undertake the assessment independently, and to then discuss and agree on judgements. It might be useful to have team members with complementary skill sets undertake the assessment, as problems might be detected by a reviewer with a particular area of expertise. We use the term “index study” to refer to the study being assessed using the INSPECT-SR tool.\nAs the field evolves, freely available automated or AI-driven tools to facilitate (some of) these checks may become available. We recommend reviewers are cautious and critique these tools before use to ensure they are fit for purpose. Consider public details about the automation embedded within the tools, clear terms and conditions for use, public and transparent evaluations, and clarity on the strengths, limitations, biases and generalisability. It is recommended that any automation or AI used in evidence synthesis adheres to the RAISE (Responsible AI in Evidence Synthesis) recommendations and guidance for responsible AI use in evidence synthesis. If reviewers would like to suggest automated or AI-driven tools that meet these standards and could be added to this guidance, please provide details using this survey.",
+    "section": "Making judgements",
+    "text": "Making judgements\n\nThe tool does not use a prescriptive algorithm. Domain-level judgements do not follow mechanically from individual check responses.\nA “yes” to a single check may be sufficient for “serious concerns” if the problem is severe enough, but should not automatically trigger that judgement.\nThe overall study-level judgement should typically be at least as severe as the most severe domain-level judgement.\n“Some concerns” across multiple domains may cumulatively warrant “serious concerns” overall.\nA judgement of “serious concerns” should only be used when it is clear, beyond reasonable doubt, that there are serious concerns.\nRecord explanatory text for each check response and for domain/study-level judgements.",
     "crumbs": [
       "Introduction"
     ]
@@ -74,7 +54,7 @@
     "href": "index.html#resources",
     "title": "INSPECT-SR Guidance",
     "section": "Resources",
-    "text": "Resources\n\nEditable template — a Word document template for recording and reporting INSPECT-SR assessments\nFeedback survey — provide anonymous feedback on your experience with the tool\nRetraction Watch database — search for retractions and post-publication notices\nPubPeer — post-publication peer review comments\nCochrane implementation guidance — templates for reporting trustworthiness concerns to journals",
+    "text": "Resources\n\nINSPECT-SR on OSF — latest versions of the guidance document\nFeedback survey — provide anonymous feedback on your experience with the tool\nRetraction Watch database — search for retractions and post-publication notices\nPubPeer — post-publication peer review comments\nCochrane implementation guidance — templates for reporting trustworthiness concerns to journals",
     "crumbs": [
       "Introduction"
     ]
@@ -82,353 +62,265 @@
   {
     "objectID": "chapters/check_1_1.html",
     "href": "chapters/check_1_1.html",
-    "title": "1.1. Does the study have an associated retraction?",
+    "title": "1  1.1. Does the study have an associated retraction? ✎ Very rough draft",
     "section": "",
-    "text": "Example of check 1.1\nWhile assessing a clinical trial of a probiotic supplement for gestational diabetes, a systematic reviewer navigates to the journal website. The article has been replaced with a retraction notice, noting that an external statistical review had been performed on the basis of “significant concerns…about the integrity of the data” raised by a third party. The notice states “the main outcome of the external review was that the article’s conclusions are unreliable”. The reviewer answers “yes” for this check, and this is sufficient to assign a judgement of “serious concerns” for the domain and for the study.",
+    "text": "Check the journal website and the Retraction Watch database for retractions. Use DOI for searching where possible. A “yes” typically warrants “serious concerns” for the domain and overall.",
     "crumbs": [
       "Domain 1: Inspecting post-publication notices",
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>1.1. Does the study have an associated retraction?</span>"
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>1.1. Does the study have an associated retraction? <span class=\"badge badge-draft1\">✎ Very rough draft</span></span>"
     ]
   },
   {
     "objectID": "chapters/check_1_2.html",
     "href": "chapters/check_1_2.html",
-    "title": "1.2. Does the study have an associated expression of concern or other relevant post-publication notice?",
+    "title": "2  1.2. Does the study have an associated expression of concern or other relevant post-publication notice? ✎ Very rough draft",
     "section": "",
-    "text": "Examples of check 1.2",
+    "text": "Check the journal website, Retraction Watch database, and also post-publication comments (letters to editor, PubPeer). The PubPeer browser plugin automatically flags studies with comments. Consider the content carefully — not all critiques relate to trustworthiness.\nThere is also the ‘Concerning’ and ‘Annulled’ detectors.",
     "crumbs": [
       "Domain 1: Inspecting post-publication notices",
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>1.2. Does the study have an associated expression of concern or other relevant post-publication notice?</span>"
-    ]
-  },
-  {
-    "objectID": "chapters/check_1_2.html#examples-of-check-1.2",
-    "href": "chapters/check_1_2.html#examples-of-check-1.2",
-    "title": "1.2. Does the study have an associated expression of concern or other relevant post-publication notice?",
-    "section": "",
-    "text": "While assessing a clinical trial of a probiotic supplement for gestational diabetes, a reviewer searches for the study on https://retractiondatabase.org/ by searching on the study DOI. The index study is included in the search results, indicating that it has an associated post-publication notice, labelled as “Concerns/ Issues About data”. Navigating to the article on the journal website reveals an “Editor’s Note” reporting that the article is being investigated due to integrity concerns. The reviewer answers “yes” for this check, and this response contributes to the domain-level judgement.\nWhile assessing a clinical trial of a weight-loss drug, the reviewer identifies a critical comment on PubPeer. On reviewing the comment, the reviewer learns that the criticism relates to the dose of drug used in the study. Because this is not relevant to the assessment of the study’s trustworthiness, and because no other post-publication notices relating to the study were identified, the reviewer answers “no” for this check, and this response contributes to the domain-level judgement.",
-    "crumbs": [
-      "Domain 1: Inspecting post-publication notices",
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>1.2. Does the study have an associated expression of concern or other relevant post-publication notice?</span>"
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>1.2. Does the study have an associated expression of concern or other relevant post-publication notice? <span class=\"badge badge-draft1\">✎ Very rough draft</span></span>"
     ]
   },
   {
     "objectID": "chapters/check_1_3.html",
     "href": "chapters/check_1_3.html",
-    "title": "1.3. Do other studies by the research team highlight causes for concern?",
+    "title": "3  1.3. Do other studies by the research team highlight causes for concern? ✎ Very rough draft",
     "section": "",
-    "text": "Examples of check 1.3",
+    "text": "Search the first, corresponding, and last author on the Retraction Watch database. A track record of integrity problems may introduce doubts about the index study.",
     "crumbs": [
       "Domain 1: Inspecting post-publication notices",
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>1.3. Do other studies by the research team highlight causes for concern?</span>"
-    ]
-  },
-  {
-    "objectID": "chapters/check_1_3.html#examples-of-check-1.3",
-    "href": "chapters/check_1_3.html#examples-of-check-1.3",
-    "title": "1.3. Do other studies by the research team highlight causes for concern?",
-    "section": "",
-    "text": "A reviewer performs this check on a trial of a probiotic supplement for gestational diabetes by searching for the first and last author on http://retractiondatabase.org/. The search on the last author returns a large number of notices, including numerous retractions and expressions of concern relating to concerns over data integrity. The reviewer reads some of the associated notices to ensure that they are related to data integrity concerns. The reviewer answers “yes” for this check, and this response contributes to the domain-level judgement.\nA reviewer performs this check on a trial of a dietary intervention for sleep apnea, by searching for the first and last author on http://retractiondatabase.org/. This identifies a publication describing a similar trial conducted concurrently by the author team that has been retracted. The retraction alludes to a lack of transparency on behalf of the authors but is not entirely clear about the motivation for the retraction. The reviewer answers “yes” for this check, and this response contributes to the domain-level judgement.",
-    "crumbs": [
-      "Domain 1: Inspecting post-publication notices",
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>1.3. Do other studies by the research team highlight causes for concern?</span>"
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>1.3. Do other studies by the research team highlight causes for concern? <span class=\"badge badge-draft1\">✎ Very rough draft</span></span>"
     ]
   },
   {
     "objectID": "chapters/check_2_1.html",
     "href": "chapters/check_2_1.html",
-    "title": "2.1. Are there concerns relating to ethical approval?",
+    "title": "4  2.1. Are there concerns relating to ethical approval? ✎ Very rough draft",
     "section": "",
-    "text": "Example of check 2.1\nA trial manuscript reports that “The study was approved by XXXX University Hospital Research Ethics Committee”. No approval number is provided, and there are no details about ethical approval on the trial registration page. An online search for the committee suggests that it does exist. Due to the fact that partial information is provided, the reviewer attempts to contact the committee, but receives no answer. They answer “unclear” for this check, and this response contributes to the domain-level judgement.",
+    "text": "Check for ethical approval details: reference number, approving body, and date. Where an approval number is available, search online to verify it hasn’t been taken from an unrelated study. Incomplete details in older studies may not indicate problems.",
     "crumbs": [
       "Domain 2: Inspecting conduct, governance and transparency",
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>2.1. Are there concerns relating to ethical approval?</span>"
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>2.1. Are there concerns relating to ethical approval? <span class=\"badge badge-draft1\">✎ Very rough draft</span></span>"
     ]
   },
   {
     "objectID": "chapters/check_2_2.html",
     "href": "chapters/check_2_2.html",
-    "title": "2.2. Are there concerns relating to the timing or absence of study registration?",
+    "title": "5  2.2. Are there concerns relating to the timing or absence of study registration? ✎ Very rough draft",
     "section": "",
-    "text": "Example of check 2.2\nA clinical trial is registered on ClinicalTrials.gov with a registration number NCTXXXXXXXXX provided in the manuscript. Clicking on the Record History section of the record, we see that Version 1, the earliest version of the registration, was submitted on 6th July 2010. The trial manuscript states that participants were recruited between August 2008 and April 2010. Accordingly, this trial was retrospectively registered. As a result, it is impossible to know whether key features of the trial, such as sample size, outcomes, and eligibility criteria, were prospectively determined. The reviewer answers “yes” for this check, and this response contributes to the domain-level judgement.",
+    "text": "Absent or retrospective registration makes it difficult to determine whether reported methods and results reflect planned work. Consider the timing relative to recruitment. Registration expectations vary by era and jurisdiction.",
     "crumbs": [
       "Domain 2: Inspecting conduct, governance and transparency",
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>2.2. Are there concerns relating to the timing or absence of study registration?</span>"
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>2.2. Are there concerns relating to the timing or absence of study registration? <span class=\"badge badge-draft1\">✎ Very rough draft</span></span>"
     ]
   },
   {
     "objectID": "chapters/check_2_3.html",
     "href": "chapters/check_2_3.html",
-    "title": "2.3. Are there important inconsistencies between the publication and the registration documents?",
+    "title": "6  2.3. Are there important inconsistencies between the publication and the registration documents? ✎ Very rough draft",
     "section": "",
-    "text": "Example of check 2.3\nA clinical trial has been retrospectively registered on the Iranian Registry of Clinical Trials, with the registration number IRCTXXXXXXXXXX. Despite being retrospectively registered, examination of the revisions made to the record indicates that the description of the control group differed on the registration record compared to the published manuscript, and was amended to match the manuscript over two years after publication. In addition, the recruitment date reported in the published manuscript (April 2016 to September 2016) differs compared to the recruitment dates described on the retrospective registration record (April 2016 to May 2016). The reviewer answers “yes” for this check, and this response contributes to the domain-level judgement.",
+    "text": "Check for unexplained discrepancies in sample size, interventions, study dates, or eligibility criteria between the publication and the first version of the registration. Disagreements with post-trial-start registration amendments are particularly concerning. If there is no registration, answer “Not applicable.”",
     "crumbs": [
       "Domain 2: Inspecting conduct, governance and transparency",
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>2.3. Are there important inconsistencies between the publication and the registration documents?</span>"
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>2.3. Are there important inconsistencies between the publication and the registration documents? <span class=\"badge badge-draft1\">✎ Very rough draft</span></span>"
     ]
   },
   {
     "objectID": "chapters/check_2_4.html",
     "href": "chapters/check_2_4.html",
-    "title": "2.4. Is the recruitment of participants implausible?",
+    "title": "7  2.4. Is the recruitment of participants implausible? ✎ Very rough draft",
     "section": "",
-    "text": "Examples of check 2.4",
+    "text": "Consider whether the reported cohort size could plausibly be recruited in the reported timeframe, given the study setting, condition prevalence, and available resources. Domain knowledge is required.",
     "crumbs": [
       "Domain 2: Inspecting conduct, governance and transparency",
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>2.4. Is the recruitment of participants implausible?</span>"
-    ]
-  },
-  {
-    "objectID": "chapters/check_2_4.html#examples-of-check-2.4",
-    "href": "chapters/check_2_4.html#examples-of-check-2.4",
-    "title": "2.4. Is the recruitment of participants implausible?",
-    "section": "",
-    "text": "A randomized clinical trial investigates outcomes of endovascular repair of ruptured abdominal aortic aneurysm compared to open surgical repair in the catchment area of the authors’ institution in Poland with a population of around 500,000. The recruitment period spanned from April 2010 to April 2012 (2 years), with the authors reporting a study population of 2,200 participants with ruptured abdominal aortic aneurysm. Since the incidence of ruptured abdominal aortic aneurysm is generally reported as 5.6 to 17.5 per 100,000 person-years in Western countries, the reported cohort size is judged implausible within the reported time frame, hence the reviewer answers “yes” for this check, and uses this response to inform the domain-level judgement.\nA trial reported recruitment from April 2018 to September 2020, and reported complete follow-up of all participants for 6 months. This is contradicted by submission of the manuscript to a journal in January 2021. The reviewer answers “yes” for this check, and this response contributes to the domain-level judgement.",
-    "crumbs": [
-      "Domain 2: Inspecting conduct, governance and transparency",
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>2.4. Is the recruitment of participants implausible?</span>"
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>2.4. Is the recruitment of participants implausible? <span class=\"badge badge-draft1\">✎ Very rough draft</span></span>"
     ]
   },
   {
     "objectID": "chapters/check_2_5.html",
     "href": "chapters/check_2_5.html",
-    "title": "2.5. Are there concerns about the plausibility of conducting the study using the reported methods and resources?",
+    "title": "8  2.5. Are there concerns about the plausibility of conducting the study using the reported methods and resources? ✎ Very rough draft",
     "section": "",
-    "text": "Examples of check 2.5",
+    "text": "Consider whether the protocol could realistically be implemented given the study setting, staffing, and funding.",
     "crumbs": [
       "Domain 2: Inspecting conduct, governance and transparency",
-      "<span class='chapter-number'>8</span>  <span class='chapter-title'>2.5. Are there concerns about the plausibility of conducting the study using the reported methods and resources?</span>"
-    ]
-  },
-  {
-    "objectID": "chapters/check_2_5.html#examples-of-check-2.5",
-    "href": "chapters/check_2_5.html#examples-of-check-2.5",
-    "title": "2.5. Are there concerns about the plausibility of conducting the study using the reported methods and resources?",
-    "section": "",
-    "text": "A single-centre trial of people with moderate cognitive impairment reports the use of monthly MRI scans and blood tests for one year to monitor their progress and the reimbursement of patients for their travel time. The trial recruited 312 participants over 18 months but reports that no funding was received for the trial. The reviewer regards both the number of MRI scans and the reimbursement of participants for more than 3700 visits to be implausible in these circumstances and answers “yes” for this check, and this response contributes to the domain-level judgement.\nThe trial investigates quality of life, measured using the Short Form-36 (SF-36) and Vascular Quality of Life questionnaire (VascuQoL), of patients with symptomatic peripheral arterial disease in the lower limbs with supervised exercise compared to endovascular treatment (balloon angioplasty or stenting). The study was conducted over a 6-month period by one researcher who was blinded to the intervention arm across 10 research institutions, and the authors state the questionnaires were delivered and completed in person by the researcher. The authors also state that supervised exercise programmes are not government funded and failed to report funding sources for the conduct of the study. The reviewer judges that it would be impractical for a single researcher to conduct the study at 10 different sites and that without any financial support, conduct of the study in the reported settings would be implausible, and therefore answers “yes” for this check, and this response contributes to the domain-level judgement.",
-    "crumbs": [
-      "Domain 2: Inspecting conduct, governance and transparency",
-      "<span class='chapter-number'>8</span>  <span class='chapter-title'>2.5. Are there concerns about the plausibility of conducting the study using the reported methods and resources?</span>"
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>2.5. Are there concerns about the plausibility of conducting the study using the reported methods and resources? <span class=\"badge badge-draft1\">✎ Very rough draft</span></span>"
     ]
   },
   {
     "objectID": "chapters/check_3_1.html",
     "href": "chapters/check_3_1.html",
-    "title": "3.1. Are there concerns relating to duplicated content, such as text or tables, or text that is incompatible with the study?",
+    "title": "9  3.1. Are there concerns relating to duplicated content, such as text or tables, or text that is incompatible with the study? ✎ Very rough draft",
     "section": "",
-    "text": "Example of check 3.1\nA trial of laparoscopic drilling contained an identical results table to an earlier trial with authors from the same university. The reviewer was able to identify this apparent duplication as both trials were eligible for inclusion in the same systematic review. The reviewer answers “yes” for this check, and this response contributes to the domain-level judgement.",
+    "text": "Look for plagiarised text (using plagiarism software if available), “tortured phrases” (e.g., “counterfeit consciousness” for “artificial intelligence”), or text that doesn’t match the study context (e.g., describing a different population or intervention).\n\nTortured Phrases detector",
     "crumbs": [
       "Domain 3: Inspecting text and figures",
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>3.1. Are there concerns relating to duplicated content, such as text or tables, or text that is incompatible with the study?</span>"
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>3.1. Are there concerns relating to duplicated content, such as text or tables, or text that is incompatible with the study? <span class=\"badge badge-draft1\">✎ Very rough draft</span></span>"
     ]
   },
   {
     "objectID": "chapters/check_3_2.html",
     "href": "chapters/check_3_2.html",
-    "title": "3.2. Is there evidence of manipulation or duplication of figures?",
+    "title": "10  3.2. Is there evidence of manipulation or duplication of figures? ✎ Very rough draft",
     "section": "",
-    "text": "Example of check 3.2\nA published manuscript included a multi-panel bar chart, including six bar charts showing a variety of outcomes measured on two study groups at several timepoints. Although the outcomes were measured on a variety of different scales (such as duration in days, distance in mm, or scores derived from clinical questionnaires), all six bar charts were identical apart from differing axes and titles. The reviewer answers “yes” for the check, and this response contributes to the domain-level judgement.",
+    "text": "Examine figures for signs of manipulation or duplication (e.g., identical plots across panels of different outcomes, manually added error bars, or shifted curves).\nImage forensics methods are beyond the scope of this website, but tools include the following:\n\nImageTwin [URL]\nProofig [URL]\nImagetrakr [URL]\nForensically [URL]\nFotoForensics [URL]\nGhiro [URL]",
     "crumbs": [
       "Domain 3: Inspecting text and figures",
-      "<span class='chapter-number'>10</span>  <span class='chapter-title'>3.2. Is there evidence of manipulation or duplication of figures?</span>"
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>3.2. Is there evidence of manipulation or duplication of figures? <span class=\"badge badge-draft1\">✎ Very rough draft</span></span>"
     ]
   },
   {
     "objectID": "chapters/check_4_1.html",
     "href": "chapters/check_4_1.html",
-    "title": "4.1. Are there any unexplained discrepancies between reported data and participant eligibility criteria?",
+    "title": "11  4.1. Are there any unexplained discrepancies between reported data and participant eligibility criteria? ✎ Very rough draft",
     "section": "",
-    "text": "Example of check 4.1\nA trial was conducted in postmenopausal women. In the published manuscript, sex was listed in the table of baseline characteristics, and there was a substantial portion of the participants in both study arms who were described as male sex, which does not appear to be consistent with the eligibility criteria. The reviewer answers “yes” for the check, and this response contributes to the domain-level judgement.",
+    "text": "Check whether reported participant characteristics are compatible with the eligibility criteria.",
     "crumbs": [
       "Domain 4: Inspecting results in the study",
-      "<span class='chapter-number'>11</span>  <span class='chapter-title'>4.1. Are there any unexplained discrepancies between reported data and participant eligibility criteria?</span>"
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>4.1. Are there any unexplained discrepancies between reported data and participant eligibility criteria? <span class=\"badge badge-draft1\">✎ Very rough draft</span></span>"
     ]
   },
   {
     "objectID": "chapters/check_4_2.html",
     "href": "chapters/check_4_2.html",
-    "title": "4.2. Are numbers of participants allocated to each group implausible given the allocation method?",
+    "title": "12  4.2. Are numbers of participants allocated to each group implausible given the allocation method? ✎ Very rough draft",
     "section": "",
-    "text": "Example of check 4.2\nA trial manuscript reported that participants had been allocated in a single centre using blocked randomisation, with a fixed block size of 4 and no stratification. The manuscript reported an imbalance in the number of participants allocated to each arm, with 5 more participants being allocated to the control arm compared to the intervention arm. This is not consistent with the reported method of allocation, because the largest imbalance in group sizes at baseline using a fixed block size of 4 would be half the block size, which is 2. The reviewer answers “yes” for the check, and this response contributes to the domain-level judgement.",
+    "text": "Check whether group sizes are consistent with the stated randomisation method. For example, blocked randomisation with a fixed block size of 4 cannot produce imbalances exceeding 2.",
     "crumbs": [
       "Domain 4: Inspecting results in the study",
-      "<span class='chapter-number'>12</span>  <span class='chapter-title'>4.2. Are numbers of participants allocated to each group implausible given the allocation method?</span>"
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>4.2. Are numbers of participants allocated to each group implausible given the allocation method? <span class=\"badge badge-draft1\">✎ Very rough draft</span></span>"
     ]
   },
   {
     "objectID": "chapters/check_4_3.html",
     "href": "chapters/check_4_3.html",
-    "title": "4.3. Are any baseline data implausible?",
+    "title": "13  4.3. Are any baseline data implausible? ✎ Very rough draft",
     "section": "",
-    "text": "Example of check 4.3\nA baseline table contains identical values for means, SDs or range limits for both study groups for nine of 11 reported baseline characteristics, reported to two decimal places. The reviewer judges that this is unlikely to be explained by the method of allocation used in the study (which was simple randomisation) and answers “yes” for this check, and this response contributes to the domain-level judgement.",
+    "text": "Consider clinical/biological and numerical plausibility of baseline characteristics. Look for unusual patterns such as excess even/odd numbers, multiples of 5, or implausibly identical values across groups.\nThere are also quantitative methods for the assessment of whether groups are systematically too similar or too different assuming random assignment:\n\nBarnett’s Baseline Web app and associated R package\nCarlisle’s method [URL for implementations?]\nBolland’s reappraised R package [URL needed]\n\nSeparately, there are quantitative methods to assess whether a) reported p values and b) effect sizes for between-groups differences for continuous or categorical data can be reproduced from reported summary statistics (i.e., M/SD/N or counts):\n\nrecalc Web app\nBolland’s p value recalculator Web app [URL needed]",
     "crumbs": [
       "Domain 4: Inspecting results in the study",
-      "<span class='chapter-number'>13</span>  <span class='chapter-title'>4.3. Are any baseline data implausible?</span>"
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>4.3. Are any baseline data implausible? <span class=\"badge badge-draft1\">✎ Very rough draft</span></span>"
     ]
   },
   {
     "objectID": "chapters/check_4_4.html",
     "href": "chapters/check_4_4.html",
-    "title": "4.4. Are there any discrepancies between results reported in figures, tables, and text?",
+    "title": "14  4.4. Are there any discrepancies between results reported in figures, tables, and text? ✎ Very rough draft",
     "section": "",
-    "text": "Example of check 4.4\nMean outcome values are displayed using a bar chart in a published trial. The values shown in the bar chart are clearly not consistent with the corresponding values reported in the text. The reviewer answers “yes” for this check, and this response contributes to the domain-level judgement.",
+    "text": "Check for contradictions where the same results appear in multiple places (figures, tables, main text, abstract).",
     "crumbs": [
       "Domain 4: Inspecting results in the study",
-      "<span class='chapter-number'>14</span>  <span class='chapter-title'>4.4. Are there any discrepancies between results reported in figures, tables, and text?</span>"
+      "<span class='chapter-number'>14</span>  <span class='chapter-title'>4.4. Are there any discrepancies between results reported in figures, tables, and text? <span class=\"badge badge-draft1\">✎ Very rough draft</span></span>"
     ]
   },
   {
     "objectID": "chapters/check_4_5.html",
     "href": "chapters/check_4_5.html",
-    "title": "4.5. Are the numbers of participants lost to follow-up implausible?",
+    "title": "15  4.5. Are the numbers of participants lost to follow-up implausible? ✎ Very rough draft",
     "section": "",
-    "text": "Example of check 4.5\nIn a large multicentre trial of psychotherapy versus usual care for people with long-term depression, participants must attend the trial site every three months over an 18-month period to have their outcomes assessed. The trial manuscript reports that there was no loss to follow-up (all 524 participants at all study sites were retained in the study until the end of follow-up). The reviewer judges this to be very unusual for trials conducted in this population, where attrition rates are typically high even in trials with shorter follow-up durations. The reviewer answers “yes” for this check, and this response contributes to the domain-level judgement.",
+    "text": "Consider whether attrition rates are plausible given the context, condition, follow-up duration, and study protocol.",
     "crumbs": [
       "Domain 4: Inspecting results in the study",
-      "<span class='chapter-number'>15</span>  <span class='chapter-title'>4.5. Are the numbers of participants lost to follow-up implausible?</span>"
+      "<span class='chapter-number'>15</span>  <span class='chapter-title'>4.5. Are the numbers of participants lost to follow-up implausible? <span class=\"badge badge-draft1\">✎ Very rough draft</span></span>"
     ]
   },
   {
     "objectID": "chapters/check_4_6.html",
     "href": "chapters/check_4_6.html",
-    "title": "4.6. Are there any unexplained inconsistencies in the numbers of participants?",
+    "title": "16  4.6. Are there any unexplained inconsistencies in the numbers of participants? ✎ Very rough draft",
     "section": "",
-    "text": "Examples of check 4.6",
+    "text": "Check for inconsistencies in participant numbers across different parts of the manuscript, including the CONSORT diagram.\nThe consistency of sample sizes (Ns), means (M), and Standard Deviations between whole samples and subgroups:\n\nANCHOR (Assessing Numerical Consistency between wHOle sample and subgRoups) Web app",
     "crumbs": [
       "Domain 4: Inspecting results in the study",
-      "<span class='chapter-number'>16</span>  <span class='chapter-title'>4.6. Are there any unexplained inconsistencies in the numbers of participants?</span>"
-    ]
-  },
-  {
-    "objectID": "chapters/check_4_6.html#examples-of-check-4.6",
-    "href": "chapters/check_4_6.html#examples-of-check-4.6",
-    "title": "4.6. Are there any unexplained inconsistencies in the numbers of participants?",
-    "section": "",
-    "text": "A manuscript reports that 100 participants were randomly allocated to treatment or control. This is reported in the text and in the table of baseline characteristics, where frequencies for (exhaustive) categorical variables sum to 100 participants. However, the text and results tables include outcome data for more than 150 participants. Noting the discrepancy, the reviewer answers “yes” for this check, and this response contributes to the domain-level judgement.\nA manuscript presents a sample size calculation suggesting that 40 participants were to be recruited. The results section of the manuscript describes results for more than twice as many participants as this, with no explanation for the discrepancy. The reviewer answers “yes” for this check, and this response contributes to the domain-level judgement.",
-    "crumbs": [
-      "Domain 4: Inspecting results in the study",
-      "<span class='chapter-number'>16</span>  <span class='chapter-title'>4.6. Are there any unexplained inconsistencies in the numbers of participants?</span>"
+      "<span class='chapter-number'>16</span>  <span class='chapter-title'>4.6. Are there any unexplained inconsistencies in the numbers of participants? <span class=\"badge badge-draft1\">✎ Very rough draft</span></span>"
     ]
   },
   {
     "objectID": "chapters/check_4_7.html",
     "href": "chapters/check_4_7.html",
-    "title": "4.7. Are any outcome data, including estimated treatment effects, implausible?",
+    "title": "17  4.7. Are any outcome data, including estimated treatment effects, implausible? ✎ Very rough draft",
     "section": "",
-    "text": "Examples of check 4.7",
+    "text": "Consider the plausibility of outcome values and treatment effects. Compare to other studies in the meta-analysis if available. Duplication of treatment effects between trials from the same team is particularly concerning.\nAs noted in 4.3, there are quantitative methods to assess whether reported SMD effect sizes for between-groups differences can be reproduced from reported summary statistics (i.e., M/SD/N).\n\nrecalc Web app\n\nThere are also methods to assess the risk that reported SDs are in fact Standard Errors. Note that confusion of SE and SD is extremely common and pollutes the results of meta-analyses (REF).\n\n[placeholder - tool in development]",
     "crumbs": [
       "Domain 4: Inspecting results in the study",
-      "<span class='chapter-number'>17</span>  <span class='chapter-title'>4.7. Are any outcome data, including estimated treatment effects, implausible?</span>"
-    ]
-  },
-  {
-    "objectID": "chapters/check_4_7.html#examples-of-check-4.7",
-    "href": "chapters/check_4_7.html#examples-of-check-4.7",
-    "title": "4.7. Are any outcome data, including estimated treatment effects, implausible?",
-    "section": "",
-    "text": "A meta-analysis contains two trials from the same author team. The reviewer notices that the point estimates corresponding to the treatment effects in the two trials are identical. The reviewer compares results for several of the other outcome measures between the two trials and notices that the point estimates are identical, or nearly identical, for all of them. The reviewer judges this to be implausible and answers “yes” for this check, and this response contributes to the domain-level judgement.\nA meta-analysis contains three trials from the same author team. The results from these three trials are highly divergent from those from ten other trials in the meta-analysis. There is more than a 6-fold difference between the lowest of the lower confidence limits of the three studies compared to the upper confidence limit observed after pooling the remaining ten trials. The reviewer judges this to be implausible and answers “yes” for this check, and this response contributes to the domain-level judgement.",
-    "crumbs": [
-      "Domain 4: Inspecting results in the study",
-      "<span class='chapter-number'>17</span>  <span class='chapter-title'>4.7. Are any outcome data, including estimated treatment effects, implausible?</span>"
+      "<span class='chapter-number'>17</span>  <span class='chapter-title'>4.7. Are any outcome data, including estimated treatment effects, implausible? <span class=\"badge badge-draft1\">✎ Very rough draft</span></span>"
     ]
   },
   {
     "objectID": "chapters/check_4_8.html",
     "href": "chapters/check_4_8.html",
-    "title": "4.8. Are the means and variances of integer data impossible?",
+    "title": "18  4.8. Are the means and variances of integer data impossible? ✎ Very rough draft",
     "section": "",
-    "text": "Example of check 4.8\nA trial manuscript reports the health of newborn infants using the Apgar score at 1 and 5 minutes. This outcome measure can only take integer values, with a score from 0 to 10. Applying GRIM and GRIMMER, the reviewer concludes that two of the reported mean values (8.96 and 9.96) are not compatible with the reported group size (30 participants), nor is the combination of a mean of 9.93 and a standard deviation of 0.18. The reviewer therefore answers “yes” to this question, since several impossible combinations of sample size and mean or standard deviation have been identified. This response contributes to the domain-level judgement.",
+    "text": "18.1 Tools for this check\nFor variables that can only take integer values, check whether reported means and standard deviations are mathematically possible for the given sample size using the GRIM and GRIMMER methods.",
     "crumbs": [
       "Domain 4: Inspecting results in the study",
-      "<span class='chapter-number'>18</span>  <span class='chapter-title'>4.8. Are the means and variances of integer data impossible?</span>"
+      "<span class='chapter-number'>18</span>  <span class='chapter-title'>4.8. Are the means and variances of integer data impossible? <span class=\"badge badge-draft1\">✎ Very rough draft</span></span>"
     ]
   },
   {
     "objectID": "chapters/check_4_8.html#tools-for-this-check",
     "href": "chapters/check_4_8.html#tools-for-this-check",
-    "title": "4.8. Are the means and variances of integer data impossible?",
-    "section": "Tools for this check",
-    "text": "Tools for this check\n\nscrutiny web app — R package implementing GRIM and GRIMMER tests, with a convenient interface for checking multiple values at once\nNick Brown’s GRIM calculator — online GRIM checker\nPrePubMed GRIMMER — online GRIMMER checker",
+    "title": "18  4.8. Are the means and variances of integer data impossible? ✎ Very rough draft",
+    "section": "",
+    "text": "scrutiny — R package implementing GRIM and GRIMMER tests, with a convenient interface for checking multiple values at once\nNick Brown’s GRIM calculator — online GRIM checker\nPrePubMed GRIMMER — online GRIMMER checker\nNote to self: should the above link to GRIM generally, and then the GRIM etc pages debate the merits of different implementations?",
     "crumbs": [
       "Domain 4: Inspecting results in the study",
-      "<span class='chapter-number'>18</span>  <span class='chapter-title'>4.8. Are the means and variances of integer data impossible?</span>"
+      "<span class='chapter-number'>18</span>  <span class='chapter-title'>4.8. Are the means and variances of integer data impossible? <span class=\"badge badge-draft1\">✎ Very rough draft</span></span>"
     ]
   },
   {
     "objectID": "chapters/check_4_9.html",
     "href": "chapters/check_4_9.html",
-    "title": "4.9. Are there errors in statistical results?",
+    "title": "19  4.9. Are there errors in statistical results? ✎ Very rough draft",
     "section": "",
-    "text": "Examples of check 4.9",
+    "text": "19.1 Tools for this check\nCheck whether reported p-values are consistent with the reported summary data. For t-tests, verify using the group means, SDs, and sample sizes. For categorical data analysed by chi-squared test, attempt to reproduce the p-value from reported frequencies.\nBe cautious: p-values from continuous variables will not generally be exactly reproducible from rounded summary data. Consider consistency rather than exact reproduction.",
     "crumbs": [
       "Domain 4: Inspecting results in the study",
-      "<span class='chapter-number'>19</span>  <span class='chapter-title'>4.9. Are there errors in statistical results?</span>"
-    ]
-  },
-  {
-    "objectID": "chapters/check_4_9.html#examples-of-check-4.9",
-    "href": "chapters/check_4_9.html#examples-of-check-4.9",
-    "title": "4.9. Are there errors in statistical results?",
-    "section": "",
-    "text": "A manuscript reports results of a t-test for two groups of 30 participants. In group 1, there is a reported mean of 20 and a standard deviation of 4. In group 2, there is a reported mean of 21 and a standard deviation of 2. The p-value is reported as p=0.02. If we try to reproduce the result using the summary data, we get a p-value of p=0.23, which may appear to contradict the reported result. However, the reported summary data is rounded. We can find the smallest p-value that would be consistent with the reported data by using values that would be rounded to those reported in the paper, while making the difference in means as large as possible and the standard deviations as small as possible. In this case, the actual group means could be 19.5 and 21.449, and the standard deviations 3.5 and 1.5. The p-value in this case would be 0.006, which is clearly smaller than the reported value. The summary data are therefore consistent with the reported p-value. If we wanted to see how large the p-value could be while remaining consistent with the summary data, we would make the means as similar as possible and the standard deviations as large as possible, while ensuring that the values would round to the reported summary data. In this example, the reviewer should answer “no” if they do not identify any errors in statistical results elsewhere.\nA manuscript reports “sex” as a binary baseline characteristic in Table 1, showing the frequencies of male and female participants in each of the two study groups. This is a 2×2 table, and a chi-squared test could be performed if we wanted to make a comparison between the study groups. This would result in a single p-value. However, in the manuscript, two different p-values are presented; one for male participants and one for female participants. This does not make sense. Moreover, the reviewer performs a chi-squared test, in addition to several plausible alternative tests, and neither of the reported p-values match any of the p-values obtained from these checks. The reviewer answers “yes” for this check, and this response contributes to the domain-level judgement.",
-    "crumbs": [
-      "Domain 4: Inspecting results in the study",
-      "<span class='chapter-number'>19</span>  <span class='chapter-title'>4.9. Are there errors in statistical results?</span>"
+      "<span class='chapter-number'>19</span>  <span class='chapter-title'>4.9. Are there errors in statistical results? <span class=\"badge badge-draft1\">✎ Very rough draft</span></span>"
     ]
   },
   {
     "objectID": "chapters/check_4_9.html#tools-for-this-check",
     "href": "chapters/check_4_9.html#tools-for-this-check",
-    "title": "4.9. Are there errors in statistical results?",
-    "section": "Tools for this check",
-    "text": "Tools for this check\n\nGraphPad t-test calculator — online t-test calculator\nOpenEpi — open source epidemiologic statistics",
+    "title": "19  4.9. Are there errors in statistical results? ✎ Very rough draft",
+    "section": "",
+    "text": "recalc — R package for recalculating p values and effect sizes from means, SDs, and sample sizes\nGraphPad t-test calculator — online t-test calculator\nOpenEpi — open source epidemiologic statistics",
     "crumbs": [
       "Domain 4: Inspecting results in the study",
-      "<span class='chapter-number'>19</span>  <span class='chapter-title'>4.9. Are there errors in statistical results?</span>"
+      "<span class='chapter-number'>19</span>  <span class='chapter-title'>4.9. Are there errors in statistical results? <span class=\"badge badge-draft1\">✎ Very rough draft</span></span>"
     ]
   },
   {
     "objectID": "chapters/check_4_10.html",
     "href": "chapters/check_4_10.html",
-    "title": "4.10. Are any other contradictions implied by the data?",
+    "title": "20  4.10. Are any other contradictions implied by the data? ✎ Very rough draft",
     "section": "",
-    "text": "Example of check 4.10\nA manuscript reports a mean quality of life score for the intervention group overall, and also separately for participants aged 65 or over, or under 65. There are 41 participants in the intervention group overall, with 30 of these being aged less than 65 years and 11 being 65 years or older. The overall mean score is reported as 7.3. The mean score for the 30 participants younger than 65 is reported as 6.2, and the mean score for the 11 participants aged 65 years or older is 7.4. We may attempt to reproduce the overall mean score from the subgroup-specific means, by calculating (6.2×30 + 7.4×11) / 41 = 6.52, which is smaller than the reported value of 7.3. We must confirm that the discrepancy cannot be explained by rounding, by considering the values for the subgroup means that would make the recalculated value as large as possible (e.g. by setting the subgroup means to 6.2499 and 7.499 and recalculating the overall value). This returns a value of 6.57, which is clearly not compatible with the reported value of 7.3, even if the latter value has been rounded up. The reviewer records a response of “yes” for this check, and this response contributes to the domain-level judgement.",
+    "text": "Look for other anomalies such as subgroup counts/means conflicting with overall results, means falling outside reported ranges, or logically impossible outcome combinations.",
     "crumbs": [
       "Domain 4: Inspecting results in the study",
-      "<span class='chapter-number'>20</span>  <span class='chapter-title'>4.10. Are any other contradictions implied by the data?</span>"
+      "<span class='chapter-number'>20</span>  <span class='chapter-title'>4.10. Are any other contradictions implied by the data? <span class=\"badge badge-draft1\">✎ Very rough draft</span></span>"
     ]
   },
   {
     "objectID": "chapters/check_4_11.html",
     "href": "chapters/check_4_11.html",
-    "title": "4.11. Are there inconsistencies in descriptions of methods and results across publications describing the study?",
+    "title": "21  4.11. Are there inconsistencies in descriptions of methods and results across publications describing the study? ✎ Very rough draft",
     "section": "",
-    "text": "Example of check 4.11\nA reviewer compares a published trial manuscript to a conference abstract reporting the completed trial. The description of the study methods, including eligibility criteria and study dates, are consistent between the manuscript and abstract. However, the sample size reported in the manuscript is considerably larger than that reported in the conference abstract. No explanation for this discrepancy is included in the manuscript. In light of the unexplained discrepancy, the reviewer answers “yes” for this check, and this response contributes to the domain-level judgement.",
+    "text": "Check for major unexplained discrepancies between publications associated with the study (e.g., conference abstract vs. main results paper), including conflicting results, group sizes, or methods.",
     "crumbs": [
       "Domain 4: Inspecting results in the study",
-      "<span class='chapter-number'>21</span>  <span class='chapter-title'>4.11. Are there inconsistencies in descriptions of methods and results across publications describing the study?</span>"
-    ]
-  },
-  {
-    "objectID": "appendices/template.html",
-    "href": "appendices/template.html",
-    "title": "Editable template",
-    "section": "",
-    "text": "An editable Word document template for INSPECT-SR is available for download. The template mirrors the structure of this guidance, providing one page per check with space to record notes, judgements, and justifications for each item.\nDownload template",
-    "crumbs": [
-      "Appendices",
-      "<span class='chapter-number'>22</span>  <span class='chapter-title'>Editable template</span>"
+      "<span class='chapter-number'>21</span>  <span class='chapter-title'>4.11. Are there inconsistencies in descriptions of methods and results across publications describing the study? <span class=\"badge badge-draft1\">✎ Very rough draft</span></span>"
     ]
   },
   {
     "objectID": "license.html",
     "href": "license.html",
-    "title": "License",
+    "title": "22  License and citation",
     "section": "",
-    "text": "© Jack Wilkinson (2026)\nText and figures are licensed under a Creative Commons Attribution 4.0 (CC BY 4.0) license.\nCode is licensed under the MIT License.\nYou are free to copy, share, adapt, and reuse the contents of this book — text, figures, and code — for any purpose, including commercial use, provided you cite it.",
+    "text": "© Ian Hussey (2025)\nText and figures are licensed under a Creative Commons Attribution 4.0 (CC BY 4.0) license.\nCode is licensed under the MIT License.\nYou are free to copy, share, adapt, and reuse the contents of this book — text, figures, and code — for any purpose, including commercial use, provided you cite it.",
     "crumbs": [
       "Appendices",
-      "<span class='chapter-number'>23</span>  <span class='chapter-title'>License</span>"
+      "<span class='chapter-number'>22</span>  <span class='chapter-title'>License and citation</span>"
     ]
   }
 ]
