@@ -20,41 +20,6 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for syntax highlighting */
-html { -webkit-text-size-adjust: 100%; }
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
-}
 </style>
 
 
@@ -541,7 +506,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 <header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../chapters/check_4_1.html">Domain 4: Inspecting results in the study</a></li><li class="breadcrumb-item"><a href="../chapters/check_4_9.html"><span class="chapter-number">19</span>&nbsp; <span class="chapter-title">4.9. Are there errors in statistical results?</span></a></li></ol></nav>
 <div class="quarto-title">
-<div class="quarto-title-block"><div><h1 class="title"><span class="chapter-number">19</span>&nbsp; <span class="chapter-title">4.9. Are there errors in statistical results?</span></h1><button type="button" class="btn code-tools-button" id="quarto-code-tools-source"><i class="bi"></i> Code</button></div></div>
+<h1 class="title"><span class="chapter-number">19</span>&nbsp; <span class="chapter-title">4.9. Are there errors in statistical results?</span></h1>
 </div>
 
 
@@ -585,8 +550,6 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <li><a href="https://www.openepi.com/Menu/OE_Menu.htm">OpenEpi</a> — open source epidemiologic statistics</li>
 </ul>
 
-
-<!-- -->
 
 </section>
 
@@ -674,57 +637,6 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
         container: window.document.getElementById('quarto-embedded-source-code-modal')
       });
       clipboardModal.on('success', onCopySuccess);
-    }
-    const viewSource = window.document.getElementById('quarto-view-source') ||
-                       window.document.getElementById('quarto-code-tools-source');
-    if (viewSource) {
-      const sourceUrl = viewSource.getAttribute("data-quarto-source-url");
-      viewSource.addEventListener("click", function(e) {
-        if (sourceUrl) {
-          // rstudio viewer pane
-          if (/\bcapabilities=\b/.test(window.location)) {
-            window.open(sourceUrl);
-          } else {
-            window.location.href = sourceUrl;
-          }
-        } else {
-          const modal = new bootstrap.Modal(document.getElementById('quarto-embedded-source-code-modal'));
-          modal.show();
-        }
-        return false;
-      });
-    }
-    function toggleCodeHandler(show) {
-      return function(e) {
-        const detailsSrc = window.document.querySelectorAll(".cell > details > .sourceCode");
-        for (let i=0; i<detailsSrc.length; i++) {
-          const details = detailsSrc[i].parentElement;
-          if (show) {
-            details.open = true;
-          } else {
-            details.removeAttribute("open");
-          }
-        }
-        const cellCodeDivs = window.document.querySelectorAll(".cell > .sourceCode");
-        const fromCls = show ? "hidden" : "unhidden";
-        const toCls = show ? "unhidden" : "hidden";
-        for (let i=0; i<cellCodeDivs.length; i++) {
-          const codeDiv = cellCodeDivs[i];
-          if (codeDiv.classList.contains(fromCls)) {
-            codeDiv.classList.remove(fromCls);
-            codeDiv.classList.add(toCls);
-          } 
-        }
-        return false;
-      }
-    }
-    const hideAllCode = window.document.getElementById("quarto-hide-all-code");
-    if (hideAllCode) {
-      hideAllCode.addEventListener("click", toggleCodeHandler(false));
-    }
-    const showAllCode = window.document.getElementById("quarto-show-all-code");
-    if (showAllCode) {
-      showAllCode.addEventListener("click", toggleCodeHandler(true));
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
@@ -1066,38 +978,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
         <span class="nav-page-text"><span class="chapter-number">20</span>&nbsp; <span class="chapter-title">4.10. Are any other contradictions implied by the data?</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
-</nav><div class="modal fade" id="quarto-embedded-source-code-modal" tabindex="-1" aria-labelledby="quarto-embedded-source-code-modal-label" aria-hidden="true"><div class="modal-dialog modal-dialog-scrollable"><div class="modal-content"><div class="modal-header"><h5 class="modal-title" id="quarto-embedded-source-code-modal-label">Source Code</h5><button class="btn-close" data-bs-dismiss="modal"></button></div><div class="modal-body"><div class="">
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1" data-shortcodes="false"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu"># 4.9. Are there errors in statistical results?</span></span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="in">```{r}</span></span>
-<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="co">#| include: false</span></span>
-<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span>(<span class="fu">file.exists</span>(<span class="st">"../_setup.R"</span>)){<span class="fu">source</span>(<span class="st">"../_setup.R"</span>)}</span>
-<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
-<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>The reviewer should check whether results of statistical analyses are consistent with reported summary data. For example, where a t-test has been used, the reviewer can check whether the reported p-value is consistent with the reported group means and standard deviations (e.g., using the <span class="co">[</span><span class="ot">online calculator at GraphPad</span><span class="co">](https://www.graphpad.com/quickcalcs/ttest1/?format=sd)</span>).</span>
-<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Caution is needed however, as p-values based on tests of continuous variables will not generally be reproducible from rounded summary data. The reviewer should consider whether the p-value is consistent with, rather than exactly reproducible from, the reported summary data.</span>
-<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Checking consistency of results of non-parametric analyses of continuous measures is typically not possible using the reported summary data.</span>
-<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>For categorical data analysed by chi-squared test or similar, where frequencies are reported, the reviewer can attempt to reproduce the p-value from the reported data, without concerns relating to rounding of summary data.</span>
-<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>The study authors may have used variations of the reported statistical tests. For example, variations of the chi-squared test and t-test are commonly used (e.g. use of Yates' correction, or unequal variances t-tests) and where a discrepancy is found, the reviewer should consider whether this could explain the issue.</span>
-<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Online calculators can be used to perform this check, for example <span class="co">[</span><span class="ot">OpenEpi</span><span class="co">](https://www.openepi.com/Menu/OE_Menu.htm)</span>.</span>
-<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Following the logic set out above, for continuous data, it may be indicative of problems if the statistical results can all be reproduced exactly from rounded summary data, as this may imply that no underlying dataset was analysed in producing the results.</span>
-<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Checking a large number of statistical results in a manuscript might not be practicable unless the reviewer has ample time to perform the assessment. If this is the case, it is recommended to check a selection of results from baseline and results tables.</span>
-<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>The reviewer should also be mindful of the possibility that some discrepancies could be caused by undisclosed adjustment for covariates (for example).</span>
-<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>This check, like all others in INSPECT-SR, is a study-level assessment and not an outcome-level assessment. While it is recommended to include the review outcomes when performing this check, it is not generally recommended to restrict the check to these variables. Rather, it is advisable to consider a selection of variables (at least), including a sample of results from a baseline table where possible. The reviewer should not be reassured if they identify no errors in the review outcomes, despite finding errors elsewhere. If a trial has been fabricated, it is possible that the fabricator might focus more attention on the key outcomes of the study than on other incidental variables.</span>
-<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>The answer to this check should contribute to a domain-level judgement.</span>
-<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a><span class="fu">## Examples of check 4.9</span></span>
-<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a><span class="ss">1. </span>A manuscript reports results of a t-test for two groups of 30 participants. In group 1, there is a reported mean of 20 and a standard deviation of 4. In group 2, there is a reported mean of 21 and a standard deviation of 2. The p-value is reported as p=0.02. If we try to reproduce the result using the summary data, we get a p-value of p=0.23, which may appear to contradict the reported result. However, the reported summary data is rounded. We can find the smallest p-value that would be consistent with the reported data by using values that would be rounded to those reported in the paper, while making the difference in means as large as possible and the standard deviations as small as possible. In this case, the actual group means could be 19.5 and 21.449, and the standard deviations 3.5 and 1.5. The p-value in this case would be 0.006, which is clearly smaller than the reported value. The summary data are therefore consistent with the reported p-value. If we wanted to see how large the p-value could be while remaining consistent with the summary data, we would make the means as similar as possible and the standard deviations as large as possible, while ensuring that the values would round to the reported summary data. In this example, the reviewer should answer "no" if they do not identify any errors in statistical results elsewhere.</span>
-<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a><span class="ss">2. </span>A manuscript reports "sex" as a binary baseline characteristic in Table 1, showing the frequencies of male and female participants in each of the two study groups. This is a 2×2 table, and a chi-squared test could be performed if we wanted to make a comparison between the study groups. This would result in a single p-value. However, in the manuscript, two different p-values are presented; one for male participants and one for female participants. This does not make sense. Moreover, the reviewer performs a chi-squared test, in addition to several plausible alternative tests, and neither of the reported p-values match any of the p-values obtained from these checks. The reviewer answers "yes" for this check, and this response contributes to the domain-level judgement.</span>
-<span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a><span class="fu">## Tools for this check</span></span>
-<span id="cb1-29"><a href="#cb1-29" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-30"><a href="#cb1-30" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="co">[</span><span class="ot">GraphPad t-test calculator</span><span class="co">](https://www.graphpad.com/quickcalcs/ttest1/?format=sd)</span> — online t-test calculator</span>
-<span id="cb1-31"><a href="#cb1-31" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="co">[</span><span class="ot">OpenEpi</span><span class="co">](https://www.openepi.com/Menu/OE_Menu.htm)</span> — open source epidemiologic statistics</span>
-</code></pre></div><button title="Copy to Clipboard" class="code-copy-button" data-in-quarto-modal=""><i class="bi"></i></button></div>
-</div></div></div></div></div>
+</nav>
 </div> <!-- /content -->
 
 
