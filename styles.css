@@ -1,9 +1,15 @@
 /* Multi-column authors for HTML */
 .quarto-title-meta-contents {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 10px;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 0;
   width: 100%;
+}
+
+.quarto-title-meta-contents p {
+  margin: 0;
+  padding: 0;
+  line-height: 1.4;
 }
 
 /* Ensure it stacks on small mobile screens */
