@@ -1,8 +1,14 @@
-# 4.1. Are there any unexplained discrepancies between reported data and participant eligibility criteria? <span class="badge badge-draft1">✎ Very rough draft</span>
+# 4.1. Are there any unexplained discrepancies between reported data and participant eligibility criteria?
 
 ```{r}
 #| include: false
 if(file.exists("../_setup.R")){source("../_setup.R")}
 ```
 
-Check whether reported participant characteristics are compatible with the eligibility criteria.
+- The reviewer should check to see whether any results corresponding to participant characteristics are incompatible with the eligibility criteria.
+- It is crucial to check whether an explanation is provided in the manuscript.
+- The answer to this check should contribute to a domain-level judgement.
+
+## Example of check 4.1
+
+A trial was conducted in postmenopausal women. In the published manuscript, sex was listed in the table of baseline characteristics, and there was a substantial portion of the participants in both study arms who were described as male sex, which does not appear to be consistent with the eligibility criteria. The reviewer answers "yes" for the check, and this response contributes to the domain-level judgement.

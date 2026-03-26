@@ -1,8 +1,17 @@
-# 2.1. Are there concerns relating to ethical approval? <span class="badge badge-draft1">✎ Very rough draft</span>
+# 2.1. Are there concerns relating to ethical approval?
 
 ```{r}
 #| include: false
 if(file.exists("../_setup.R")){source("../_setup.R")}
 ```
 
-Check for ethical approval details: reference number, approving body, and date. Where an approval number is available, search online to verify it hasn't been taken from an unrelated study. Incomplete details in older studies may not indicate problems.
+- The reviewer should look for details of the ethical approval for the study, which may be included in the study publication(s) or trial registration entry.
+- The reviewer should look for a corresponding reference number, details of the panel/board granting approval, and for the date of approval. Where an ethical approval number is available, the reviewer may wish to search for that reference number online to check that it hasn't been taken from another, unrelated study.
+- Ideally, the reviewer would check whether the panel/board granting approval exists and has the authority to grant ethical approvals, although this is likely to be difficult in most cases.
+- Reporting ethical approval details in publications became more established in recent years, and therefore incomplete details in publications of older studies may not be an indication that the study is problematic.
+- Partial reporting of these details could warrant a response of "Unclear".
+- The answer to this check should contribute to a domain-level judgement.
+
+## Example of check 2.1
+
+A trial manuscript reports that "The study was approved by XXXX University Hospital Research Ethics Committee". No approval number is provided, and there are no details about ethical approval on the trial registration page. An online search for the committee suggests that it does exist. Due to the fact that partial information is provided, the reviewer attempts to contact the committee, but receives no answer. They answer "unclear" for this check, and this response contributes to the domain-level judgement.

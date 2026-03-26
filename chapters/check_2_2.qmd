@@ -1,8 +1,15 @@
-# 2.2. Are there concerns relating to the timing or absence of study registration? <span class="badge badge-draft1">✎ Very rough draft</span>
+# 2.2. Are there concerns relating to the timing or absence of study registration?
 
 ```{r}
 #| include: false
 if(file.exists("../_setup.R")){source("../_setup.R")}
 ```
 
-Absent or retrospective registration makes it difficult to determine whether reported methods and results reflect planned work. Consider the timing relative to recruitment. Registration expectations vary by era and jurisdiction.
+- Absent or retrospective registration makes it difficult to determine whether the reported methods and results are an accurate reflection of a planned programme of work.
+- This check speaks of concerns relating to the timing of study registration rather than to the absence of "prospective" (as opposed to "retrospective") registration. If registration occurs shortly after the commencement of participant recruitment (i.e. when only a small proportion of the target sample size has been recruited) it might not strictly be "prospective", but might not warrant concerns, for example. The implications of the timing of the registration should be considered in relation to the particular details of the index study.
+- Be aware that study registration only became more established in recent years, and regulations and expectations can differ internationally.
+- The answer to this check should contribute to a domain-level judgement.
+
+## Example of check 2.2
+
+A clinical trial is registered on ClinicalTrials.gov with a registration number NCTXXXXXXXXX provided in the manuscript. Clicking on the Record History section of the record, we see that Version 1, the earliest version of the registration, was submitted on 6th July 2010. The trial manuscript states that participants were recruited between August 2008 and April 2010. Accordingly, this trial was retrospectively registered. As a result, it is impossible to know whether key features of the trial, such as sample size, outcomes, and eligibility criteria, were prospectively determined. The reviewer answers "yes" for this check, and this response contributes to the domain-level judgement.

@@ -1,17 +1,15 @@
-# 3.2. Is there evidence of manipulation or duplication of figures? <span class="badge badge-draft1">✎ Very rough draft</span>
+# 3.2. Is there evidence of manipulation or duplication of figures?
 
 ```{r}
 #| include: false
 if(file.exists("../_setup.R")){source("../_setup.R")}
 ```
 
-Examine figures for signs of manipulation or duplication (e.g., identical plots across panels of different outcomes, manually added error bars, or shifted curves).
+- The reviewer should carefully examine figures for signs of improper manipulation or duplication.
+- Known examples include duplication of plots across multiple panels of a multipanel figure, manual addition of false "error bars" to a plot, or shifting one survival curve to create a second curve.
+- The answer to this check should contribute to a domain-level judgement.
 
-Image forensics methods are beyond the scope of this website, but tools include the following:
+## Example of check 3.2
 
-- ImageTwin [URL]
-- Proofig [URL]
-- Imagetrakr [URL]
-- Forensically [URL]
-- FotoForensics [URL]
-- Ghiro [URL]
+A published manuscript included a multi-panel bar chart, including six bar charts showing a variety of outcomes measured on two study groups at several timepoints. Although the outcomes were measured on a variety of different scales (such as duration in days, distance in mm, or scores derived from clinical questionnaires), all six bar charts were identical apart from differing axes and titles. The reviewer answers "yes" for the check, and this response contributes to the domain-level judgement.
+

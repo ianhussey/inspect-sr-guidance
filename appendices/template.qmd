@@ -1,0 +1,6 @@
+# Editable template
+
+An editable Word document template for INSPECT-SR is available for download. The template mirrors the structure of this guidance, providing one page per check with space to record notes, judgements, and justifications for each item.
+
+[Download template](../files/Editable%20template%20for%20INSPECT-SR.docx){.btn .btn-primary download="Editable template for INSPECT-SR.docx"}
+

@@ -1,8 +1,18 @@
-# 2.4. Is the recruitment of participants implausible? <span class="badge badge-draft1">✎ Very rough draft</span>
+# 2.4. Is the recruitment of participants implausible?
 
 ```{r}
 #| include: false
 if(file.exists("../_setup.R")){source("../_setup.R")}
 ```
 
-Consider whether the reported cohort size could plausibly be recruited in the reported timeframe, given the study setting, condition prevalence, and available resources. Domain knowledge is required.
+- The reviewer should consider the plausibility of recruiting a cohort of the reported size in the reported timeframe, taking care not to confuse the full study duration (which includes follow-up of participants) with the recruitment period. One challenge is that it is often difficult to know which has been reported in a publication.
+- This check requires domain knowledge, for example of the prevalence of the condition under study at the time the trial was conducted and an idea of the number of cases likely to be available at the study site(s). In addition it is important to consider factors such as number of staff enrolling participants, and the time window of enrolment (e.g. during a daytime outpatient clinic 5 days a week).
+- The numbers of participants screened and consenting to participate should be considered — inspection of a CONSORT diagram is likely to be useful here.
+- Failure to achieve a target sample size should not be considered a marker of untrustworthiness; many trials struggle with recruitment and considering adequacy of study sample size is not within the scope of INSPECT-SR.
+- The answer to this check should contribute to a domain-level judgement.
+
+## Examples of check 2.4
+
+1. A randomized clinical trial investigates outcomes of endovascular repair of ruptured abdominal aortic aneurysm compared to open surgical repair in the catchment area of the authors' institution in Poland with a population of around 500,000. The recruitment period spanned from April 2010 to April 2012 (2 years), with the authors reporting a study population of 2,200 participants with ruptured abdominal aortic aneurysm. Since the incidence of ruptured abdominal aortic aneurysm is generally reported as 5.6 to 17.5 per 100,000 person-years in Western countries, the reported cohort size is judged implausible within the reported time frame, hence the reviewer answers "yes" for this check, and uses this response to inform the domain-level judgement.
+
+2. A trial reported recruitment from April 2018 to September 2020, and reported complete follow-up of all participants for 6 months. This is contradicted by submission of the manuscript to a journal in January 2021. The reviewer answers "yes" for this check, and this response contributes to the domain-level judgement.

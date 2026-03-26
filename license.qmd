@@ -1,6 +1,6 @@
-# License and citation
+# License
 
-&copy; Ian Hussey (2025)
+&copy; Jack Wilkinson (2026)
 
 Text and figures are licensed under a [Creative Commons Attribution 4.0 (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/) license.
 
