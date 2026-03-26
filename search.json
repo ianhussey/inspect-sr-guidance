@@ -24,7 +24,7 @@
     "href": "index.html#motivation-for-inspect-sr",
     "title": "INSPECT-SR Guidance",
     "section": "Motivation for INSPECT-SR",
-    "text": "Motivation for INSPECT-SR\nSystematic reviews exploring health interventions aim to include all eligible studies. This will often involve, but not always exclusively focus on, randomised controlled trials (RCTs). Systematic reviews appraise and synthesise this evidence to arrive at an overall conclusion about whether an intervention is beneficial and whether it causes harm. Problematic studies pose a threat to the evidence synthesis paradigm. These are defined by Cochrane as “any published or unpublished study where there are serious questions about the trustworthiness of the data or findings, regardless of whether the study has been formally retracted”. Studies may be problematic because they include some false data or results, or they may be entirely fabricated. Research misconduct is just one possible explanation for false data. Another possibility would be the presence of catastrophic failures in the conduct of the trial, such as miscoding of participants’ allocated treatment (e.g., inverting active intervention and placebo groups), failure to properly randomise participants, or severe errors in the analysis code. Whether they are the result of deliberate malpractice or honest error, these issues may not be immediately apparent to journal editors and peer reviewers. Consequently, problematic studies may be published, and subsequently included in systematic reviews. Studies are, of course, routinely appraised on the basis of their methodological validity during the systematic review process. However, these assessments are predicated on the lower-level assumption that the studies and the data they are based on are authentic, and also that the authors did not make any major errors during data collection, analysis or reporting. In fact, many reports of problematic studies describe sound methodology, and so are not currently flagged by critical appraisal tools.\nThis prompts the question of how we can identify problematic studies. The INSPECT-SR (INveStigating ProblEmatic Clinical Trials in Systematic Reviews) tool has been developed for this purpose, using empirical evidence and consensus methodology. The development process has been described in a protocol paper and in associated results papers. The tool can be used to assess the trustworthiness of RCTs.\n\nA note on the guidance document\nThe current version number of the INSPECT-SR guidance document is visible at the top of this page. It is anticipated that the guidance document will be continually revised in response to feedback and ongoing monitoring of use of the tool. This will include the addition of more examples to illustrate both correct and improper use of the checks. All revisions will be posted on the Open Science Framework. Reviewers of the tool may provide anonymous feedback on their experience using this survey. This feedback will be monitored by the INSPECT-SR Study Management Group, and feedback will be used to update the guidance document. However, reviewers should not expect responses to questions posted on the feedback survey.",
+    "text": "Motivation for INSPECT-SR\nSystematic reviews exploring health interventions aim to include all eligible studies. This will often involve, but not always exclusively focus on, randomised controlled trials (RCTs). Systematic reviews appraise and synthesise this evidence to arrive at an overall conclusion about whether an intervention is beneficial and whether it causes harm. Problematic studies pose a threat to the evidence synthesis paradigm. These are defined by Cochrane as “any published or unpublished study where there are serious questions about the trustworthiness of the data or findings, regardless of whether the study has been formally retracted”. Studies may be problematic because they include some false data or results, or they may be entirely fabricated. Research misconduct is just one possible explanation for false data. Another possibility would be the presence of catastrophic failures in the conduct of the trial, such as miscoding of participants’ allocated treatment (e.g., inverting active intervention and placebo groups), failure to properly randomise participants, or severe errors in the analysis code. Whether they are the result of deliberate malpractice or honest error, these issues may not be immediately apparent to journal editors and peer reviewers. Consequently, problematic studies may be published, and subsequently included in systematic reviews. Studies are, of course, routinely appraised on the basis of their methodological validity during the systematic review process. However, these assessments are predicated on the lower-level assumption that the studies and the data they are based on are authentic, and also that the authors did not make any major errors during data collection, analysis or reporting. In fact, many reports of problematic studies describe sound methodology, and so are not currently flagged by critical appraisal tools.\nThis prompts the question of how we can identify problematic studies. The INSPECT-SR (INveStigating ProblEmatic Clinical Trials in Systematic Reviews) tool has been developed for this purpose, using empirical evidence and consensus methodology. The development process has been described in a protocol paper and in associated results papers. The tool can be used to assess the trustworthiness of RCTs.\n\nA note on the guidance document\nThe current version number of the INSPECT-SR guidance document is visible at the top of this page. It is anticipated that the guidance document will be continually revised in response to feedback and ongoing monitoring of use of the tool. This will include the addition of more examples to illustrate both correct and improper use of the checks. Reviewers of the tool may provide anonymous feedback on their experience using this survey. This feedback will be monitored by the INSPECT-SR Study Management Group, and feedback will be used to update the guidance document. However, reviewers should not expect responses to questions posted on the feedback survey.",
     "crumbs": [
       "Introduction"
     ]
@@ -74,7 +74,7 @@
     "href": "index.html#resources",
     "title": "INSPECT-SR Guidance",
     "section": "Resources",
-    "text": "Resources\n\nINSPECT-SR on OSF — latest versions of the guidance document\nFeedback survey — provide anonymous feedback on your experience with the tool\nRetraction Watch database — search for retractions and post-publication notices\nPubPeer — post-publication peer review comments\nCochrane implementation guidance — templates for reporting trustworthiness concerns to journals",
+    "text": "Resources\n\nEditable template — a Word document template for recording INSPECT-SR assessments, with one page per check\nFeedback survey — provide anonymous feedback on your experience with the tool\nRetraction Watch database — search for retractions and post-publication notices\nPubPeer — post-publication peer review comments\nCochrane implementation guidance — templates for reporting trustworthiness concerns to journals",
     "crumbs": [
       "Introduction"
     ]
@@ -410,14 +410,25 @@
     ]
   },
   {
+    "objectID": "appendices/template.html",
+    "href": "appendices/template.html",
+    "title": "22  Editable template",
+    "section": "",
+    "text": "An editable Word document template for INSPECT-SR is available for download. The template mirrors the structure of this guidance, providing one page per check with space to record notes, judgements, and justifications for each item.\nDownload template",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>22</span>  <span class='chapter-title'>Editable template</span>"
+    ]
+  },
+  {
     "objectID": "license.html",
     "href": "license.html",
-    "title": "22  License",
+    "title": "23  License",
     "section": "",
     "text": "© Jack Wilkinson (2026)\nText and figures are licensed under a Creative Commons Attribution 4.0 (CC BY 4.0) license.\nCode is licensed under the MIT License.\nYou are free to copy, share, adapt, and reuse the contents of this book — text, figures, and code — for any purpose, including commercial use, provided you cite it.",
     "crumbs": [
       "Appendices",
-      "<span class='chapter-number'>22</span>  <span class='chapter-title'>License</span>"
+      "<span class='chapter-number'>23</span>  <span class='chapter-title'>License</span>"
     ]
   }
 ]
