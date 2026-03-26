@@ -1,6 +1,10 @@
 /.quarto/
 **/*.quarto_ipynb
-_book/*
+_book/chapters/*
+_book/site_libs/*
+_book/index.html
+_book/license.html
+_book/search.json
 old/*
 
 *.Rhistory
