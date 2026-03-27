@@ -167,7 +167,7 @@ format:
           .badge-draft3   { background: #fef9e7; color: #7a5c00; border: 1px solid #f5d97a; }
           .badge-complete { background: #e6f4ea; color: #1e6e3a; border: 1px solid #b7dfbe; }
           .bi-file-pdf::after { content: " PDF"; font-family: sans-serif; font-size: 0.85em; }
-          .quarto-color-scheme-toggle::after { content: " Theme"; font-family: sans-serif; font-size: 0.85em; }
+          .quarto-color-scheme-toggle::after { content: " Dark mode"; font-family: sans-serif; font-size: 0.85em; }
         </style>
   pdf:
     number-sections: false
@@ -180,8 +180,8 @@ format:
       - right=25mm
 
 language:
-  # title-block-author-plural: "Website maintainers"
-  # title-block-author-single: "Website maintainer"
+  title-block-author-plural: "Contributors"
+  title-block-author-single: "Contributor"
   title-block-published: "Version"
 
 editor: visual
