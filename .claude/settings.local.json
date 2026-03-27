@@ -10,7 +10,8 @@
       "Bash(brew link:*)",
       "Bash(gh api:*)",
       "Bash(python3 -m json.tool)",
-      "Bash(quarto render:*)"
+      "Bash(quarto render:*)",
+      "Bash(git ls-tree:*)"
     ]
   }
 }

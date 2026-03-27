@@ -4,18 +4,21 @@ project:
     - "!slides/"
     - "files/Editable template for INSPECT-SR.docx"
     - "static/favicon.ico"
+    - "CNAME"
 
 book:
-  site-url: "https://ianhussey.github.io/inspect-sr-guidance/"
+  site-url: "https://inspect.sr/"
   title: "INSPECT-SR Guidance"
   subtitle: "INveStigating ProblEmatic Clinical Trials in Systematic Reviews"
   author:
+    # tier 1 - first authors
     - name: Jack Wilkinson
       orcid: 0000-0003-3513-4677
       email: jack.wilkinson@manchester.ac.uk
     - name: Calvin Heal
       orcid: 0000-0002-6445-1551
     - name: Ella Flemyng
+    # tier 3 - alphabetical - new contributors to guidance to be added here
     - name: Georgios A. Antoniou
     - name: Tony Aburrow
     - name: Zarko Alfirevic
@@ -29,6 +32,8 @@ book:
     - name: Nicholas J. L. Brown
     - name: Jana Christopher
     - name: Mike Clarke
+    - name: Jamie Cummins
+      orcid: 0000-0002-9729-4900
     - name: Darren Dahly
       orcid: 0000-0003-0110-324X
     - name: Jane Dennis
@@ -78,12 +83,13 @@ book:
     - name: Rui Wang
     - name: Stephanie Weibel
     - name: Matthias Wjst
+    # tier 2 - senior authors
     - name: Lisa Bero
       orcid: 0000-0003-1893-6651
     - name: Jamie J. Kirkham
       orcid: 0000-0003-2579-9325
-  date: today
-  date-format: "[Version 1.0 · ]MMMM YYYY"
+  date: "2026-01-01" # ignored, date format below rendered instead
+  date-format: "[1.0]"
   favicon: static/favicon.ico
   downloads: [pdf]
   chapters:
@@ -131,6 +137,7 @@ book:
 
 format:
   html:
+    number-sections: false
     css: styles.css
     toc: true
     toc_float: true
@@ -171,6 +178,11 @@ format:
       - bottom=25mm
       - left=25mm
       - right=25mm
+
+language:
+  # title-block-author-plural: "Website maintainers"
+  # title-block-author-single: "Website maintainer"
+  title-block-published: "Version"
 
 editor: visual
 
