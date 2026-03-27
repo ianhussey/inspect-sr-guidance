@@ -20,11 +20,31 @@
     ]
   },
   {
+    "objectID": "index.html#contributors",
+    "href": "index.html#contributors",
+    "title": "INSPECT-SR Guidance",
+    "section": "Contributors",
+    "text": "Contributors\nThis site is maintained by Ian Hussey and Jack Wilkinson. If you find issues etc, you can open an issue or pull request on the GitHub repository.\nEach contributors role is listed below (e.g., contribution to the INSPECT-SR article or the guidance listed on this website).\n\n\n\n\nContributor\nArticle\nGuidance\n\n\n\n\nJack Wilkinson \n✔\n✔\n\n\nCalvin Heal \n✔\n✔\n\n\nElla Flemyng\n✔\n✔\n\n\nGeorgios A. Antoniou\n✔\n✔\n\n\nTony Aburrow\n✔\n✔\n\n\nZarko Alfirevic\n✔\n✔\n\n\nAlison Avenell \n✔\n✔\n\n\nVirginia Barbour\n✔\n✔\n\n\nVincenzo Berghella\n✔\n✔\n\n\nDorothy V. M. Bishop \n✔\n✔\n\n\nEsmée M Bordewijk\n✔\n✔\n\n\nNicholas J. L. Brown\n✔\n✔\n\n\nJana Christopher\n✔\n✔\n\n\nMike Clarke\n✔\n✔\n\n\nJamie Cummins \n\n✔\n\n\nDarren Dahly \n✔\n✔\n\n\nJane Dennis\n✔\n✔\n\n\nPatrick Dicker\n✔\n✔\n\n\nJo Dumville\n✔\n✔\n\n\nHelen Frankish\n✔\n✔\n\n\nAndrew Grey\n✔\n✔\n\n\nSteph Grohmann\n✔\n✔\n\n\nLyle C. Gurrin\n✔\n✔\n\n\nJill A. Hayden\n✔\n✔\n\n\nJames Heathers \n✔\n✔\n\n\nKylie E Hunter \n✔\n✔\n\n\nIan Hussey \n✔\n✔\n\n\nLukas Jung \n✔\n✔\n\n\nEmily Lam\n✔\n✔\n\n\nToby J. Lasserson\n✔\n✔\n\n\nSarah Lensen\n✔\n✔\n\n\nTianjing Li\n✔\n✔\n\n\nWentao Li\n✔\n✔\n\n\nJianping Liu\n✔\n✔\n\n\nElizabeth Loder\n✔\n✔\n\n\nAndreas Lundh\n✔\n✔\n\n\nGideon Meyerowitz-Katz \n✔\n✔\n\n\nBen W. Mol \n✔\n✔\n\n\nFlorian Naudet \n✔\n✔\n\n\nAnna Noel-Storr\n✔\n✔\n\n\nNeil E. O’Connell \n✔\n✔\n\n\nLisa Parker\n✔\n✔\n\n\nRita F. Redberg\n✔\n✔\n\n\nBarbara K. Redman\n✔\n✔\n\n\nRachel Richardson\n✔\n✔\n\n\nAnna Lene Seidler\n✔\n✔\n\n\nKyle Sheldrick\n✔\n✔\n\n\nEmma Sydenham\n✔\n✔\n\n\nMadelon van Wely\n✔\n✔\n\n\nColby J. Vorland\n✔\n✔\n\n\nRui Wang\n✔\n✔\n\n\nStephanie Weibel\n✔\n✔\n\n\nMatthias Wjst\n✔\n✔\n\n\nLisa Bero \n✔\n✔\n\n\nJamie J. Kirkham \n✔\n✔",
+    "crumbs": [
+      "Introduction"
+    ]
+  },
+  {
     "objectID": "index.html#motivation-for-inspect-sr",
     "href": "index.html#motivation-for-inspect-sr",
     "title": "INSPECT-SR Guidance",
     "section": "Motivation for INSPECT-SR",
-    "text": "Motivation for INSPECT-SR\nSystematic reviews exploring health interventions aim to include all eligible studies. This will often involve, but not always exclusively focus on, randomised controlled trials (RCTs). Systematic reviews appraise and synthesise this evidence to arrive at an overall conclusion about whether an intervention is beneficial and whether it causes harm. Problematic studies pose a threat to the evidence synthesis paradigm. These are defined by Cochrane as “any published or unpublished study where there are serious questions about the trustworthiness of the data or findings, regardless of whether the study has been formally retracted”. Studies may be problematic because they include some false data or results, or they may be entirely fabricated. Research misconduct is just one possible explanation for false data. Another possibility would be the presence of catastrophic failures in the conduct of the trial, such as miscoding of participants’ allocated treatment (e.g., inverting active intervention and placebo groups), failure to properly randomise participants, or severe errors in the analysis code. Whether they are the result of deliberate malpractice or honest error, these issues may not be immediately apparent to journal editors and peer reviewers. Consequently, problematic studies may be published, and subsequently included in systematic reviews. Studies are, of course, routinely appraised on the basis of their methodological validity during the systematic review process. However, these assessments are predicated on the lower-level assumption that the studies and the data they are based on are authentic, and also that the authors did not make any major errors during data collection, analysis or reporting. In fact, many reports of problematic studies describe sound methodology, and so are not currently flagged by critical appraisal tools.\nThis prompts the question of how we can identify problematic studies. The INSPECT-SR (INveStigating ProblEmatic Clinical Trials in Systematic Reviews) tool has been developed for this purpose, using empirical evidence and consensus methodology. The development process has been described in a protocol paper and in associated results papers. The tool can be used to assess the trustworthiness of RCTs.\n\nA note on the guidance document\nThe current version number of the INSPECT-SR guidance document is visible at the top of this page. It is anticipated that the guidance document will be continually revised in response to feedback and ongoing monitoring of use of the tool. This will include the addition of more examples to illustrate both correct and improper use of the checks. Reviewers of the tool may provide anonymous feedback on their experience using this survey. This feedback will be monitored by the INSPECT-SR Study Management Group, and feedback will be used to update the guidance document. However, reviewers should not expect responses to questions posted on the feedback survey.",
+    "text": "Motivation for INSPECT-SR\nSystematic reviews exploring health interventions aim to include all eligible studies. This will often involve, but not always exclusively focus on, randomised controlled trials (RCTs). Systematic reviews appraise and synthesise this evidence to arrive at an overall conclusion about whether an intervention is beneficial and whether it causes harm. Problematic studies pose a threat to the evidence synthesis paradigm. These are defined by Cochrane as “any published or unpublished study where there are serious questions about the trustworthiness of the data or findings, regardless of whether the study has been formally retracted”. Studies may be problematic because they include some false data or results, or they may be entirely fabricated. Research misconduct is just one possible explanation for false data. Another possibility would be the presence of catastrophic failures in the conduct of the trial, such as miscoding of participants’ allocated treatment (e.g., inverting active intervention and placebo groups), failure to properly randomise participants, or severe errors in the analysis code. Whether they are the result of deliberate malpractice or honest error, these issues may not be immediately apparent to journal editors and peer reviewers. Consequently, problematic studies may be published, and subsequently included in systematic reviews. Studies are, of course, routinely appraised on the basis of their methodological validity during the systematic review process. However, these assessments are predicated on the lower-level assumption that the studies and the data they are based on are authentic, and also that the authors did not make any major errors during data collection, analysis or reporting. In fact, many reports of problematic studies describe sound methodology, and so are not currently flagged by critical appraisal tools.\nThis prompts the question of how we can identify problematic studies. The INSPECT-SR (INveStigating ProblEmatic Clinical Trials in Systematic Reviews) tool has been developed for this purpose, using empirical evidence and consensus methodology. The development process has been described in a protocol paper and in associated results papers. The tool can be used to assess the trustworthiness of RCTs.",
+    "crumbs": [
+      "Introduction"
+    ]
+  },
+  {
+    "objectID": "index.html#version-and-feedback",
+    "href": "index.html#version-and-feedback",
+    "title": "INSPECT-SR Guidance",
+    "section": "Version and feedback",
+    "text": "Version and feedback\nThe current version number of the INSPECT-SR guidance document is visible at the top of this page. It is anticipated that the guidance document will be continually revised in response to feedback and ongoing monitoring of use of the tool. This will include the addition of more examples to illustrate both correct and improper use of the checks. Reviewers of the tool may provide anonymous feedback on their experience using this survey. This feedback will be monitored by the INSPECT-SR Study Management Group, and feedback will be used to update the guidance document. However, reviewers should not expect responses to questions posted on the feedback survey.",
     "crumbs": [
       "Introduction"
     ]
@@ -75,16 +95,6 @@
     "title": "INSPECT-SR Guidance",
     "section": "Resources",
     "text": "Resources\n\nEditable template — a Word document template for recording and reporting INSPECT-SR assessments\nFeedback survey — provide anonymous feedback on your experience with the tool\nRetraction Watch database — search for retractions and post-publication notices\nPubPeer — post-publication peer review comments\nCochrane implementation guidance — templates for reporting trustworthiness concerns to journals\ntrustworthy.scientific.claims — A hub for forensic meta-science tool development",
-    "crumbs": [
-      "Introduction"
-    ]
-  },
-  {
-    "objectID": "index.html#about",
-    "href": "index.html#about",
-    "title": "INSPECT-SR Guidance",
-    "section": "About",
-    "text": "About\nThis site is maintained by Ian Hussey. You can email me or open an issue or pull request on the GitHub repository if you find issues etc.",
     "crumbs": [
       "Introduction"
     ]
