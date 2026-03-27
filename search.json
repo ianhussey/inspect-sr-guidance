@@ -102,9 +102,9 @@
   {
     "objectID": "chapters/check_1_1.html",
     "href": "chapters/check_1_1.html",
-    "title": "1  1.1. Does the study have an associated retraction?",
+    "title": "1.1. Does the study have an associated retraction?",
     "section": "",
-    "text": "1.1 Example of check 1.1\nWhile assessing a clinical trial of a probiotic supplement for gestational diabetes, a systematic reviewer navigates to the journal website. The article has been replaced with a retraction notice, noting that an external statistical review had been performed on the basis of “significant concerns…about the integrity of the data” raised by a third party. The notice states “the main outcome of the external review was that the article’s conclusions are unreliable”. The reviewer answers “yes” for this check, and this is sufficient to assign a judgement of “serious concerns” for the domain and for the study.",
+    "text": "Example of check 1.1\nWhile assessing a clinical trial of a probiotic supplement for gestational diabetes, a systematic reviewer navigates to the journal website. The article has been replaced with a retraction notice, noting that an external statistical review had been performed on the basis of “significant concerns…about the integrity of the data” raised by a third party. The notice states “the main outcome of the external review was that the article’s conclusions are unreliable”. The reviewer answers “yes” for this check, and this is sufficient to assign a judgement of “serious concerns” for the domain and for the study.",
     "crumbs": [
       "Domain 1: Inspecting post-publication notices",
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>1.1. Does the study have an associated retraction?</span>"
@@ -113,9 +113,9 @@
   {
     "objectID": "chapters/check_1_2.html",
     "href": "chapters/check_1_2.html",
-    "title": "2  1.2. Does the study have an associated expression of concern or other relevant post-publication notice?",
+    "title": "1.2. Does the study have an associated expression of concern or other relevant post-publication notice?",
     "section": "",
-    "text": "2.1 Examples of check 1.2",
+    "text": "Examples of check 1.2",
     "crumbs": [
       "Domain 1: Inspecting post-publication notices",
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>1.2. Does the study have an associated expression of concern or other relevant post-publication notice?</span>"
@@ -124,7 +124,7 @@
   {
     "objectID": "chapters/check_1_2.html#examples-of-check-1.2",
     "href": "chapters/check_1_2.html#examples-of-check-1.2",
-    "title": "2  1.2. Does the study have an associated expression of concern or other relevant post-publication notice?",
+    "title": "1.2. Does the study have an associated expression of concern or other relevant post-publication notice?",
     "section": "",
     "text": "While assessing a clinical trial of a probiotic supplement for gestational diabetes, a reviewer searches for the study on https://retractiondatabase.org/ by searching on the study DOI. The index study is included in the search results, indicating that it has an associated post-publication notice, labelled as “Concerns/ Issues About data”. Navigating to the article on the journal website reveals an “Editor’s Note” reporting that the article is being investigated due to integrity concerns. The reviewer answers “yes” for this check, and this response contributes to the domain-level judgement.\nWhile assessing a clinical trial of a weight-loss drug, the reviewer identifies a critical comment on PubPeer. On reviewing the comment, the reviewer learns that the criticism relates to the dose of drug used in the study. Because this is not relevant to the assessment of the study’s trustworthiness, and because no other post-publication notices relating to the study were identified, the reviewer answers “no” for this check, and this response contributes to the domain-level judgement.",
     "crumbs": [
@@ -135,9 +135,9 @@
   {
     "objectID": "chapters/check_1_3.html",
     "href": "chapters/check_1_3.html",
-    "title": "3  1.3. Do other studies by the research team highlight causes for concern?",
+    "title": "1.3. Do other studies by the research team highlight causes for concern?",
     "section": "",
-    "text": "3.1 Examples of check 1.3",
+    "text": "Examples of check 1.3",
     "crumbs": [
       "Domain 1: Inspecting post-publication notices",
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>1.3. Do other studies by the research team highlight causes for concern?</span>"
@@ -146,7 +146,7 @@
   {
     "objectID": "chapters/check_1_3.html#examples-of-check-1.3",
     "href": "chapters/check_1_3.html#examples-of-check-1.3",
-    "title": "3  1.3. Do other studies by the research team highlight causes for concern?",
+    "title": "1.3. Do other studies by the research team highlight causes for concern?",
     "section": "",
     "text": "A reviewer performs this check on a trial of a probiotic supplement for gestational diabetes by searching for the first and last author on http://retractiondatabase.org/. The search on the last author returns a large number of notices, including numerous retractions and expressions of concern relating to concerns over data integrity. The reviewer reads some of the associated notices to ensure that they are related to data integrity concerns. The reviewer answers “yes” for this check, and this response contributes to the domain-level judgement.\nA reviewer performs this check on a trial of a dietary intervention for sleep apnea, by searching for the first and last author on http://retractiondatabase.org/. This identifies a publication describing a similar trial conducted concurrently by the author team that has been retracted. The retraction alludes to a lack of transparency on behalf of the authors but is not entirely clear about the motivation for the retraction. The reviewer answers “yes” for this check, and this response contributes to the domain-level judgement.",
     "crumbs": [
@@ -157,9 +157,9 @@
   {
     "objectID": "chapters/check_2_1.html",
     "href": "chapters/check_2_1.html",
-    "title": "4  2.1. Are there concerns relating to ethical approval?",
+    "title": "2.1. Are there concerns relating to ethical approval?",
     "section": "",
-    "text": "4.1 Example of check 2.1\nA trial manuscript reports that “The study was approved by XXXX University Hospital Research Ethics Committee”. No approval number is provided, and there are no details about ethical approval on the trial registration page. An online search for the committee suggests that it does exist. Due to the fact that partial information is provided, the reviewer attempts to contact the committee, but receives no answer. They answer “unclear” for this check, and this response contributes to the domain-level judgement.",
+    "text": "Example of check 2.1\nA trial manuscript reports that “The study was approved by XXXX University Hospital Research Ethics Committee”. No approval number is provided, and there are no details about ethical approval on the trial registration page. An online search for the committee suggests that it does exist. Due to the fact that partial information is provided, the reviewer attempts to contact the committee, but receives no answer. They answer “unclear” for this check, and this response contributes to the domain-level judgement.",
     "crumbs": [
       "Domain 2: Inspecting conduct, governance and transparency",
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>2.1. Are there concerns relating to ethical approval?</span>"
@@ -168,9 +168,9 @@
   {
     "objectID": "chapters/check_2_2.html",
     "href": "chapters/check_2_2.html",
-    "title": "5  2.2. Are there concerns relating to the timing or absence of study registration?",
+    "title": "2.2. Are there concerns relating to the timing or absence of study registration?",
     "section": "",
-    "text": "5.1 Example of check 2.2\nA clinical trial is registered on ClinicalTrials.gov with a registration number NCTXXXXXXXXX provided in the manuscript. Clicking on the Record History section of the record, we see that Version 1, the earliest version of the registration, was submitted on 6th July 2010. The trial manuscript states that participants were recruited between August 2008 and April 2010. Accordingly, this trial was retrospectively registered. As a result, it is impossible to know whether key features of the trial, such as sample size, outcomes, and eligibility criteria, were prospectively determined. The reviewer answers “yes” for this check, and this response contributes to the domain-level judgement.",
+    "text": "Example of check 2.2\nA clinical trial is registered on ClinicalTrials.gov with a registration number NCTXXXXXXXXX provided in the manuscript. Clicking on the Record History section of the record, we see that Version 1, the earliest version of the registration, was submitted on 6th July 2010. The trial manuscript states that participants were recruited between August 2008 and April 2010. Accordingly, this trial was retrospectively registered. As a result, it is impossible to know whether key features of the trial, such as sample size, outcomes, and eligibility criteria, were prospectively determined. The reviewer answers “yes” for this check, and this response contributes to the domain-level judgement.",
     "crumbs": [
       "Domain 2: Inspecting conduct, governance and transparency",
       "<span class='chapter-number'>5</span>  <span class='chapter-title'>2.2. Are there concerns relating to the timing or absence of study registration?</span>"
@@ -179,9 +179,9 @@
   {
     "objectID": "chapters/check_2_3.html",
     "href": "chapters/check_2_3.html",
-    "title": "6  2.3. Are there important inconsistencies between the publication and the registration documents?",
+    "title": "2.3. Are there important inconsistencies between the publication and the registration documents?",
     "section": "",
-    "text": "6.1 Example of check 2.3\nA clinical trial has been retrospectively registered on the Iranian Registry of Clinical Trials, with the registration number IRCTXXXXXXXXXX. Despite being retrospectively registered, examination of the revisions made to the record indicates that the description of the control group differed on the registration record compared to the published manuscript, and was amended to match the manuscript over two years after publication. In addition, the recruitment date reported in the published manuscript (April 2016 to September 2016) differs compared to the recruitment dates described on the retrospective registration record (April 2016 to May 2016). The reviewer answers “yes” for this check, and this response contributes to the domain-level judgement.",
+    "text": "Example of check 2.3\nA clinical trial has been retrospectively registered on the Iranian Registry of Clinical Trials, with the registration number IRCTXXXXXXXXXX. Despite being retrospectively registered, examination of the revisions made to the record indicates that the description of the control group differed on the registration record compared to the published manuscript, and was amended to match the manuscript over two years after publication. In addition, the recruitment date reported in the published manuscript (April 2016 to September 2016) differs compared to the recruitment dates described on the retrospective registration record (April 2016 to May 2016). The reviewer answers “yes” for this check, and this response contributes to the domain-level judgement.",
     "crumbs": [
       "Domain 2: Inspecting conduct, governance and transparency",
       "<span class='chapter-number'>6</span>  <span class='chapter-title'>2.3. Are there important inconsistencies between the publication and the registration documents?</span>"
@@ -190,9 +190,9 @@
   {
     "objectID": "chapters/check_2_4.html",
     "href": "chapters/check_2_4.html",
-    "title": "7  2.4. Is the recruitment of participants implausible?",
+    "title": "2.4. Is the recruitment of participants implausible?",
     "section": "",
-    "text": "7.1 Examples of check 2.4",
+    "text": "Examples of check 2.4",
     "crumbs": [
       "Domain 2: Inspecting conduct, governance and transparency",
       "<span class='chapter-number'>7</span>  <span class='chapter-title'>2.4. Is the recruitment of participants implausible?</span>"
@@ -201,7 +201,7 @@
   {
     "objectID": "chapters/check_2_4.html#examples-of-check-2.4",
     "href": "chapters/check_2_4.html#examples-of-check-2.4",
-    "title": "7  2.4. Is the recruitment of participants implausible?",
+    "title": "2.4. Is the recruitment of participants implausible?",
     "section": "",
     "text": "A randomized clinical trial investigates outcomes of endovascular repair of ruptured abdominal aortic aneurysm compared to open surgical repair in the catchment area of the authors’ institution in Poland with a population of around 500,000. The recruitment period spanned from April 2010 to April 2012 (2 years), with the authors reporting a study population of 2,200 participants with ruptured abdominal aortic aneurysm. Since the incidence of ruptured abdominal aortic aneurysm is generally reported as 5.6 to 17.5 per 100,000 person-years in Western countries, the reported cohort size is judged implausible within the reported time frame, hence the reviewer answers “yes” for this check, and uses this response to inform the domain-level judgement.\nA trial reported recruitment from April 2018 to September 2020, and reported complete follow-up of all participants for 6 months. This is contradicted by submission of the manuscript to a journal in January 2021. The reviewer answers “yes” for this check, and this response contributes to the domain-level judgement.",
     "crumbs": [
@@ -212,9 +212,9 @@
   {
     "objectID": "chapters/check_2_5.html",
     "href": "chapters/check_2_5.html",
-    "title": "8  2.5. Are there concerns about the plausibility of conducting the study using the reported methods and resources?",
+    "title": "2.5. Are there concerns about the plausibility of conducting the study using the reported methods and resources?",
     "section": "",
-    "text": "8.1 Examples of check 2.5",
+    "text": "Examples of check 2.5",
     "crumbs": [
       "Domain 2: Inspecting conduct, governance and transparency",
       "<span class='chapter-number'>8</span>  <span class='chapter-title'>2.5. Are there concerns about the plausibility of conducting the study using the reported methods and resources?</span>"
@@ -223,7 +223,7 @@
   {
     "objectID": "chapters/check_2_5.html#examples-of-check-2.5",
     "href": "chapters/check_2_5.html#examples-of-check-2.5",
-    "title": "8  2.5. Are there concerns about the plausibility of conducting the study using the reported methods and resources?",
+    "title": "2.5. Are there concerns about the plausibility of conducting the study using the reported methods and resources?",
     "section": "",
     "text": "A single-centre trial of people with moderate cognitive impairment reports the use of monthly MRI scans and blood tests for one year to monitor their progress and the reimbursement of patients for their travel time. The trial recruited 312 participants over 18 months but reports that no funding was received for the trial. The reviewer regards both the number of MRI scans and the reimbursement of participants for more than 3700 visits to be implausible in these circumstances and answers “yes” for this check, and this response contributes to the domain-level judgement.\nThe trial investigates quality of life, measured using the Short Form-36 (SF-36) and Vascular Quality of Life questionnaire (VascuQoL), of patients with symptomatic peripheral arterial disease in the lower limbs with supervised exercise compared to endovascular treatment (balloon angioplasty or stenting). The study was conducted over a 6-month period by one researcher who was blinded to the intervention arm across 10 research institutions, and the authors state the questionnaires were delivered and completed in person by the researcher. The authors also state that supervised exercise programmes are not government funded and failed to report funding sources for the conduct of the study. The reviewer judges that it would be impractical for a single researcher to conduct the study at 10 different sites and that without any financial support, conduct of the study in the reported settings would be implausible, and therefore answers “yes” for this check, and this response contributes to the domain-level judgement.",
     "crumbs": [
@@ -234,9 +234,9 @@
   {
     "objectID": "chapters/check_3_1.html",
     "href": "chapters/check_3_1.html",
-    "title": "9  3.1. Are there concerns relating to duplicated content, such as text or tables, or text that is incompatible with the study?",
+    "title": "3.1. Are there concerns relating to duplicated content, such as text or tables, or text that is incompatible with the study?",
     "section": "",
-    "text": "9.1 Example of check 3.1\nA trial of laparoscopic drilling contained an identical results table to an earlier trial with authors from the same university. The reviewer was able to identify this apparent duplication as both trials were eligible for inclusion in the same systematic review. The reviewer answers “yes” for this check, and this response contributes to the domain-level judgement.",
+    "text": "Example of check 3.1\nA trial of laparoscopic drilling contained an identical results table to an earlier trial with authors from the same university. The reviewer was able to identify this apparent duplication as both trials were eligible for inclusion in the same systematic review. The reviewer answers “yes” for this check, and this response contributes to the domain-level judgement.",
     "crumbs": [
       "Domain 3: Inspecting text and figures",
       "<span class='chapter-number'>9</span>  <span class='chapter-title'>3.1. Are there concerns relating to duplicated content, such as text or tables, or text that is incompatible with the study?</span>"
@@ -245,9 +245,9 @@
   {
     "objectID": "chapters/check_3_2.html",
     "href": "chapters/check_3_2.html",
-    "title": "10  3.2. Is there evidence of manipulation or duplication of figures?",
+    "title": "3.2. Is there evidence of manipulation or duplication of figures?",
     "section": "",
-    "text": "10.1 Example of check 3.2\nA published manuscript included a multi-panel bar chart, including six bar charts showing a variety of outcomes measured on two study groups at several timepoints. Although the outcomes were measured on a variety of different scales (such as duration in days, distance in mm, or scores derived from clinical questionnaires), all six bar charts were identical apart from differing axes and titles. The reviewer answers “yes” for the check, and this response contributes to the domain-level judgement.",
+    "text": "Example of check 3.2\nA published manuscript included a multi-panel bar chart, including six bar charts showing a variety of outcomes measured on two study groups at several timepoints. Although the outcomes were measured on a variety of different scales (such as duration in days, distance in mm, or scores derived from clinical questionnaires), all six bar charts were identical apart from differing axes and titles. The reviewer answers “yes” for the check, and this response contributes to the domain-level judgement.",
     "crumbs": [
       "Domain 3: Inspecting text and figures",
       "<span class='chapter-number'>10</span>  <span class='chapter-title'>3.2. Is there evidence of manipulation or duplication of figures?</span>"
@@ -256,9 +256,9 @@
   {
     "objectID": "chapters/check_4_1.html",
     "href": "chapters/check_4_1.html",
-    "title": "11  4.1. Are there any unexplained discrepancies between reported data and participant eligibility criteria?",
+    "title": "4.1. Are there any unexplained discrepancies between reported data and participant eligibility criteria?",
     "section": "",
-    "text": "11.1 Example of check 4.1\nA trial was conducted in postmenopausal women. In the published manuscript, sex was listed in the table of baseline characteristics, and there was a substantial portion of the participants in both study arms who were described as male sex, which does not appear to be consistent with the eligibility criteria. The reviewer answers “yes” for the check, and this response contributes to the domain-level judgement.",
+    "text": "Example of check 4.1\nA trial was conducted in postmenopausal women. In the published manuscript, sex was listed in the table of baseline characteristics, and there was a substantial portion of the participants in both study arms who were described as male sex, which does not appear to be consistent with the eligibility criteria. The reviewer answers “yes” for the check, and this response contributes to the domain-level judgement.",
     "crumbs": [
       "Domain 4: Inspecting results in the study",
       "<span class='chapter-number'>11</span>  <span class='chapter-title'>4.1. Are there any unexplained discrepancies between reported data and participant eligibility criteria?</span>"
@@ -267,9 +267,9 @@
   {
     "objectID": "chapters/check_4_2.html",
     "href": "chapters/check_4_2.html",
-    "title": "12  4.2. Are numbers of participants allocated to each group implausible given the allocation method?",
+    "title": "4.2. Are numbers of participants allocated to each group implausible given the allocation method?",
     "section": "",
-    "text": "12.1 Example of check 4.2\nA trial manuscript reported that participants had been allocated in a single centre using blocked randomisation, with a fixed block size of 4 and no stratification. The manuscript reported an imbalance in the number of participants allocated to each arm, with 5 more participants being allocated to the control arm compared to the intervention arm. This is not consistent with the reported method of allocation, because the largest imbalance in group sizes at baseline using a fixed block size of 4 would be half the block size, which is 2. The reviewer answers “yes” for the check, and this response contributes to the domain-level judgement.",
+    "text": "Example of check 4.2\nA trial manuscript reported that participants had been allocated in a single centre using blocked randomisation, with a fixed block size of 4 and no stratification. The manuscript reported an imbalance in the number of participants allocated to each arm, with 5 more participants being allocated to the control arm compared to the intervention arm. This is not consistent with the reported method of allocation, because the largest imbalance in group sizes at baseline using a fixed block size of 4 would be half the block size, which is 2. The reviewer answers “yes” for the check, and this response contributes to the domain-level judgement.",
     "crumbs": [
       "Domain 4: Inspecting results in the study",
       "<span class='chapter-number'>12</span>  <span class='chapter-title'>4.2. Are numbers of participants allocated to each group implausible given the allocation method?</span>"
@@ -278,9 +278,9 @@
   {
     "objectID": "chapters/check_4_3.html",
     "href": "chapters/check_4_3.html",
-    "title": "13  4.3. Are any baseline data implausible?",
+    "title": "4.3. Are any baseline data implausible?",
     "section": "",
-    "text": "13.1 Example of check 4.3\nA baseline table contains identical values for means, SDs or range limits for both study groups for nine of 11 reported baseline characteristics, reported to two decimal places. The reviewer judges that this is unlikely to be explained by the method of allocation used in the study (which was simple randomisation) and answers “yes” for this check, and this response contributes to the domain-level judgement.",
+    "text": "Example of check 4.3\nA baseline table contains identical values for means, SDs or range limits for both study groups for nine of 11 reported baseline characteristics, reported to two decimal places. The reviewer judges that this is unlikely to be explained by the method of allocation used in the study (which was simple randomisation) and answers “yes” for this check, and this response contributes to the domain-level judgement.",
     "crumbs": [
       "Domain 4: Inspecting results in the study",
       "<span class='chapter-number'>13</span>  <span class='chapter-title'>4.3. Are any baseline data implausible?</span>"
@@ -289,9 +289,9 @@
   {
     "objectID": "chapters/check_4_4.html",
     "href": "chapters/check_4_4.html",
-    "title": "14  4.4. Are there any discrepancies between results reported in figures, tables, and text?",
+    "title": "4.4. Are there any discrepancies between results reported in figures, tables, and text?",
     "section": "",
-    "text": "14.1 Example of check 4.4\nMean outcome values are displayed using a bar chart in a published trial. The values shown in the bar chart are clearly not consistent with the corresponding values reported in the text. The reviewer answers “yes” for this check, and this response contributes to the domain-level judgement.",
+    "text": "Example of check 4.4\nMean outcome values are displayed using a bar chart in a published trial. The values shown in the bar chart are clearly not consistent with the corresponding values reported in the text. The reviewer answers “yes” for this check, and this response contributes to the domain-level judgement.",
     "crumbs": [
       "Domain 4: Inspecting results in the study",
       "<span class='chapter-number'>14</span>  <span class='chapter-title'>4.4. Are there any discrepancies between results reported in figures, tables, and text?</span>"
@@ -300,9 +300,9 @@
   {
     "objectID": "chapters/check_4_5.html",
     "href": "chapters/check_4_5.html",
-    "title": "15  4.5. Are the numbers of participants lost to follow-up implausible?",
+    "title": "4.5. Are the numbers of participants lost to follow-up implausible?",
     "section": "",
-    "text": "15.1 Example of check 4.5\nIn a large multicentre trial of psychotherapy versus usual care for people with long-term depression, participants must attend the trial site every three months over an 18-month period to have their outcomes assessed. The trial manuscript reports that there was no loss to follow-up (all 524 participants at all study sites were retained in the study until the end of follow-up). The reviewer judges this to be very unusual for trials conducted in this population, where attrition rates are typically high even in trials with shorter follow-up durations. The reviewer answers “yes” for this check, and this response contributes to the domain-level judgement.",
+    "text": "Example of check 4.5\nIn a large multicentre trial of psychotherapy versus usual care for people with long-term depression, participants must attend the trial site every three months over an 18-month period to have their outcomes assessed. The trial manuscript reports that there was no loss to follow-up (all 524 participants at all study sites were retained in the study until the end of follow-up). The reviewer judges this to be very unusual for trials conducted in this population, where attrition rates are typically high even in trials with shorter follow-up durations. The reviewer answers “yes” for this check, and this response contributes to the domain-level judgement.",
     "crumbs": [
       "Domain 4: Inspecting results in the study",
       "<span class='chapter-number'>15</span>  <span class='chapter-title'>4.5. Are the numbers of participants lost to follow-up implausible?</span>"
@@ -311,9 +311,9 @@
   {
     "objectID": "chapters/check_4_6.html",
     "href": "chapters/check_4_6.html",
-    "title": "16  4.6. Are there any unexplained inconsistencies in the numbers of participants?",
+    "title": "4.6. Are there any unexplained inconsistencies in the numbers of participants?",
     "section": "",
-    "text": "16.1 Examples of check 4.6",
+    "text": "Examples of check 4.6",
     "crumbs": [
       "Domain 4: Inspecting results in the study",
       "<span class='chapter-number'>16</span>  <span class='chapter-title'>4.6. Are there any unexplained inconsistencies in the numbers of participants?</span>"
@@ -322,7 +322,7 @@
   {
     "objectID": "chapters/check_4_6.html#examples-of-check-4.6",
     "href": "chapters/check_4_6.html#examples-of-check-4.6",
-    "title": "16  4.6. Are there any unexplained inconsistencies in the numbers of participants?",
+    "title": "4.6. Are there any unexplained inconsistencies in the numbers of participants?",
     "section": "",
     "text": "A manuscript reports that 100 participants were randomly allocated to treatment or control. This is reported in the text and in the table of baseline characteristics, where frequencies for (exhaustive) categorical variables sum to 100 participants. However, the text and results tables include outcome data for more than 150 participants. Noting the discrepancy, the reviewer answers “yes” for this check, and this response contributes to the domain-level judgement.\nA manuscript presents a sample size calculation suggesting that 40 participants were to be recruited. The results section of the manuscript describes results for more than twice as many participants as this, with no explanation for the discrepancy. The reviewer answers “yes” for this check, and this response contributes to the domain-level judgement.",
     "crumbs": [
@@ -333,9 +333,9 @@
   {
     "objectID": "chapters/check_4_7.html",
     "href": "chapters/check_4_7.html",
-    "title": "17  4.7. Are any outcome data, including estimated treatment effects, implausible?",
+    "title": "4.7. Are any outcome data, including estimated treatment effects, implausible?",
     "section": "",
-    "text": "17.1 Examples of check 4.7",
+    "text": "Examples of check 4.7",
     "crumbs": [
       "Domain 4: Inspecting results in the study",
       "<span class='chapter-number'>17</span>  <span class='chapter-title'>4.7. Are any outcome data, including estimated treatment effects, implausible?</span>"
@@ -344,7 +344,7 @@
   {
     "objectID": "chapters/check_4_7.html#examples-of-check-4.7",
     "href": "chapters/check_4_7.html#examples-of-check-4.7",
-    "title": "17  4.7. Are any outcome data, including estimated treatment effects, implausible?",
+    "title": "4.7. Are any outcome data, including estimated treatment effects, implausible?",
     "section": "",
     "text": "A meta-analysis contains two trials from the same author team. The reviewer notices that the point estimates corresponding to the treatment effects in the two trials are identical. The reviewer compares results for several of the other outcome measures between the two trials and notices that the point estimates are identical, or nearly identical, for all of them. The reviewer judges this to be implausible and answers “yes” for this check, and this response contributes to the domain-level judgement.\nA meta-analysis contains three trials from the same author team. The results from these three trials are highly divergent from those from ten other trials in the meta-analysis. There is more than a 6-fold difference between the lowest of the lower confidence limits of the three studies compared to the upper confidence limit observed after pooling the remaining ten trials. The reviewer judges this to be implausible and answers “yes” for this check, and this response contributes to the domain-level judgement.",
     "crumbs": [
@@ -355,9 +355,9 @@
   {
     "objectID": "chapters/check_4_8.html",
     "href": "chapters/check_4_8.html",
-    "title": "18  4.8. Are the means and variances of integer data impossible?",
+    "title": "4.8. Are the means and variances of integer data impossible?",
     "section": "",
-    "text": "18.1 Example of check 4.8\nA trial manuscript reports the health of newborn infants using the Apgar score at 1 and 5 minutes. This outcome measure can only take integer values, with a score from 0 to 10. Applying GRIM and GRIMMER, the reviewer concludes that two of the reported mean values (8.96 and 9.96) are not compatible with the reported group size (30 participants), nor is the combination of a mean of 9.93 and a standard deviation of 0.18. The reviewer therefore answers “yes” to this question, since several impossible combinations of sample size and mean or standard deviation have been identified. This response contributes to the domain-level judgement.",
+    "text": "Example of check 4.8\nA trial manuscript reports the health of newborn infants using the Apgar score at 1 and 5 minutes. This outcome measure can only take integer values, with a score from 0 to 10. Applying GRIM and GRIMMER, the reviewer concludes that two of the reported mean values (8.96 and 9.96) are not compatible with the reported group size (30 participants), nor is the combination of a mean of 9.93 and a standard deviation of 0.18. The reviewer therefore answers “yes” to this question, since several impossible combinations of sample size and mean or standard deviation have been identified. This response contributes to the domain-level judgement.",
     "crumbs": [
       "Domain 4: Inspecting results in the study",
       "<span class='chapter-number'>18</span>  <span class='chapter-title'>4.8. Are the means and variances of integer data impossible?</span>"
@@ -366,9 +366,9 @@
   {
     "objectID": "chapters/check_4_8.html#tools-for-this-check",
     "href": "chapters/check_4_8.html#tools-for-this-check",
-    "title": "18  4.8. Are the means and variances of integer data impossible?",
-    "section": "18.2 Tools for this check",
-    "text": "18.2 Tools for this check\n\nscrutiny web app — R package implementing GRIM and GRIMMER tests, with a convenient interface for checking multiple values at once\nNick Brown’s GRIM calculator — online GRIM checker\nPrePubMed GRIMMER — online GRIMMER checker",
+    "title": "4.8. Are the means and variances of integer data impossible?",
+    "section": "Tools for this check",
+    "text": "Tools for this check\n\nscrutiny web app — R package implementing GRIM and GRIMMER tests, with a convenient interface for checking multiple values at once\nNick Brown’s GRIM calculator — online GRIM checker\nPrePubMed GRIMMER — online GRIMMER checker",
     "crumbs": [
       "Domain 4: Inspecting results in the study",
       "<span class='chapter-number'>18</span>  <span class='chapter-title'>4.8. Are the means and variances of integer data impossible?</span>"
@@ -377,9 +377,9 @@
   {
     "objectID": "chapters/check_4_9.html",
     "href": "chapters/check_4_9.html",
-    "title": "19  4.9. Are there errors in statistical results?",
+    "title": "4.9. Are there errors in statistical results?",
     "section": "",
-    "text": "19.1 Examples of check 4.9",
+    "text": "Examples of check 4.9",
     "crumbs": [
       "Domain 4: Inspecting results in the study",
       "<span class='chapter-number'>19</span>  <span class='chapter-title'>4.9. Are there errors in statistical results?</span>"
@@ -388,7 +388,7 @@
   {
     "objectID": "chapters/check_4_9.html#examples-of-check-4.9",
     "href": "chapters/check_4_9.html#examples-of-check-4.9",
-    "title": "19  4.9. Are there errors in statistical results?",
+    "title": "4.9. Are there errors in statistical results?",
     "section": "",
     "text": "A manuscript reports results of a t-test for two groups of 30 participants. In group 1, there is a reported mean of 20 and a standard deviation of 4. In group 2, there is a reported mean of 21 and a standard deviation of 2. The p-value is reported as p=0.02. If we try to reproduce the result using the summary data, we get a p-value of p=0.23, which may appear to contradict the reported result. However, the reported summary data is rounded. We can find the smallest p-value that would be consistent with the reported data by using values that would be rounded to those reported in the paper, while making the difference in means as large as possible and the standard deviations as small as possible. In this case, the actual group means could be 19.5 and 21.449, and the standard deviations 3.5 and 1.5. The p-value in this case would be 0.006, which is clearly smaller than the reported value. The summary data are therefore consistent with the reported p-value. If we wanted to see how large the p-value could be while remaining consistent with the summary data, we would make the means as similar as possible and the standard deviations as large as possible, while ensuring that the values would round to the reported summary data. In this example, the reviewer should answer “no” if they do not identify any errors in statistical results elsewhere.\nA manuscript reports “sex” as a binary baseline characteristic in Table 1, showing the frequencies of male and female participants in each of the two study groups. This is a 2×2 table, and a chi-squared test could be performed if we wanted to make a comparison between the study groups. This would result in a single p-value. However, in the manuscript, two different p-values are presented; one for male participants and one for female participants. This does not make sense. Moreover, the reviewer performs a chi-squared test, in addition to several plausible alternative tests, and neither of the reported p-values match any of the p-values obtained from these checks. The reviewer answers “yes” for this check, and this response contributes to the domain-level judgement.",
     "crumbs": [
@@ -399,9 +399,9 @@
   {
     "objectID": "chapters/check_4_9.html#tools-for-this-check",
     "href": "chapters/check_4_9.html#tools-for-this-check",
-    "title": "19  4.9. Are there errors in statistical results?",
-    "section": "19.2 Tools for this check",
-    "text": "19.2 Tools for this check\n\nGraphPad t-test calculator — online t-test calculator\nOpenEpi — open source epidemiologic statistics",
+    "title": "4.9. Are there errors in statistical results?",
+    "section": "Tools for this check",
+    "text": "Tools for this check\n\nGraphPad t-test calculator — online t-test calculator\nOpenEpi — open source epidemiologic statistics",
     "crumbs": [
       "Domain 4: Inspecting results in the study",
       "<span class='chapter-number'>19</span>  <span class='chapter-title'>4.9. Are there errors in statistical results?</span>"
@@ -410,9 +410,9 @@
   {
     "objectID": "chapters/check_4_10.html",
     "href": "chapters/check_4_10.html",
-    "title": "20  4.10. Are any other contradictions implied by the data?",
+    "title": "4.10. Are any other contradictions implied by the data?",
     "section": "",
-    "text": "20.1 Example of check 4.10\nA manuscript reports a mean quality of life score for the intervention group overall, and also separately for participants aged 65 or over, or under 65. There are 41 participants in the intervention group overall, with 30 of these being aged less than 65 years and 11 being 65 years or older. The overall mean score is reported as 7.3. The mean score for the 30 participants younger than 65 is reported as 6.2, and the mean score for the 11 participants aged 65 years or older is 7.4. We may attempt to reproduce the overall mean score from the subgroup-specific means, by calculating (6.2×30 + 7.4×11) / 41 = 6.52, which is smaller than the reported value of 7.3. We must confirm that the discrepancy cannot be explained by rounding, by considering the values for the subgroup means that would make the recalculated value as large as possible (e.g. by setting the subgroup means to 6.2499 and 7.499 and recalculating the overall value). This returns a value of 6.57, which is clearly not compatible with the reported value of 7.3, even if the latter value has been rounded up. The reviewer records a response of “yes” for this check, and this response contributes to the domain-level judgement.",
+    "text": "Example of check 4.10\nA manuscript reports a mean quality of life score for the intervention group overall, and also separately for participants aged 65 or over, or under 65. There are 41 participants in the intervention group overall, with 30 of these being aged less than 65 years and 11 being 65 years or older. The overall mean score is reported as 7.3. The mean score for the 30 participants younger than 65 is reported as 6.2, and the mean score for the 11 participants aged 65 years or older is 7.4. We may attempt to reproduce the overall mean score from the subgroup-specific means, by calculating (6.2×30 + 7.4×11) / 41 = 6.52, which is smaller than the reported value of 7.3. We must confirm that the discrepancy cannot be explained by rounding, by considering the values for the subgroup means that would make the recalculated value as large as possible (e.g. by setting the subgroup means to 6.2499 and 7.499 and recalculating the overall value). This returns a value of 6.57, which is clearly not compatible with the reported value of 7.3, even if the latter value has been rounded up. The reviewer records a response of “yes” for this check, and this response contributes to the domain-level judgement.",
     "crumbs": [
       "Domain 4: Inspecting results in the study",
       "<span class='chapter-number'>20</span>  <span class='chapter-title'>4.10. Are any other contradictions implied by the data?</span>"
@@ -421,9 +421,9 @@
   {
     "objectID": "chapters/check_4_11.html",
     "href": "chapters/check_4_11.html",
-    "title": "21  4.11. Are there inconsistencies in descriptions of methods and results across publications describing the study?",
+    "title": "4.11. Are there inconsistencies in descriptions of methods and results across publications describing the study?",
     "section": "",
-    "text": "21.1 Example of check 4.11\nA reviewer compares a published trial manuscript to a conference abstract reporting the completed trial. The description of the study methods, including eligibility criteria and study dates, are consistent between the manuscript and abstract. However, the sample size reported in the manuscript is considerably larger than that reported in the conference abstract. No explanation for this discrepancy is included in the manuscript. In light of the unexplained discrepancy, the reviewer answers “yes” for this check, and this response contributes to the domain-level judgement.",
+    "text": "Example of check 4.11\nA reviewer compares a published trial manuscript to a conference abstract reporting the completed trial. The description of the study methods, including eligibility criteria and study dates, are consistent between the manuscript and abstract. However, the sample size reported in the manuscript is considerably larger than that reported in the conference abstract. No explanation for this discrepancy is included in the manuscript. In light of the unexplained discrepancy, the reviewer answers “yes” for this check, and this response contributes to the domain-level judgement.",
     "crumbs": [
       "Domain 4: Inspecting results in the study",
       "<span class='chapter-number'>21</span>  <span class='chapter-title'>4.11. Are there inconsistencies in descriptions of methods and results across publications describing the study?</span>"
@@ -432,7 +432,7 @@
   {
     "objectID": "appendices/template.html",
     "href": "appendices/template.html",
-    "title": "22  Editable template",
+    "title": "Editable template",
     "section": "",
     "text": "An editable Word document template for INSPECT-SR is available for download. The template mirrors the structure of this guidance, providing one page per check with space to record notes, judgements, and justifications for each item.\nDownload template",
     "crumbs": [
@@ -443,7 +443,7 @@
   {
     "objectID": "license.html",
     "href": "license.html",
-    "title": "23  License",
+    "title": "License",
     "section": "",
     "text": "© Jack Wilkinson (2026)\nText and figures are licensed under a Creative Commons Attribution 4.0 (CC BY 4.0) license.\nCode is licensed under the MIT License.\nYou are free to copy, share, adapt, and reuse the contents of this book — text, figures, and code — for any purpose, including commercial use, provided you cite it.",
     "crumbs": [

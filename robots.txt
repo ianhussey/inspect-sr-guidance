@@ -1,1 +1,1 @@
-Sitemap: https://ianhussey.github.io/inspect-sr-guidance/sitemap.xml
+Sitemap: https://inspect.sr/sitemap.xml
