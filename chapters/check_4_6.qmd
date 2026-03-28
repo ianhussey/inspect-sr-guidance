@@ -5,15 +5,22 @@
 if(file.exists("../_setup.R")){source("../_setup.R")}
 ```
 
-- The reviewer should check for unexplained inconsistencies in numbers of participants reported in different parts of the manuscript.
-- Care should be taken not to regard as "unexplained" differences due to legitimate reasons such as loss to follow-up or exclusion of participants due to non-adherence.
-- Checking the CONSORT diagram is recommended when undertaking this check.
-- Large unexplained discrepancies with the planned sample size should be noted.
-- The answer to this check should contribute to a domain-level judgement.
+The reviewer should check for unexplained inconsistencies in numbers of participants reported in different parts of the manuscript.
 
-## Examples of check 4.6
+Care should be taken not to regard as "unexplained" differences due to legitimate reasons such as loss to follow-up or exclusion of participants due to non-adherence.
 
-1. A manuscript reports that 100 participants were randomly allocated to treatment or control. This is reported in the text and in the table of baseline characteristics, where frequencies for (exhaustive) categorical variables sum to 100 participants. However, the text and results tables include outcome data for more than 150 participants. Noting the discrepancy, the reviewer answers "yes" for this check, and this response contributes to the domain-level judgement.
+Checking the CONSORT diagram is recommended when undertaking this check.
 
-2. A manuscript presents a sample size calculation suggesting that 40 participants were to be recruited. The results section of the manuscript describes results for more than twice as many participants as this, with no explanation for the discrepancy. The reviewer answers "yes" for this check, and this response contributes to the domain-level judgement.
+Large unexplained discrepancies with the planned sample size should be noted.
 
+The answer to this check should contribute to a domain-level judgement.
+
+## Examples
+
+::: {.callout-note title = "Example 1"}
+A manuscript reports that 100 participants were randomly allocated to treatment or control. This is reported in the text and in the table of baseline characteristics, where frequencies for (exhaustive) categorical variables sum to 100 participants. However, the text and results tables include outcome data for more than 150 participants. Noting the discrepancy, the reviewer answers "yes" for this check, and this response contributes to the domain-level judgement.
+:::
+
+::: {.callout-note title = "Example 2"}
+A manuscript presents a sample size calculation suggesting that 40 participants were to be recruited. The results section of the manuscript describes results for more than twice as many participants as this, with no explanation for the discrepancy. The reviewer answers "yes" for this check, and this response contributes to the domain-level judgement.
+:::

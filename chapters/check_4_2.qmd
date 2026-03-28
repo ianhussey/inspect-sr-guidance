@@ -5,13 +5,20 @@
 if(file.exists("../_setup.R")){source("../_setup.R")}
 ```
 
-- The reviewer should check whether the numbers of participants allocated to each group are plausible using the stated method of allocation.
-- Simple randomisation usually results in unequal participant numbers allocated to study arms, although it is possible for equal allocation to occur.
-- An observed imbalance might be incompatible with the stated method of allocation. For example, in a two-arm trial conducted in a single centre, if blocked randomisation has been implemented with a fixed block size and no stratification, it is not possible for an imbalance to occur that exceeds half the block size.
-- The reviewer should be mindful of the possibility that the trial authors have described the allocation method incorrectly.
-- A basic understanding of randomisation methods is necessary to perform this check.
-- The answer to this check should contribute to a domain-level judgement.
+The reviewer should check whether the numbers of participants allocated to each group are plausible using the stated method of allocation.
 
-## Example of check 4.2
+Simple randomisation usually results in unequal participant numbers allocated to study arms, although it is possible for equal allocation to occur.
 
+An observed imbalance might be incompatible with the stated method of allocation. For example, in a two-arm trial conducted in a single centre, if blocked randomisation has been implemented with a fixed block size and no stratification, it is not possible for an imbalance to occur that exceeds half the block size.
+
+The reviewer should be mindful of the possibility that the trial authors have described the allocation method incorrectly.
+
+A basic understanding of randomisation methods is necessary to perform this check.
+
+The answer to this check should contribute to a domain-level judgement.
+
+## Example
+
+::: {.callout-note title = "Example 1"}
 A trial manuscript reported that participants had been allocated in a single centre using blocked randomisation, with a fixed block size of 4 and no stratification. The manuscript reported an imbalance in the number of participants allocated to each arm, with 5 more participants being allocated to the control arm compared to the intervention arm. This is not consistent with the reported method of allocation, because the largest imbalance in group sizes at baseline using a fixed block size of 4 would be half the block size, which is 2. The reviewer answers "yes" for the check, and this response contributes to the domain-level judgement.
+:::

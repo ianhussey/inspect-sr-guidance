@@ -5,19 +5,29 @@
 if(file.exists("../_setup.R")){source("../_setup.R")}
 ```
 
-- This check only applies to variables that can only take integer values (e.g. 1, 2, 3, 4, …).
-- For these variables, only certain values of the mean and standard deviation are possible for a given sample size.
-- Consistency of reported means and standard deviations for a given sample size may be assessed using the GRIM and GRIMMER techniques.
-- Online implementations of these checks are available at [http://nickbrown.fr/GRIM](http://nickbrown.fr/GRIM) (GRIM only), [http://www.prepubmed.org/grimmer/](http://www.prepubmed.org/grimmer/), and [https://errors.shinyapps.io/scrutiny/](https://errors.shinyapps.io/scrutiny/). The last of these offers a convenient interface for checking several sets of summary values at once.
-- Percentages can be tested using GRIM (but not GRIMMER) if the sums were derived from integer data, such as the number of patients in a group.
-- Measures of time, such as age in years or disease duration in months, may be subjected to GRIM/GRIMMER assessment only if recorded in whole units (e.g. years or months).
-- The reviewer should be mindful of the possibility that inconsistencies may be explained by missing data resulting in a reduced number of participants (for example). This may nonetheless be problematic if the intent is to use the inconsistent result in the review, or if inconsistencies are sufficient in number to lead to doubt about the accuracy of results in the study in general.
-- Consultation with a statistician may be useful to verify judgement.
-- The answer to this check should contribute to a domain-level judgement.
+This check only applies to variables that can only take integer values (e.g. 1, 2, 3, 4, …).
 
-## Example of check 4.8
+For these variables, only certain values of the mean and standard deviation are possible for a given sample size.
 
+Consistency of reported means and standard deviations for a given sample size may be assessed using the GRIM and GRIMMER techniques.
+
+Online implementations of these checks are available at [http://nickbrown.fr/GRIM](http://nickbrown.fr/GRIM) (GRIM only), [http://www.prepubmed.org/grimmer/](http://www.prepubmed.org/grimmer/), and [https://errors.shinyapps.io/scrutiny/](https://errors.shinyapps.io/scrutiny/). The last of these offers a convenient interface for checking several sets of summary values at once.
+
+Percentages can be tested using GRIM (but not GRIMMER) if the sums were derived from integer data, such as the number of patients in a group.
+
+Measures of time, such as age in years or disease duration in months, may be subjected to GRIM/GRIMMER assessment only if recorded in whole units (e.g. years or months).
+
+The reviewer should be mindful of the possibility that inconsistencies may be explained by missing data resulting in a reduced number of participants (for example). This may nonetheless be problematic if the intent is to use the inconsistent result in the review, or if inconsistencies are sufficient in number to lead to doubt about the accuracy of results in the study in general.
+
+Consultation with a statistician may be useful to verify judgement.
+
+The answer to this check should contribute to a domain-level judgement.
+
+## Example
+
+::: {.callout-note title = "Example 1"}
 A trial manuscript reports the health of newborn infants using the Apgar score at 1 and 5 minutes. This outcome measure can only take integer values, with a score from 0 to 10. Applying GRIM and GRIMMER, the reviewer concludes that two of the reported mean values (8.96 and 9.96) are not compatible with the reported group size (30 participants), nor is the combination of a mean of 9.93 and a standard deviation of 0.18. The reviewer therefore answers "yes" to this question, since several impossible combinations of sample size and mean or standard deviation have been identified. This response contributes to the domain-level judgement.
+:::
 
 ## Tools for this check
 

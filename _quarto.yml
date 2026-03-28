@@ -18,32 +18,46 @@ book:
     - name: Calvin Heal
       orcid: 0000-0002-6445-1551
     - name: Ella Flemyng
+      orcid: 0000-0002-9845-9076
     # tier 3 - alphabetical - new contributors to guidance to be added here
     - name: Georgios A. Antoniou
     - name: Tony Aburrow
     - name: Zarko Alfirevic
+      orcid: 0000-0001-9276-518X
     - name: Alison Avenell
       orcid: 0000-0003-4813-5628
     - name: Virginia Barbour
+      orcid: 0000-0002-2358-2440
     - name: Vincenzo Berghella
+      orcid: 0000-0003-2854-0239
     - name: Dorothy V. M. Bishop
       orcid: 0000-0002-2448-4033
     - name: Esmée M Bordewijk
+      orcid: 0000-0001-7983-1613
     - name: Nicholas J. L. Brown
+      orcid: 0000-0003-1579-0730
     - name: Jana Christopher
+      orcid: 0000-0002-2699-3368
     - name: Mike Clarke
+      orcid: 0000-0002-2926-7257
     - name: Jamie Cummins
       orcid: 0000-0002-9729-4900
     - name: Darren Dahly
       orcid: 0000-0003-0110-324X
     - name: Jane Dennis
+      orcid: 0000-0001-9718-2653
     - name: Patrick Dicker
+      orcid: 0000-0002-7942-9314
     - name: Jo Dumville
+      orcid: 0000-0002-6546-3685
     - name: Helen Frankish
     - name: Andrew Grey
+      orcid: 0000-0002-7803-0096
     - name: Steph Grohmann
+      orcid: 0000-0001-5640-1688
     - name: Lyle C. Gurrin
     - name: Jill A. Hayden
+      orcid: 0000-0001-7026-144X
     - name: James Heathers
       orcid: 0000-0002-0936-026X
     - name: Kylie E Hunter
@@ -56,12 +70,18 @@ book:
       email: lukas.jung@unibe.ch
     - name: Emily Lam
     - name: Toby J. Lasserson
+      orcid: 0000-0001-9638-2856
     - name: Sarah Lensen
+      orcid: 0000-0002-1694-1142
     - name: Tianjing Li
+      orcid: 0000-0001-5371-4558
     - name: Wentao Li
+      orcid: 0000-0001-8980-0909
     - name: Jianping Liu
+      orcid: 0000-0002-0320-061X
     - name: Elizabeth Loder
     - name: Andreas Lundh
+      orcid: 0000-0002-4982-8680
     - name: Gideon Meyerowitz-Katz
       orcid: 0000-0002-1156-9345
     - name: Ben W. Mol
@@ -69,20 +89,31 @@ book:
     - name: Florian Naudet
       orcid: 0000-0003-3760-3801
     - name: Anna Noel-Storr
+      orcid: 0000-0003-3476-8432
     - name: Neil E. O’Connell
       orcid: 0000-0003-1989-4537
     - name: Lisa Parker
     - name: Rita F. Redberg
     - name: Barbara K. Redman
+      orcid: 0000-0001-5119-9898
     - name: Rachel Richardson
+      orcid: 0000-0003-2848-6260
     - name: Anna Lene Seidler
+      orcid: 0000-0002-0027-1623
     - name: Kyle Sheldrick
+      orcid: 0000-0002-2198-8025
     - name: Emma Sydenham
+      orcid: 0000-0002-1471-4237
     - name: Madelon van Wely
+      orcid: 0000-0001-8263-213X
     - name: Colby J. Vorland
+      orcid: 0000-0003-4225-372X
     - name: Rui Wang
+      orcid: 0009-0005-1237-6376
     - name: Stephanie Weibel
+      orcid: 0000-0003-1900-2535
     - name: Matthias Wjst
+      orcid: 0000-0002-4974-5631
     # tier 2 - senior authors
     - name: Lisa Bero
       orcid: 0000-0003-1893-6651
@@ -171,7 +202,7 @@ format:
         </style>
   pdf:
     number-sections: false
-    documentclass: report #scrbook # NB `quarto render` in terminal is needed to re-render the pdf; `quarto publish gh-pages` updates website but not pdf.
+    documentclass: report 
     classoption: oneside
     geometry:
       - top=25mm

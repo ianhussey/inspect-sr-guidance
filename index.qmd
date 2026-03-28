@@ -21,61 +21,61 @@ Each contributors role is listed below (e.g., contribution to the INSPECT-SR art
 ::: {style="display: inline-block;"}
 | Contributor | Article | Guidance | 
 |:-----|:-------:|:--------:|
-| Jack Wilkinson [{{< ai orcid >}}](https://orcid.org/0000-0003-3513-4677) | ✔ | ✔ |
-| Calvin Heal [{{< ai orcid >}}](https://orcid.org/0000-0002-6445-1551) | ✔ |  ✔ |
-| Ella Flemyng | ✔ | ✔ |
-| Georgios A. Antoniou | ✔ | ✔ |
-| Tony Aburrow | ✔ | ✔ |
-| Zarko Alfirevic | ✔ |  ✔ |
-| Alison Avenell [{{< ai orcid >}}](https://orcid.org/0000-0003-4813-5628) | ✔ | ✔ |
-| Virginia Barbour | ✔ | ✔ |
-| Vincenzo Berghella | ✔ | ✔ |
-| Dorothy V. M. Bishop [{{< ai orcid >}}](https://orcid.org/0000-0002-2448-4033) | ✔ | ✔ |
-| Esmée M Bordewijk | ✔ |  ✔ |
-| Nicholas J. L. Brown | ✔ | ✔ |
-| Jana Christopher | ✔ | ✔ |
-| Mike Clarke | ✔ |  ✔ |
-| Jamie Cummins [{{< ai orcid >}}](https://orcid.org/0000-0002-9729-4900) |   |  ✔ |
-| Darren Dahly [{{< ai orcid >}}](https://orcid.org/0000-0003-0110-324X) | ✔ | ✔ |
-| Jane Dennis | ✔ |  ✔ |
-| Patrick Dicker | ✔ | ✔ |
-| Jo Dumville | ✔ |  ✔ |
-| Helen Frankish | ✔ | ✔ |
-| Andrew Grey | ✔ |  ✔ |
-| Steph Grohmann | ✔ | ✔ |
-| Lyle C. Gurrin | ✔ | ✔ |
-| Jill A. Hayden | ✔ | ✔ |
-| James Heathers [{{< ai orcid >}}](https://orcid.org/0000-0002-0936-026X) | ✔ | ✔ |
-| Kylie E Hunter [{{< ai orcid >}}](https://orcid.org/0000-0002-2796-9220) | ✔ | ✔ |
-| Ian Hussey [{{< ai orcid >}}](https://orcid.org/0000-0001-8906-7559) | ✔ | ✔ |
-| Lukas Jung [{{< ai orcid >}}](https://orcid.org/0009-0007-9174-1494) | ✔ | ✔ |
-| Emily Lam | ✔ |  ✔ |
-| Toby J. Lasserson | ✔ |  ✔ |
-| Sarah Lensen | ✔ | ✔ |
-| Tianjing Li | ✔ |  ✔ |
-| Wentao Li | ✔ |  ✔ |
-| Jianping Liu | ✔ | ✔ |
-| Elizabeth Loder | ✔ |  ✔ |
-| Andreas Lundh | ✔ |  ✔ |
-| Gideon Meyerowitz-Katz [{{< ai orcid >}}](https://orcid.org/0000-0002-1156-9345) | ✔ | ✔ |
-| Ben W. Mol [{{< ai orcid >}}](https://orcid.org/0000-0001-8337-550X) | ✔ | ✔ |
-| Florian Naudet [{{< ai orcid >}}](https://orcid.org/0000-0003-3760-3801) | ✔ | ✔ |
-| Anna Noel-Storr | ✔ |  ✔ |
-| Neil E. O’Connell [{{< ai orcid >}}](https://orcid.org/0000-0003-1989-4537) | ✔ |  ✔ |
-| Lisa Parker | ✔ |  ✔ |
-| Rita F. Redberg | ✔ |  ✔ |
-| Barbara K. Redman | ✔ |  ✔ |
-| Rachel Richardson | ✔ |  ✔ |
-| Anna Lene Seidler | ✔ |  ✔ |
-| Kyle Sheldrick | ✔ | ✔ |
-| Emma Sydenham | ✔ |  ✔ |
-| Madelon van Wely | ✔ | ✔ |
-| Colby J. Vorland | ✔ | ✔ |
-| Rui Wang | ✔ | ✔ |
-| Stephanie Weibel | ✔ | ✔ |
-| Matthias Wjst | ✔ |  ✔ |
-| Lisa Bero [{{< ai orcid >}}](https://orcid.org/0000-0003-1893-6651) | ✔ |  ✔ |
-| Jamie J. Kirkham [{{< ai orcid >}}](https://orcid.org/0000-0003-2579-9325) | ✔ | ✔ |
+| Jack Wilkinson [{{< ai orcid >}}](https://orcid.org/0000-0003-3513-4677) | Yes | Yes |
+| Calvin Heal [{{< ai orcid >}}](https://orcid.org/0000-0002-6445-1551) | Yes |  Yes |
+| Ella Flemyng [{{< ai orcid >}}](https://orcid.org/0000-0002-9845-9076) | Yes | Yes |
+| Georgios A. Antoniou | Yes | Yes |
+| Tony Aburrow | Yes | Yes |
+| Zarko Alfirevic [{{< ai orcid >}}](https://orcid.org/0000-0001-9276-518X) | Yes |  Yes |
+| Alison Avenell [{{< ai orcid >}}](https://orcid.org/0000-0003-4813-5628) | Yes | Yes |
+| Virginia Barbour [{{< ai orcid >}}](https://orcid.org/0000-0002-2358-2440) | Yes | Yes |
+| Vincenzo Berghella [{{< ai orcid >}}](https://orcid.org/0000-0003-2854-0239) | Yes | Yes |
+| Dorothy V. M. Bishop [{{< ai orcid >}}](https://orcid.org/0000-0002-2448-4033) | Yes | Yes |
+| Esmée M Bordewijk [{{< ai orcid >}}](https://orcid.org/0000-0001-7983-1613) | Yes |  Yes |
+| Nicholas J. L. Brown [{{< ai orcid >}}](https://orcid.org/0000-0003-1579-0730) | Yes | Yes |
+| Jana Christopher [{{< ai orcid >}}](https://orcid.org/0000-0002-2699-3368) | Yes | Yes |
+| Mike Clarke [{{< ai orcid >}}](https://orcid.org/0000-0002-2926-7257) | Yes |  Yes |
+| Jamie Cummins [{{< ai orcid >}}](https://orcid.org/0000-0002-9729-4900) |   |  Yes |
+| Darren Dahly [{{< ai orcid >}}](https://orcid.org/0000-0003-0110-324X) | Yes | Yes |
+| Jane Dennis [{{< ai orcid >}}](https://orcid.org/0000-0001-9718-2653) | Yes |  Yes |
+| Patrick Dicker [{{< ai orcid >}}](https://orcid.org/0000-0002-7942-9314) | Yes | Yes |
+| Jo Dumville [{{< ai orcid >}}](https://orcid.org/0000-0002-6546-3685) | Yes |  Yes |
+| Helen Frankish | Yes | Yes |
+| Andrew Grey [{{< ai orcid >}}](https://orcid.org/0000-0002-7803-0096) | Yes |  Yes |
+| Steph Grohmann [{{< ai orcid >}}](https://orcid.org/0000-0001-5640-1688) | Yes | Yes |
+| Lyle C. Gurrin | Yes | Yes |
+| Jill A. Hayden [{{< ai orcid >}}](https://orcid.org/0000-0001-7026-144X) | Yes | Yes |
+| James Heathers [{{< ai orcid >}}](https://orcid.org/0000-0002-0936-026X) | Yes | Yes |
+| Kylie E Hunter [{{< ai orcid >}}](https://orcid.org/0000-0002-2796-9220) | Yes | Yes |
+| Ian Hussey [{{< ai orcid >}}](https://orcid.org/0000-0001-8906-7559) | Yes | Yes |
+| Lukas Jung [{{< ai orcid >}}](https://orcid.org/0009-0007-9174-1494) | Yes | Yes |
+| Emily Lam | Yes |  Yes |
+| Toby J. Lasserson [{{< ai orcid >}}](https://orcid.org/0000-0001-9638-2856) | Yes |  Yes |
+| Sarah Lensen [{{< ai orcid >}}](https://orcid.org/0000-0002-1694-1142) | Yes | Yes |
+| Tianjing Li [{{< ai orcid >}}](https://orcid.org/0000-0001-5371-4558) | Yes |  Yes |
+| Wentao Li [{{< ai orcid >}}](https://orcid.org/0000-0001-8980-0909) | Yes |  Yes |
+| Jianping Liu [{{< ai orcid >}}](https://orcid.org/0000-0002-0320-061X) | Yes | Yes |
+| Elizabeth Loder | Yes |  Yes |
+| Andreas Lundh [{{< ai orcid >}}](https://orcid.org/0000-0002-4982-8680) | Yes |  Yes |
+| Gideon Meyerowitz-Katz [{{< ai orcid >}}](https://orcid.org/0000-0002-1156-9345) | Yes | Yes |
+| Ben W. Mol [{{< ai orcid >}}](https://orcid.org/0000-0001-8337-550X) | Yes | Yes |
+| Florian Naudet [{{< ai orcid >}}](https://orcid.org/0000-0003-3760-3801) | Yes | Yes |
+| Anna Noel-Storr [{{< ai orcid >}}](https://orcid.org/0000-0003-3476-8432) | Yes |  Yes |
+| Neil E. O’Connell [{{< ai orcid >}}](https://orcid.org/0000-0003-1989-4537) | Yes |  Yes |
+| Lisa Parker | Yes |  Yes |
+| Rita F. Redberg | Yes |  Yes |
+| Barbara K. Redman [{{< ai orcid >}}](https://orcid.org/0000-0001-5119-9898) | Yes |  Yes |
+| Rachel Richardson [{{< ai orcid >}}](https://orcid.org/0000-0003-2848-6260) | Yes |  Yes |
+| Anna Lene Seidler [{{< ai orcid >}}](https://orcid.org/0000-0002-0027-1623) | Yes |  Yes |
+| Kyle Sheldrick [{{< ai orcid >}}](https://orcid.org/0000-0002-2198-8025) | Yes | Yes |
+| Emma Sydenham [{{< ai orcid >}}](https://orcid.org/0000-0002-1471-4237) | Yes |  Yes |
+| Madelon van Wely [{{< ai orcid >}}](https://orcid.org/0000-0001-8263-213X) | Yes | Yes |
+| Colby J. Vorland [{{< ai orcid >}}](https://orcid.org/0000-0003-4225-372X) | Yes | Yes |
+| Rui Wang [{{< ai orcid >}}](https://orcid.org/0009-0005-1237-6376) | Yes | Yes |
+| Stephanie Weibel [{{< ai orcid >}}](https://orcid.org/0000-0003-1900-2535) | Yes | Yes |
+| Matthias Wjst [{{< ai orcid >}}](https://orcid.org/0000-0002-4974-5631) | Yes |  Yes |
+| Lisa Bero [{{< ai orcid >}}](https://orcid.org/0000-0003-1893-6651) | Yes |  Yes |
+| Jamie J. Kirkham [{{< ai orcid >}}](https://orcid.org/0000-0003-2579-9325) | Yes | Yes |
 :::
 
 ## Motivation for INSPECT-SR

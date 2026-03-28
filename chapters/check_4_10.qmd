@@ -5,12 +5,18 @@
 if(file.exists("../_setup.R")){source("../_setup.R")}
 ```
 
-- There may be other instances of contradictory results that would not be detected using the other checks in this domain. Several examples have been identified, but appear to occur too infrequently to warrant routine checking. Should anomalies of this nature be observed, they may be recorded in response to this check. Specifically:
-  - Subgroup counts or means could conflict with results for the overall cohort.
-  - A mean value (for example) could fall outside of a reported range.
-  - Some combinations of outcome are not possible. For example, it is not possible to have more birth events (with one "birth event" defined as the birth of at least one child) than pregnancies.
-- The answer to this check should contribute to a domain-level judgement.
+There may be other instances of contradictory results that would not be detected using the other checks in this domain. Several examples have been identified, but appear to occur too infrequently to warrant routine checking. Should anomalies of this nature be observed, they may be recorded in response to this check. Specifically:
 
-## Example of check 4.10
+Subgroup counts or means could conflict with results for the overall cohort.
 
+A mean value (for example) could fall outside of a reported range.
+
+Some combinations of outcome are not possible. For example, it is not possible to have more birth events (with one "birth event" defined as the birth of at least one child) than pregnancies.
+
+The answer to this check should contribute to a domain-level judgement.
+
+## Example
+
+::: {.callout-note title = "Example 1"}
 A manuscript reports a mean quality of life score for the intervention group overall, and also separately for participants aged 65 or over, or under 65. There are 41 participants in the intervention group overall, with 30 of these being aged less than 65 years and 11 being 65 years or older. The overall mean score is reported as 7.3. The mean score for the 30 participants younger than 65 is reported as 6.2, and the mean score for the 11 participants aged 65 years or older is 7.4. We may attempt to reproduce the overall mean score from the subgroup-specific means, by calculating (6.2×30 + 7.4×11) / 41 = 6.52, which is smaller than the reported value of 7.3. We must confirm that the discrepancy cannot be explained by rounding, by considering the values for the subgroup means that would make the recalculated value as large as possible (e.g. by setting the subgroup means to 6.2499 and 7.499 and recalculating the overall value). This returns a value of 6.57, which is clearly not compatible with the reported value of 7.3, even if the latter value has been rounded up. The reviewer records a response of "yes" for this check, and this response contributes to the domain-level judgement.
+:::
