@@ -481,7 +481,7 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#examples-of-check-4.9" id="toc-examples-of-check-4.9" class="nav-link active" data-scroll-target="#examples-of-check-4.9">Examples of check 4.9</a></li>
+  <li><a href="#examples" id="toc-examples" class="nav-link active" data-scroll-target="#examples">Examples</a></li>
   <li><a href="#tools-for-this-check" id="toc-tools-for-this-check" class="nav-link" data-scroll-target="#tools-for-this-check">Tools for this check</a></li>
   </ul>
 </nav>
@@ -509,25 +509,45 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<ul>
-<li>The reviewer should check whether results of statistical analyses are consistent with reported summary data. For example, where a t-test has been used, the reviewer can check whether the reported p-value is consistent with the reported group means and standard deviations (e.g., using the <a href="https://www.graphpad.com/quickcalcs/ttest1/?format=sd">online calculator at GraphPad</a>).</li>
-<li>Caution is needed however, as p-values based on tests of continuous variables will not generally be reproducible from rounded summary data. The reviewer should consider whether the p-value is consistent with, rather than exactly reproducible from, the reported summary data.</li>
-<li>Checking consistency of results of non-parametric analyses of continuous measures is typically not possible using the reported summary data.</li>
-<li>For categorical data analysed by chi-squared test or similar, where frequencies are reported, the reviewer can attempt to reproduce the p-value from the reported data, without concerns relating to rounding of summary data.</li>
-<li>The study authors may have used variations of the reported statistical tests. For example, variations of the chi-squared test and t-test are commonly used (e.g.&nbsp;use of Yates’ correction, or unequal variances t-tests) and where a discrepancy is found, the reviewer should consider whether this could explain the issue.</li>
-<li>Online calculators can be used to perform this check, for example <a href="https://www.openepi.com/Menu/OE_Menu.htm">OpenEpi</a>.</li>
-<li>Following the logic set out above, for continuous data, it may be indicative of problems if the statistical results can all be reproduced exactly from rounded summary data, as this may imply that no underlying dataset was analysed in producing the results.</li>
-<li>Checking a large number of statistical results in a manuscript might not be practicable unless the reviewer has ample time to perform the assessment. If this is the case, it is recommended to check a selection of results from baseline and results tables.</li>
-<li>The reviewer should also be mindful of the possibility that some discrepancies could be caused by undisclosed adjustment for covariates (for example).</li>
-<li>This check, like all others in INSPECT-SR, is a study-level assessment and not an outcome-level assessment. While it is recommended to include the review outcomes when performing this check, it is not generally recommended to restrict the check to these variables. Rather, it is advisable to consider a selection of variables (at least), including a sample of results from a baseline table where possible. The reviewer should not be reassured if they identify no errors in the review outcomes, despite finding errors elsewhere. If a trial has been fabricated, it is possible that the fabricator might focus more attention on the key outcomes of the study than on other incidental variables.</li>
-<li>The answer to this check should contribute to a domain-level judgement.</li>
-</ul>
-<section id="examples-of-check-4.9" class="level2">
-<h2 class="anchored" data-anchor-id="examples-of-check-4.9">Examples of check 4.9</h2>
-<ol type="1">
-<li><p>A manuscript reports results of a t-test for two groups of 30 participants. In group 1, there is a reported mean of 20 and a standard deviation of 4. In group 2, there is a reported mean of 21 and a standard deviation of 2. The p-value is reported as p=0.02. If we try to reproduce the result using the summary data, we get a p-value of p=0.23, which may appear to contradict the reported result. However, the reported summary data is rounded. We can find the smallest p-value that would be consistent with the reported data by using values that would be rounded to those reported in the paper, while making the difference in means as large as possible and the standard deviations as small as possible. In this case, the actual group means could be 19.5 and 21.449, and the standard deviations 3.5 and 1.5. The p-value in this case would be 0.006, which is clearly smaller than the reported value. The summary data are therefore consistent with the reported p-value. If we wanted to see how large the p-value could be while remaining consistent with the summary data, we would make the means as similar as possible and the standard deviations as large as possible, while ensuring that the values would round to the reported summary data. In this example, the reviewer should answer “no” if they do not identify any errors in statistical results elsewhere.</p></li>
-<li><p>A manuscript reports “sex” as a binary baseline characteristic in Table 1, showing the frequencies of male and female participants in each of the two study groups. This is a 2×2 table, and a chi-squared test could be performed if we wanted to make a comparison between the study groups. This would result in a single p-value. However, in the manuscript, two different p-values are presented; one for male participants and one for female participants. This does not make sense. Moreover, the reviewer performs a chi-squared test, in addition to several plausible alternative tests, and neither of the reported p-values match any of the p-values obtained from these checks. The reviewer answers “yes” for this check, and this response contributes to the domain-level judgement.</p></li>
-</ol>
+<p>The reviewer should check whether results of statistical analyses are consistent with reported summary data. For example, where a t-test has been used, the reviewer can check whether the reported p-value is consistent with the reported group means and standard deviations (e.g., using the <a href="https://www.graphpad.com/quickcalcs/ttest1/?format=sd">online calculator at GraphPad</a>).</p>
+<p>Caution is needed however, as p-values based on tests of continuous variables will not generally be reproducible from rounded summary data. The reviewer should consider whether the p-value is consistent with, rather than exactly reproducible from, the reported summary data.</p>
+<p>Checking consistency of results of non-parametric analyses of continuous measures is typically not possible using the reported summary data.</p>
+<p>For categorical data analysed by chi-squared test or similar, where frequencies are reported, the reviewer can attempt to reproduce the p-value from the reported data, without concerns relating to rounding of summary data.</p>
+<p>The study authors may have used variations of the reported statistical tests. For example, variations of the chi-squared test and t-test are commonly used (e.g.&nbsp;use of Yates’ correction, or unequal variances t-tests) and where a discrepancy is found, the reviewer should consider whether this could explain the issue.</p>
+<p>Online calculators can be used to perform this check, for example <a href="https://www.openepi.com/Menu/OE_Menu.htm">OpenEpi</a>.</p>
+<p>Following the logic set out above, for continuous data, it may be indicative of problems if the statistical results can all be reproduced exactly from rounded summary data, as this may imply that no underlying dataset was analysed in producing the results.</p>
+<p>Checking a large number of statistical results in a manuscript might not be practicable unless the reviewer has ample time to perform the assessment. If this is the case, it is recommended to check a selection of results from baseline and results tables.</p>
+<p>The reviewer should also be mindful of the possibility that some discrepancies could be caused by undisclosed adjustment for covariates (for example).</p>
+<p>This check, like all others in INSPECT-SR, is a study-level assessment and not an outcome-level assessment. While it is recommended to include the review outcomes when performing this check, it is not generally recommended to restrict the check to these variables. Rather, it is advisable to consider a selection of variables (at least), including a sample of results from a baseline table where possible. The reviewer should not be reassured if they identify no errors in the review outcomes, despite finding errors elsewhere. If a trial has been fabricated, it is possible that the fabricator might focus more attention on the key outcomes of the study than on other incidental variables.</p>
+<p>The answer to this check should contribute to a domain-level judgement.</p>
+<section id="examples" class="level2">
+<h2 class="anchored" data-anchor-id="examples">Examples</h2>
+<div class="callout callout-style-default callout-note callout-titled" title="Example 1">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Example 1
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>A manuscript reports results of a t-test for two groups of 30 participants. In group 1, there is a reported mean of 20 and a standard deviation of 4. In group 2, there is a reported mean of 21 and a standard deviation of 2. The p-value is reported as p=0.02. If we try to reproduce the result using the summary data, we get a p-value of p=0.23, which may appear to contradict the reported result. However, the reported summary data is rounded. We can find the smallest p-value that would be consistent with the reported data by using values that would be rounded to those reported in the paper, while making the difference in means as large as possible and the standard deviations as small as possible. In this case, the actual group means could be 19.5 and 21.449, and the standard deviations 3.5 and 1.5. The p-value in this case would be 0.006, which is clearly smaller than the reported value. The summary data are therefore consistent with the reported p-value. If we wanted to see how large the p-value could be while remaining consistent with the summary data, we would make the means as similar as possible and the standard deviations as large as possible, while ensuring that the values would round to the reported summary data. In this example, the reviewer should answer “no” if they do not identify any errors in statistical results elsewhere.</p>
+</div>
+</div>
+<div class="callout callout-style-default callout-note callout-titled" title="Example 2">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Example 2
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>A manuscript reports “sex” as a binary baseline characteristic in Table 1, showing the frequencies of male and female participants in each of the two study groups. This is a 2×2 table, and a chi-squared test could be performed if we wanted to make a comparison between the study groups. This would result in a single p-value. However, in the manuscript, two different p-values are presented; one for male participants and one for female participants. This does not make sense. Moreover, the reviewer performs a chi-squared test, in addition to several plausible alternative tests, and neither of the reported p-values match any of the p-values obtained from these checks. The reviewer answers “yes” for this check, and this response contributes to the domain-level judgement.</p>
+</div>
+</div>
 </section>
 <section id="tools-for-this-check" class="level2">
 <h2 class="anchored" data-anchor-id="tools-for-this-check">Tools for this check</h2>
