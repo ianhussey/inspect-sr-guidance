@@ -5,6 +5,8 @@
 if(file.exists("../_setup.R")){source("../_setup.R")}
 ```
 
+This check should be repeated shortly before finishing the systematic review, to identify any relevant notices issued during the conduct of the review.
+
 Reviewers should check whether the publication or publications describing the study have associated expressions of concern or other post publication notices. Expressions of concern and other post publication notices, such as notifications, publisher notes, editor notes, etc., are not used and published as consistently as retractions. Expressions of concern are generally used when there are concerns raised about a publication but the evidence is inconclusive or the issue unresolved. Other notifications may be used to flag a potential issue or provide status updates.
 
 Because of this variability, the content and purpose of the notice should be carefully considered when making a judgement. Similarly to retractions, be aware that the content of expressions of concern or other notifications can also be limited and not representative of all the journal's concerns relating to the issue.

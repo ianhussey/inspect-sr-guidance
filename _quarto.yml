@@ -40,8 +40,8 @@ book:
       orcid: 0000-0002-2699-3368
     - name: Mike Clarke
       orcid: 0000-0002-2926-7257
-    - name: Jamie Cummins
-      orcid: 0000-0002-9729-4900
+    # - name: Jamie Cummins
+    #   orcid: 0000-0002-9729-4900
     - name: Darren Dahly
       orcid: 0000-0003-0110-324X
     - name: Jane Dennis
@@ -120,7 +120,7 @@ book:
     - name: Jamie J. Kirkham
       orcid: 0000-0003-2579-9325
   date: "2026-01-01" # ignored, date format below rendered instead
-  date-format: "[1.0]"
+  date-format: "[1.1]"
   favicon: static/favicon.ico
   downloads: [pdf]
   chapters:

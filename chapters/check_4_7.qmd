@@ -5,6 +5,8 @@
 if(file.exists("../_setup.R")){source("../_setup.R")}
 ```
 
+This check should be reconsidered at the stage of performing meta-analysis, as inspection of the forest plot may highlight highly implausible results.
+
 The reviewer should consider the plausibility of the outcome measurement values in each arm and estimated treatment effects.
 
 'Plausibility' includes clinical or biological plausibility and statistical plausibility. Domain knowledge is necessary to judge clinical or biological plausibility.

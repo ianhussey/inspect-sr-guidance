@@ -9,7 +9,7 @@ Absent or retrospective registration makes it difficult to determine whether the
 
 This check speaks of concerns relating to the timing of study registration rather than to the absence of "prospective" (as opposed to "retrospective") registration. If registration occurs shortly after the commencement of participant recruitment (i.e. when only a small proportion of the target sample size has been recruited) it might not strictly be "prospective", but might not warrant concerns, for example. The implications of the timing of the registration should be considered in relation to the particular details of the index study.
 
-Be aware that study registration only became more established in recent years, and regulations and expectations can differ internationally.
+Be aware that study registration only became more established in recent years, and regulations and expectations can differ internationally. Nonetheless, in the absence of a registration, there is no way to establish whether an article describes a prospectively planned programme of work.
 
 The answer to this check should contribute to a domain-level judgement.
 
