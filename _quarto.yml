@@ -120,7 +120,7 @@ book:
     - name: Jamie J. Kirkham
       orcid: 0000-0003-2579-9325
   date: "2026-01-01" # ignored, date format below rendered instead
-  date-format: "[1.1]"
+  date-format: "[1.1.1]"
   favicon: static/favicon.ico
   downloads: [pdf]
   chapters:
@@ -161,6 +161,7 @@ book:
         
     - part: "Appendices"
       chapters:
+        - appendices/changelog.qmd
         - appendices/template.qmd
         - license.qmd
 

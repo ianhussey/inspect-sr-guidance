@@ -20,6 +20,12 @@ quarto publish gh-pages
 
 
 
+or 
+
+```
+quarto publish gh-pages --no-render
+```
+
 preview website locally
 
 ``` 

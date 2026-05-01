@@ -9,9 +9,7 @@ This check only applies to variables that can only take integer values (e.g. 1, 
 
 For these variables, only certain values of the mean and standard deviation are possible for a given sample size.
 
-Consistency of reported means and standard deviations for a given sample size may be assessed using the GRIM and GRIMMER techniques.
-
-Online implementations of these checks are available at [http://nickbrown.fr/GRIM](http://nickbrown.fr/GRIM) (GRIM only), [http://www.prepubmed.org/grimmer/](http://www.prepubmed.org/grimmer/), and [https://errors.shinyapps.io/scrutiny/](https://errors.shinyapps.io/scrutiny/). The last of these offers a convenient interface for checking several sets of summary values at once.
+Consistency of reported means and standard deviations for a given sample size may be assessed using the GRIM and GRIMMER techniques. Online web app implementations of these checks are available at the bottom of the page. 
 
 Percentages can be tested using GRIM (but not GRIMMER) if the sums were derived from integer data, such as the number of patients in a group.
 
@@ -31,6 +29,6 @@ A trial manuscript reports the health of newborn infants using the Apgar score a
 
 ## Tools for this check
 
-- [scrutiny web app](https://errors.shinyapps.io/scrutiny/) — R package implementing GRIM and GRIMMER tests, with a convenient interface for checking multiple values at once
-- [Nick Brown's GRIM calculator](http://nickbrown.fr/GRIM) — online GRIM checker
-- [PrePubMed GRIMMER](http://www.prepubmed.org/grimmer/) — online GRIMMER checker
+- [INSPECT-SR consistency checker for means and variances](https://errors.shinyapps.io/inspect-sr-means-variances/) — Lukas Jung and Ian Hussey's web app for checking multiple values with GRIM and GRIMMER, with guidance on interpretation and the ability to download a copy of the results. Built on Lukas Jung's 'scrutiny' R package. 
+- [scrutiny web app](https://errors.shinyapps.io/scrutiny/) — Lukas Jung's more advanced web app for package for testing multiple values with GRIM and GRIMMER, plus diagnostics. Built on Lukas Jung's 'scrutiny' R package. 
+- [Nick Brown's GRIM calculator](http://nickbrown.fr/GRIM) — simple online GRIM checker.

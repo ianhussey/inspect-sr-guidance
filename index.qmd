@@ -1,5 +1,7 @@
 ## Introduction {.unnumbered}
 
+The live website version of this guidance is hosted at [https://inspect.sr](https://inspect.sr). A pdf of the website is also hosted on OSF ([https://osf.io/b74wj/](https://osf.io/b74wj/)). 
+
 INSPECT-SR ([Wilkinson et al., 2025](https://doi.org/10.1101/2025.09.03.25334905)) is a tool for assessing the trustworthiness of randomised controlled trials (RCTs) in systematic reviews. It was developed for health RCTs but has utility in other fields too.
 
 INSPECT-SR does not assess internal or external validity (which are covered by Risk of Bias tools and GRADE), nor does it cover conflicts of interest.
@@ -11,6 +13,8 @@ INSPECT-SR contains 21 checks across four domains to help the reviewer make a ju
 INSPECT-SR, including this guidance document, should be cited using the reference for the INSPECT-SR manuscript:
 
 Wilkinson JD, Heal C, Flemyng E, Antoniou GA, Aburrow T, Alfirevic Z, Avenell A, Barbour V, Berghella V, Bishop DVM, Bordewijk EM, Brown NJL, Christopher J, Clarke M, Dahly DL, Dennis J, Dicker P, Dumville J, Grey A, Grohmann S, Gurrin LC, Hayden JA, Heathers JAJ, Hunter KE, Hussey I, Jung L, Lam E, Lasserson TJ, Lensen S, Li T, Li W, Liu J, Loder E, Lundh A, Meyerowitz-Katz G, Mol BW, Naudet F, Noel-Storr A, O'Connell N, Parker L, Redberg RF, Redman BK, Richardson R, Seidler AL, Sheldrick K, Sydenham E, van Wely M, Vorland C, Wang R, Weibel S, Wjst M, Bero L, Kirkham JJ. (2025) INSPECT-SR: a tool for assessing trustworthiness of randomised controlled trials. medRxiv 2025.09.03.25334905; doi: [10.1101/2025.09.03.25334905](https://doi.org/10.1101/2025.09.03.25334905)
+
+You might also wish to include the version number of the guidance you used in the citation, which is available at the top of the home page of the website and below the list of authors on the first page of the pdf.
 
 ## Contributors
 
@@ -122,7 +126,7 @@ The following describes key points to consider in relation to individual checks 
 
 It is necessary to record and report some explanatory text detailing the reason for each check response in the appropriate section of the review. Depending on whether or not the trial is included or excluded, this should be in the characteristics of included or excluded studies tables. Some of the checks may be difficult to assess without topic expertise, and a comprehensive assessment is likely to require input from a review team with content and statistical method expertise; although the tool does not require any advanced statistical analyses, the ability to perform and interpret some basic statistical tests is required for some checks, and an understanding of key features of clinical trial processes, such as randomisation procedures, is useful to assess compatibility between reported methods and results. It is recommended to have two team members undertake the assessment independently, and to then discuss and agree on judgements. It might be useful to have team members with complementary skill sets undertake the assessment, as problems might be detected by a reviewer with a particular area of expertise. We use the term "index study" to refer to the study being assessed using the INSPECT-SR tool.
 
-As the field evolves, freely available automated or AI-driven tools to facilitate (some of) these checks may become available. We recommend reviewers are cautious and critique these tools before use to ensure they are fit for purpose. Consider public details about the automation embedded within the tools, clear terms and conditions for use, public and transparent evaluations, and clarity on the strengths, limitations, biases and generalisability. It is recommended that any automation or AI used in evidence synthesis adheres to the RAISE (Responsible AI in Evidence Synthesis) recommendations and guidance for responsible AI use in evidence synthesis. If reviewers would like to suggest automated or AI-driven tools that meet these standards and could be added to this guidance, please provide details using [this survey](https://www.qualtrics.manchester.ac.uk/jfe/form/SV_eOPavZZHDZ0fvN4).
+As the field evolves (see the [changelog](appendices/changelog.qmd)), freely available automated or AI-driven tools to facilitate (some of) these checks may become available. We recommend reviewers are cautious and critique these tools before use to ensure they are fit for purpose. Consider public details about the automation embedded within the tools, clear terms and conditions for use, public and transparent evaluations, and clarity on the strengths, limitations, biases and generalisability. It is recommended that any automation or AI used in evidence synthesis adheres to the RAISE (Responsible AI in Evidence Synthesis) recommendations and guidance for responsible AI use in evidence synthesis. If reviewers would like to suggest automated or AI-driven tools that meet these standards and could be added to this guidance, please provide details using [this survey](https://www.qualtrics.manchester.ac.uk/jfe/form/SV_eOPavZZHDZ0fvN4).
 
 ## Resources
 

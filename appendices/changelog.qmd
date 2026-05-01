@@ -1,0 +1,18 @@
+# Changelog
+
+Changes from previous version.
+
+## v1.1.1
+
+- Software for check 4.8 updated to include the new [INSPECT-SR consistency checker for means and variances](https://errors.shinyapps.io/inspect-sr-means-variances/) and remove the no longer working prepubmed GRIMMER checker.
+
+## v1.1
+
+- Software has been added to the guidance for check 4.9. 
+- Edit to second example for check 4.9, to emphasise that the decision should not generally be based on a single statistical result.
+- Text added to the beginning of guidance for checks 1.1, 1.2, 4.7 to remind reviewers to repeat these checks.
+- Added text to “Application of the INSPECT-SR tool to assess an individual study” to describe when “some concerns” in several domains may lead to “serious concerns” overall.
+- Edited text in “Incorporating the INSPECT-SR tool into the systematic review process” to make it clear that communication with study authors is strongly encouraged.
+- Text added to check 2.2. to make it clear that lack of registration for older studies may still impact trustworthiness.
+
+
