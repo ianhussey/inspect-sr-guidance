@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "INSPECT-SR Guidance",
     "section": "",
-    "text": "Introduction\nThe live website version of this guidance is hosted at [https://inspect.sr])(https://inspect.sr). A pdf of the website is also hosted on OSF (https://osf.io/b74wj/).\nINSPECT-SR (Wilkinson et al., 2025) is a tool for assessing the trustworthiness of randomised controlled trials (RCTs) in systematic reviews. It was developed for health RCTs but has utility in other fields too.\nINSPECT-SR does not assess internal or external validity (which are covered by Risk of Bias tools and GRADE), nor does it cover conflicts of interest.\nINSPECT-SR contains 21 checks across four domains to help the reviewer make a judgement about whether a study’s data and findings can be trusted sufficiently to include it in a research synthesis.",
+    "text": "Introduction\nThe live website version of this guidance is hosted at https://inspect.sr. A pdf of the website is also hosted on OSF (https://osf.io/b74wj/).\nINSPECT-SR (Wilkinson et al., 2025) is a tool for assessing the trustworthiness of randomised controlled trials (RCTs) in systematic reviews. It was developed for health RCTs but has utility in other fields too.\nINSPECT-SR does not assess internal or external validity (which are covered by Risk of Bias tools and GRADE), nor does it cover conflicts of interest.\nINSPECT-SR contains 21 checks across four domains to help the reviewer make a judgement about whether a study’s data and findings can be trusted sufficiently to include it in a research synthesis.",
     "crumbs": [
       "Introduction"
     ]
