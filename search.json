@@ -84,7 +84,7 @@
     "href": "index.html#guidance-on-the-use-of-individual-checks-in-the-inspect-sr-tool",
     "title": "INSPECT-SR Guidance",
     "section": "Guidance on the use of individual checks in the INSPECT-SR tool",
-    "text": "Guidance on the use of individual checks in the INSPECT-SR tool\nThe following describes key points to consider in relation to individual checks in the INSPECT-SR tool. Illustrative examples are provided. There are four response options corresponding to each check: “Yes”, “No”, “Unclear”, “Not Applicable”. Checks have been worded such that a positive response (“Yes”) corresponds to a potentially problematic feature of a study. Domain-level judgements do not follow from check responses in a deterministic or algorithmic fashion. For example, we have not specified a threshold corresponding to the number of checks that should be answered “Yes” to trigger domain-level judgements of “serious concerns”. The purpose of the checks is to help the reviewer reach a domain-level judgement about whether or not they have concerns about trustworthiness, and to articulate a basis for that judgement. In some cases, a “Yes” response for a single check might be sufficient to trigger serious concerns for the domain and therefore for the study, depending on the nature and extent of the problem identified. However, a reviewer should not automatically assign a judgement of “serious concerns” on the basis that one or more checks were answered “Yes”.\n\n\n\nFigure 1: Structure of the INSPECT-SR tool\n\n\nIt is necessary to record and report some explanatory text detailing the reason for each check response in the appropriate section of the review. Depending on whether or not the trial is included or excluded, this should be in the characteristics of included or excluded studies tables. Some of the checks may be difficult to assess without topic expertise, and a comprehensive assessment is likely to require input from a review team with content and statistical method expertise; although the tool does not require any advanced statistical analyses, the ability to perform and interpret some basic statistical tests is required for some checks, and an understanding of key features of clinical trial processes, such as randomisation procedures, is useful to assess compatibility between reported methods and results. It is recommended to have two team members undertake the assessment independently, and to then discuss and agree on judgements. It might be useful to have team members with complementary skill sets undertake the assessment, as problems might be detected by a reviewer with a particular area of expertise. We use the term “index study” to refer to the study being assessed using the INSPECT-SR tool.\nAs the field evolves, freely available automated or AI-driven tools to facilitate (some of) these checks may become available. We recommend reviewers are cautious and critique these tools before use to ensure they are fit for purpose. Consider public details about the automation embedded within the tools, clear terms and conditions for use, public and transparent evaluations, and clarity on the strengths, limitations, biases and generalisability. It is recommended that any automation or AI used in evidence synthesis adheres to the RAISE (Responsible AI in Evidence Synthesis) recommendations and guidance for responsible AI use in evidence synthesis. If reviewers would like to suggest automated or AI-driven tools that meet these standards and could be added to this guidance, please provide details using this survey.",
+    "text": "Guidance on the use of individual checks in the INSPECT-SR tool\nThe following describes key points to consider in relation to individual checks in the INSPECT-SR tool. Illustrative examples are provided. There are four response options corresponding to each check: “Yes”, “No”, “Unclear”, “Not Applicable”. Checks have been worded such that a positive response (“Yes”) corresponds to a potentially problematic feature of a study. Domain-level judgements do not follow from check responses in a deterministic or algorithmic fashion. For example, we have not specified a threshold corresponding to the number of checks that should be answered “Yes” to trigger domain-level judgements of “serious concerns”. The purpose of the checks is to help the reviewer reach a domain-level judgement about whether or not they have concerns about trustworthiness, and to articulate a basis for that judgement. In some cases, a “Yes” response for a single check might be sufficient to trigger serious concerns for the domain and therefore for the study, depending on the nature and extent of the problem identified. However, a reviewer should not automatically assign a judgement of “serious concerns” on the basis that one or more checks were answered “Yes”.\n\n\n\nFigure 1: Structure of the INSPECT-SR tool\n\n\nIt is necessary to record and report some explanatory text detailing the reason for each check response in the appropriate section of the review. Depending on whether or not the trial is included or excluded, this should be in the characteristics of included or excluded studies tables. Some of the checks may be difficult to assess without topic expertise, and a comprehensive assessment is likely to require input from a review team with content and statistical method expertise; although the tool does not require any advanced statistical analyses, the ability to perform and interpret some basic statistical tests is required for some checks, and an understanding of key features of clinical trial processes, such as randomisation procedures, is useful to assess compatibility between reported methods and results. It is recommended to have two team members undertake the assessment independently, and to then discuss and agree on judgements. It might be useful to have team members with complementary skill sets undertake the assessment, as problems might be detected by a reviewer with a particular area of expertise. We use the term “index study” to refer to the study being assessed using the INSPECT-SR tool.\nAs the field evolves (see the changelog), freely available automated or AI-driven tools to facilitate (some of) these checks may become available. We recommend reviewers are cautious and critique these tools before use to ensure they are fit for purpose. Consider public details about the automation embedded within the tools, clear terms and conditions for use, public and transparent evaluations, and clarity on the strengths, limitations, biases and generalisability. It is recommended that any automation or AI used in evidence synthesis adheres to the RAISE (Responsible AI in Evidence Synthesis) recommendations and guidance for responsible AI use in evidence synthesis. If reviewers would like to suggest automated or AI-driven tools that meet these standards and could be added to this guidance, please provide details using this survey.",
     "crumbs": [
       "Introduction"
     ]
@@ -500,7 +500,7 @@
     "href": "chapters/check_4_8.html#tools-for-this-check",
     "title": "4.8. Are the means and variances of integer data impossible?",
     "section": "Tools for this check",
-    "text": "Tools for this check\n\nscrutiny web app — R package implementing GRIM and GRIMMER tests, with a convenient interface for checking multiple values at once\nNick Brown’s GRIM calculator — online GRIM checker\nPrePubMed GRIMMER — online GRIMMER checker",
+    "text": "Tools for this check\n\nINSPECT-SR consistency checker for means and variances — Lukas Jung and Ian Hussey’s web app for checking multiple values with GRIM and GRIMMER, with guidance on interpretation and the ability to download a copy of the results. Built on Lukas Jung’s ‘scrutiny’ R package.\nscrutiny web app — Lukas Jung’s more advanced web app for package for testing multiple values with GRIM and GRIMMER, plus diagnostics. Built on Lukas Jung’s ‘scrutiny’ R package.\nNick Brown’s GRIM calculator — simple online GRIM checker.",
     "crumbs": [
       "Domain 4: Inspecting results in the study",
       "<span class='chapter-number'>18</span>  <span class='chapter-title'>4.8. Are the means and variances of integer data impossible?</span>"
@@ -584,6 +584,39 @@
     ]
   },
   {
+    "objectID": "appendices/changelog.html",
+    "href": "appendices/changelog.html",
+    "title": "Changelog",
+    "section": "",
+    "text": "v1.1.1\nChanges from previous version.",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>22</span>  <span class='chapter-title'>Changelog</span>"
+    ]
+  },
+  {
+    "objectID": "appendices/changelog.html#v1.1.1",
+    "href": "appendices/changelog.html#v1.1.1",
+    "title": "Changelog",
+    "section": "",
+    "text": "Software for check 4.8 updated to include the new INSPECT-SR consistency checker for means and variances and remove the no longer working prepubmed GRIMMER checker.",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>22</span>  <span class='chapter-title'>Changelog</span>"
+    ]
+  },
+  {
+    "objectID": "appendices/changelog.html#v1.1",
+    "href": "appendices/changelog.html#v1.1",
+    "title": "Changelog",
+    "section": "v1.1",
+    "text": "v1.1\n\nSoftware has been added to the guidance for check 4.9.\nEdit to second example for check 4.9, to emphasise that the decision should not generally be based on a single statistical result.\nText added to the beginning of guidance for checks 1.1, 1.2, 4.7 to remind reviewers to repeat these checks.\nAdded text to “Application of the INSPECT-SR tool to assess an individual study” to describe when “some concerns” in several domains may lead to “serious concerns” overall.\nEdited text in “Incorporating the INSPECT-SR tool into the systematic review process” to make it clear that communication with study authors is strongly encouraged.\nText added to check 2.2. to make it clear that lack of registration for older studies may still impact trustworthiness.",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>22</span>  <span class='chapter-title'>Changelog</span>"
+    ]
+  },
+  {
     "objectID": "appendices/template.html",
     "href": "appendices/template.html",
     "title": "Editable template",
@@ -591,7 +624,7 @@
     "text": "An editable Word document template for INSPECT-SR is available for download. The template mirrors the structure of this guidance, providing one page per check with space to record notes, judgements, and justifications for each item.\nDownload template",
     "crumbs": [
       "Appendices",
-      "<span class='chapter-number'>22</span>  <span class='chapter-title'>Editable template</span>"
+      "<span class='chapter-number'>23</span>  <span class='chapter-title'>Editable template</span>"
     ]
   },
   {
@@ -602,7 +635,7 @@
     "text": "© Jack Wilkinson (2026)\nText and figures are licensed under a Creative Commons Attribution 4.0 (CC BY 4.0) license.\nCode is licensed under the MIT License.\nYou are free to copy, share, adapt, and reuse the contents of this book — text, figures, and code — for any purpose, including commercial use, provided you cite it.",
     "crumbs": [
       "Appendices",
-      "<span class='chapter-number'>23</span>  <span class='chapter-title'>License</span>"
+      "<span class='chapter-number'>24</span>  <span class='chapter-title'>License</span>"
     ]
   }
 ]
