@@ -12,6 +12,16 @@ Render the pdf
 quarto render
 ```
 
+
+
+needed? :
+
+```
+quarto pandoc -o static/reference.docx --print-default-data-file reference.docx
+```
+
+
+
 Then update the website, which includes a link to the pdf
 
 ```

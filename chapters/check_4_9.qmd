@@ -5,13 +5,11 @@
 if(file.exists("../_setup.R")){source("../_setup.R")}
 ```
 
-The reviewer should check whether results of statistical analyses are consistent with reported summary data. For example, where a t-test has been used, the reviewer could check whether the reported p-value is consistent with the reported group means and standard deviations (e.g., using the [online calculator at GraphPad](https://www.graphpad.com/quickcalcs/ttest1/?format=sd)).
+The reviewer should check whether results of statistical analyses are consistent with reported summary data. **However, you should NOT attempt to reproduce *p*-values for t-tests by putting the rounded summary statistics (means, SDs) into a calculator unless that calculator explicitly handles the impact of rounding on the reconstructed *p*-values. *p*-values based on tests of continuous variables will not generally be exactly reproducible from rounded summary data.** The reviewer must instead consider whether the p-value is consistent with, rather than exactly reproducible from, the rounded summary data. The example below illustrates this.
 
-Caution is needed however, as p-values based on tests of continuous variables will not generally be reproducible from rounded summary data. The reviewer should consider whether the p-value is consistent with, rather than exactly reproducible from, the reported summary data.
+An online app for appropriately performing this check for continuous data analysed by t-test, *while accounting for the rounding of the reported results*, has been created by Mark Bolland (https://reappraised.shinyapps.io/check_p_vals_cont/). This app checks for consistency of the reported *p*-values with the rounded summary data.
 
 Checking consistency of results of non-parametric analyses of continuous measures is typically not possible using the reported summary data.
-
-An online app for performing this check for continuous data analysed by t-test has been created by Mark Bolland (https://reappraised.shinyapps.io/check_p_vals_cont/). This app checks for consistency of the reported p-values with the rounded summary data.
 
 For categorical data analysed by chi-squared test or similar, where frequencies are reported, the reviewer can attempt to reproduce the p-value from the reported data, without concerns relating to rounding of summary data.
 

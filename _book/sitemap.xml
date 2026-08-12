@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://inspect.sr/index.html</loc>
-    <lastmod>2026-05-01T14:50:09.869Z</lastmod>
+    <lastmod>2026-08-12T15:53:20.881Z</lastmod>
   </url>
   <url>
     <loc>https://inspect.sr/chapters/check_1_1.html</loc>
@@ -74,11 +74,11 @@
   </url>
   <url>
     <loc>https://inspect.sr/chapters/check_4_8.html</loc>
-    <lastmod>2026-05-01T11:41:32.354Z</lastmod>
+    <lastmod>2026-08-12T14:45:51.220Z</lastmod>
   </url>
   <url>
     <loc>https://inspect.sr/chapters/check_4_9.html</loc>
-    <lastmod>2026-04-15T15:01:56.939Z</lastmod>
+    <lastmod>2026-08-12T14:56:22.779Z</lastmod>
   </url>
   <url>
     <loc>https://inspect.sr/chapters/check_4_10.html</loc>
@@ -90,7 +90,7 @@
   </url>
   <url>
     <loc>https://inspect.sr/appendices/changelog.html</loc>
-    <lastmod>2026-05-01T11:20:07.811Z</lastmod>
+    <lastmod>2026-08-12T14:56:12.567Z</lastmod>
   </url>
   <url>
     <loc>https://inspect.sr/appendices/template.html</loc>
@@ -102,6 +102,10 @@
   </url>
   <url>
     <loc>https://inspect.sr/INSPECT-SR-Guidance.pdf</loc>
-    <lastmod>2026-05-01T14:50:59.021Z</lastmod>
+    <lastmod>2026-08-12T15:55:30.861Z</lastmod>
+  </url>
+  <url>
+    <loc>https://inspect.sr/INSPECT-SR-Guidance.docx</loc>
+    <lastmod>2026-08-12T15:55:35.399Z</lastmod>
   </url>
 </urlset>

@@ -10,11 +10,21 @@ INSPECT-SR contains 21 checks across four domains to help the reviewer make a ju
 
 ## Citation
 
-INSPECT-SR, including this guidance document, should be cited using the reference for the INSPECT-SR manuscript:
+INSPECT-SR, *including this guidance document*, should be cited using the reference for the INSPECT-SR publication:
 
-Wilkinson JD, Heal C, Flemyng E, Antoniou GA, Aburrow T, Alfirevic Z, Avenell A, Barbour V, Berghella V, Bishop DVM, Bordewijk EM, Brown NJL, Christopher J, Clarke M, Dahly DL, Dennis J, Dicker P, Dumville J, Grey A, Grohmann S, Gurrin LC, Hayden JA, Heathers JAJ, Hunter KE, Hussey I, Jung L, Lam E, Lasserson TJ, Lensen S, Li T, Li W, Liu J, Loder E, Lundh A, Meyerowitz-Katz G, Mol BW, Naudet F, Noel-Storr A, O'Connell N, Parker L, Redberg RF, Redman BK, Richardson R, Seidler AL, Sheldrick K, Sydenham E, van Wely M, Vorland C, Wang R, Weibel S, Wjst M, Bero L, Kirkham JJ. (2025) INSPECT-SR: a tool for assessing trustworthiness of randomised controlled trials. medRxiv 2025.09.03.25334905; doi: [10.1101/2025.09.03.25334905](https://doi.org/10.1101/2025.09.03.25334905)
+> Wilkinson JD, Heal C, Flemyng E, Antoniou GA, Aburrow T, Alfirevic Z, Avenell A, Barbour V, Berghella V, Bishop DVM, Bordewijk EM, Brown NJL, Christopher J, Clarke M, Dahly DL, Dennis J, Dicker P, Dumville J, Grey A, Grohmann S, Gurrin LC, Hayden JA, Heathers JAJ, Hunter KE, Hussey I, Jung L, Lam E, Lasserson TJ, Lensen S, Li T, Li W, Liu J, Loder E, Lundh A, Meyerowitz-Katz G, Mol BW, Naudet F, Noel-Storr A, O'Connell N, Parker L, Redberg RF, Redman BK, Richardson R, Seidler AL, Sheldrick K, Sydenham E, van Wely M, Vorland C, Wang R, Weibel S, Wjst M, Bero L, Kirkham JJ. (2025) INSPECT-SR: a tool for assessing trustworthiness of randomised controlled trials. medRxiv 2025.09.03.25334905; doi: [10.1101/2025.09.03.25334905](https://doi.org/10.1101/2025.09.03.25334905)
 
 You might also wish to include the version number of the guidance you used in the citation, which is available at the top of the home page of the website and below the list of authors on the first page of the pdf.
+
+Technically, this guidance website and its GitHub repository has its own DOI and is archived on Zenodo. However, please cite the publication itself, above.
+
+::: {.content-visible when-format="html"}
+[![](https://zenodo.org/badge/DOI/10.5281/zenodo.21905597.svg){fig-alt="DOI"}](https://doi.org/10.5281/zenodo.21905597)
+:::
+
+::: {.content-visible unless-format="html"}
+DOI: [10.5281/zenodo.21905597](https://doi.org/10.5281/zenodo.21905597)
+:::
 
 ## Contributors
 
@@ -135,5 +145,6 @@ As the field evolves (see the [changelog](appendices/changelog.qmd)), freely ava
 - [Retraction Watch database](http://retractiondatabase.org/) — search for retractions and post-publication notices
 - [PubPeer](https://www.pubpeer.com/) — post-publication peer review comments
 - [Cochrane implementation guidance](https://www.cochranelibrary.com/cdsr/editorial-policies/problematic-studies-implementation-guidance#7-1) — templates for reporting trustworthiness concerns to journals
+- [The Collection of Open Science Integrity Guides (COSIG)](https://cosig.net/) — guides for how to apply various trustworthiness assessment methods and how to effectively report problematic studies to 
 - [trustworthy.scientific.claims](https://trustworthy.scientific.claims) — A hub for forensic meta-science tool development
 

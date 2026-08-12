@@ -120,7 +120,7 @@ book:
     - name: Jamie J. Kirkham
       orcid: 0000-0003-2579-9325
   date: "2026-01-01" # ignored, date format below rendered instead
-  date-format: "[1.1.1]"
+  date-format: "[1.1.2]"
   favicon: static/favicon.ico
   downloads: [pdf]
   chapters:
@@ -188,28 +188,29 @@ format:
       text: |
         <style>
           .kable-table table { width: 70%; margin: 0 auto; }
-          .badge {
-            display: inline-flex; align-items: center; gap: 0.3em;
-            padding: 0.2em 0.65em; border-radius: 20px;
-            font-size: 0.72em; font-weight: 500; font-family: monospace;
-            vertical-align: middle; position: relative; top: -0.1em;
-          }
-          .badge-draft1   { background: #fdecea; color: #8b2a2a; border: 1px solid #f5b8b8; }
-          .badge-draft2   { background: #fef0e6; color: #8b4a1a; border: 1px solid #f5cfa0; }
-          .badge-draft3   { background: #fef9e7; color: #7a5c00; border: 1px solid #f5d97a; }
-          .badge-complete { background: #e6f4ea; color: #1e6e3a; border: 1px solid #b7dfbe; }
           .bi-file-pdf::after { content: " PDF"; font-family: sans-serif; font-size: 0.85em; }
           .quarto-color-scheme-toggle::after { content: " Dark mode"; font-family: sans-serif; font-size: 0.85em; }
         </style>
   pdf:
     number-sections: false
-    documentclass: report 
+    documentclass: report
     classoption: oneside
     geometry:
       - top=25mm
       - bottom=25mm
       - left=25mm
       - right=25mm
+    filters:
+      - static/print-tweaks.lua
+  docx:
+    number-sections: false
+    toc: true
+    toc-depth: 3
+    reference-doc: static/reference.docx
+    filters:
+      - static/print-tweaks.lua
+    df-print: kable
+    highlight-style: breeze
 
 language:
   title-block-author-plural: "Contributors"

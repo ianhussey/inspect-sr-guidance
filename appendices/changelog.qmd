@@ -2,6 +2,10 @@
 
 Changes from previous version.
 
+## v1.1.2
+
+- Edits to guidance for checks 4.8 and 4.9 to improve clarity in response to feedback.
+
 ## v1.1.1
 
 - Software for check 4.8 updated to include the new [INSPECT-SR consistency checker for means and variances](https://errors.shinyapps.io/inspect-sr-means-variances/) and remove the no longer working prepubmed GRIMMER checker.

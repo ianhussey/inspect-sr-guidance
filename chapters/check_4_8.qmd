@@ -31,4 +31,3 @@ A trial manuscript reports the health of newborn infants using the Apgar score a
 
 - [INSPECT-SR consistency checker for means and variances](https://errors.shinyapps.io/inspect-sr-means-variances/) — Lukas Jung and Ian Hussey's web app for checking multiple values with GRIM and GRIMMER, with guidance on interpretation and the ability to download a copy of the results. Built on Lukas Jung's 'scrutiny' R package. 
 - [scrutiny web app](https://errors.shinyapps.io/scrutiny/) — Lukas Jung's more advanced web app for package for testing multiple values with GRIM and GRIMMER, plus diagnostics. Built on Lukas Jung's 'scrutiny' R package. 
-- [Nick Brown's GRIM calculator](http://nickbrown.fr/GRIM) — simple online GRIM checker.
