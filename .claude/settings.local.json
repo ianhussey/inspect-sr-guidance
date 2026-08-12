@@ -11,7 +11,10 @@
       "Bash(gh api:*)",
       "Bash(python3 -m json.tool)",
       "Bash(quarto render:*)",
-      "Bash(git ls-tree:*)"
+      "Bash(git ls-tree:*)",
+      "Bash(quarto update:*)",
+      "Bash(tlmgr list:*)",
+      "Bash(tlmgr remove:*)"
     ]
   }
 }
