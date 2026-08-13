@@ -2,7 +2,7 @@
 
 INSPECT-SR ([Wilkinson et al., 2025](https://doi.org/10.1101/2025.09.03.25334905)) is a tool for assessing the trustworthiness of randomised controlled trials (RCTs) in systematic reviews. It was developed for health RCTs but has utility in other fields too. It does not assess internal or external validity (which are covered by Risk of Bias tools and GRADE), nor does it cover conflicts of interest. 
 
-This repo contains the code for the official guidance for using INSPECT-SR, which is hosted at [inspect.sr](https://inspect.sr). 
+This repo contains the code for the official guidance for using INSPECT-SR, which is hosted at [inspect-sr.com](https://inspect-sr.com). The original address, [inspect.sr](https://inspect.sr), also works and redirects there. 
 
 ## Citation
 

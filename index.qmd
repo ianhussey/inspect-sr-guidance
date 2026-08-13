@@ -1,6 +1,8 @@
 ## Introduction {.unnumbered}
 
-The live website version of this guidance is hosted at [https://inspect.sr](https://inspect.sr). A pdf of the website is also hosted on OSF ([https://osf.io/b74wj/](https://osf.io/b74wj/)). 
+The live website version of this guidance is hosted at [https://inspect-sr.com](https://inspect-sr.com). The original address, [https://inspect.sr](https://inspect.sr), also works and redirects here — both are maintained permanently, but `inspect-sr.com` is preferred, as some institutional networks block the `.sr` domain.
+
+A pdf of the website is also hosted on OSF ([https://osf.io/b74wj/](https://osf.io/b74wj/)).
 
 INSPECT-SR ([Wilkinson et al., 2025](https://doi.org/10.1101/2025.09.03.25334905)) is a tool for assessing the trustworthiness of randomised controlled trials (RCTs) in systematic reviews. It was developed for health RCTs but has utility in other fields too.
 

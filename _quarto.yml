@@ -7,7 +7,7 @@ project:
     - "CNAME"
 
 book:
-  site-url: "https://inspect.sr/"
+  site-url: "https://inspect-sr.com/"
   title: "INSPECT-SR Guidance"
   subtitle: "INveStigating ProblEmatic Clinical Trials in Systematic Reviews"
   author:
@@ -170,6 +170,7 @@ book:
 format:
   html:
     number-sections: false
+    open-graph: true
     css: styles.css
     toc: true
     toc_float: true
