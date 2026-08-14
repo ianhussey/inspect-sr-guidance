@@ -10,3 +10,4 @@ old/*
 *.Rhistory
 *.DS_store
 /.claude
+/site_libs
