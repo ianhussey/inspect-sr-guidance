@@ -1,1 +1,1 @@
-Sitemap: https://inspect.sr/sitemap.xml
+Sitemap: https://inspect-sr.com/sitemap.xml
