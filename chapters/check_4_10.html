@@ -462,11 +462,6 @@ ul.task-list li input[type="checkbox"] {
   <a href="../appendices/template.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Editable template</span></a>
   </div>
 </li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../license.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">License</span></a>
-  </div>
-</li>
       </ul>
   </li>
     </ul>
@@ -479,7 +474,16 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#example" id="toc-example" class="nav-link active" data-scroll-target="#example">Example</a></li>
+  <li><a href="#overall-cohort-vs.-subgroup-descriptive-statistics" id="toc-overall-cohort-vs.-subgroup-descriptive-statistics" class="nav-link active" data-scroll-target="#overall-cohort-vs.-subgroup-descriptive-statistics">Overall cohort vs.&nbsp;subgroup descriptive statistics</a>
+  <ul class="collapse">
+  <li><a href="#example" id="toc-example" class="nav-link" data-scroll-target="#example">Example</a></li>
+  <li><a href="#tools-for-this-check" id="toc-tools-for-this-check" class="nav-link" data-scroll-target="#tools-for-this-check">Tools for this check</a></li>
+  </ul></li>
+  <li><a href="#bounds-checks" id="toc-bounds-checks" class="nav-link" data-scroll-target="#bounds-checks">Bounds checks</a>
+  <ul class="collapse">
+  <li><a href="#tools-for-this-check-1" id="toc-tools-for-this-check-1" class="nav-link" data-scroll-target="#tools-for-this-check-1">Tools for this check</a></li>
+  </ul></li>
+  <li><a href="#some-combinations-of-outcome-are-not-possible" id="toc-some-combinations-of-outcome-are-not-possible" class="nav-link" data-scroll-target="#some-combinations-of-outcome-are-not-possible">Some combinations of outcome are not possible</a></li>
   </ul>
 </nav>
     </div>
@@ -506,13 +510,12 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>There may be other instances of contradictory results that would not be detected using the other checks in this domain. Several examples have been identified, but appear to occur too infrequently to warrant routine checking. Should anomalies of this nature be observed, they may be recorded in response to this check. Specifically:</p>
-<p>Subgroup counts or means could conflict with results for the overall cohort.</p>
-<p>A mean value (for example) could fall outside of a reported range.</p>
-<p>Some combinations of outcome are not possible. For example, it is not possible to have more birth events (with one “birth event” defined as the birth of at least one child) than pregnancies.</p>
-<p>The answer to this check should contribute to a domain-level judgement.</p>
-<section id="example" class="level2">
-<h2 class="anchored" data-anchor-id="example">Example</h2>
+<p>There may be other instances of contradictory results that would not be detected using the other checks in this domain. Several examples have been identified, but appear to occur too infrequently to warrant routine checking. Should anomalies of this nature be observed, they may be recorded in response to this check. For example:</p>
+<section id="overall-cohort-vs.-subgroup-descriptive-statistics" class="level2">
+<h2 class="anchored" data-anchor-id="overall-cohort-vs.-subgroup-descriptive-statistics">Overall cohort vs.&nbsp;subgroup descriptive statistics</h2>
+<p>Subgroup sample sizes, means, or Standard Deviations could conflict with results for the overall cohort.</p>
+<section id="example" class="level3">
+<h3 class="anchored" data-anchor-id="example">Example</h3>
 <div class="callout callout-style-default callout-note callout-titled" title="Example 1">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -526,6 +529,29 @@ ul.task-list li input[type="checkbox"] {
 <p>A manuscript reports a mean quality of life score for the intervention group overall, and also separately for participants aged 65 or over, or under 65. There are 41 participants in the intervention group overall, with 30 of these being aged less than 65 years and 11 being 65 years or older. The overall mean score is reported as 7.3. The mean score for the 30 participants younger than 65 is reported as 6.2, and the mean score for the 11 participants aged 65 years or older is 7.4. We may attempt to reproduce the overall mean score from the subgroup-specific means, by calculating (6.2×30 + 7.4×11) / 41 = 6.52, which is smaller than the reported value of 7.3. We must confirm that the discrepancy cannot be explained by rounding, by considering the values for the subgroup means that would make the recalculated value as large as possible (e.g.&nbsp;by setting the subgroup means to 6.2499 and 7.499 and recalculating the overall value). This returns a value of 6.57, which is clearly not compatible with the reported value of 7.3, even if the latter value has been rounded up. The reviewer records a response of “yes” for this check, and this response contributes to the domain-level judgement.</p>
 </div>
 </div>
+</section>
+<section id="tools-for-this-check" class="level3">
+<h3 class="anchored" data-anchor-id="tools-for-this-check">Tools for this check</h3>
+<ul>
+<li><a href="https://errors.shinyapps.io/ANCHOR/">INSPECT-SR consistency checker for overall cohort vs.&nbsp;subgroups</a> — Ian Hussey’s web app for checking multiple values, with guidance on interpretation and the ability to download a copy of the results. Built on Ian Hussey’s <a href="https://github.com/ianhussey/recalc/">‘recalc’</a> R package.</li>
+</ul>
+</section>
+</section>
+<section id="bounds-checks" class="level2">
+<h2 class="anchored" data-anchor-id="bounds-checks">Bounds checks</h2>
+<p>For example, a mean value could fall outside of a reported range: the mean of a 1-7 self-report Likert scale must be between 1 and 7. Equally, the reported Standard Deviations could fall outside the mathematical bounds set by the scale’s reported range.</p>
+<p>Consultation with a statistician may be useful to verify judgement.</p>
+<section id="tools-for-this-check-1" class="level3">
+<h3 class="anchored" data-anchor-id="tools-for-this-check-1">Tools for this check</h3>
+<ul>
+<li><a href="https://errors.shinyapps.io/inspect-sr-means-variances/">INSPECT-SR granularity and bounds consistency checker for means and variances</a> — Lukas Jung and Ian Hussey’s web app for checking multiple values with GRIM and GRIMMER, with guidance on interpretation and the ability to download a copy of the results. Built on Lukas Jung’s <a href="https://lhdjung.github.io/scrutiny/">‘scrutiny’</a> R package and Ian Hussey’s <a href="https://github.com/ianhussey/strait/">‘strait’</a> R package.</li>
+</ul>
+</section>
+</section>
+<section id="some-combinations-of-outcome-are-not-possible" class="level2">
+<h2 class="anchored" data-anchor-id="some-combinations-of-outcome-are-not-possible">Some combinations of outcome are not possible</h2>
+<p>For example, it is not possible to have more birth events (with one “birth event” defined as the birth of at least one child) than pregnancies.</p>
+<p>The answer to this check should contribute to a domain-level judgement.</p>
 
 
 </section>
