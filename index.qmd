@@ -1,6 +1,6 @@
 ## Introduction {.unnumbered}
 
-INSPECT-SR ([Wilkinson et al., 2025](https://doi.org/10.1101/2025.09.03.25334905)) is a tool for assessing the trustworthiness of randomised controlled trials (RCTs) in systematic reviews. It was developed for health RCTs but has utility in other fields too.
+INSPECT-SR ([Wilkinson et al., 2026](https://doi.org/10.1136/bmj-2026-100611)) is a tool for assessing the trustworthiness of randomised controlled trials (RCTs) in systematic reviews. It was developed for health RCTs but has utility in other fields too.
 
 INSPECT-SR does not assess internal or external validity (which are covered by Risk of Bias tools and GRADE), nor does it cover conflicts of interest.
 
@@ -15,7 +15,13 @@ INSPECT-SR contains 21 checks across four domains to help the reviewer make a ju
 
 INSPECT-SR, *including this guidance document*, should be cited using the reference for the INSPECT-SR publication:
 
-> Wilkinson, J. D., Heal, C., Flemyng, E., Antoniou, G. A., Aburrow, T., Alfirevic, Z., Avenell, A., Barbour, V., Berghella, V., Bishop, D. V. M., Bordewijk, E. M., Brown, N. J. L., Christopher, J., Clarke, M., Dahly, D. L., Dennis, J., Dicker, P., Dumville, J., Grey, A., Grohmann, S., Gurrin, L. C., Hayden, J. A., Heathers, J. A. J., Hunter, K. E., Hussey, I., Jung, L., Lam, E., Lasserson, T. J., Lensen, S., Li, T., Li, W., Liu, J., Loder, E., Lundh, A., Meyerowitz-Katz, G., Mol, B. W., Naudet, F., Noel-Storr, A., O'Connell, N., Parker, L., Redberg, R. F., Redman, B. K., Richardson, R., Seidler, A. L., Sheldrick, K., Sydenham, E., van Wely, M., Vorland, C., Wang, R., Weibel, S., Wjst, M., Bero, L., & Kirkham, J. J. (2025) INSPECT-SR: a tool for assessing trustworthiness of randomised controlled trials. medRxiv 2025.09.03.25334905; doi: [10.1101/2025.09.03.25334905](https://doi.org/10.1101/2025.09.03.25334905)
+APA format:
+
+> Wilkinson, J., Bero, L., Heal, C., Flemyng, E., Antoniou, G. A., Aburrow, T., Alfirevic, Z., Avenell, A., Barbour, V., Berghella, V., Bishop, D. V. M., Bordewijk, E. M., Brown, N. J. L., Christopher, J., Clarke, M., Dahly, D., Dennis, J., Dicker, P., Dumville, J., Frankish, H., Grey, A., Grohmann, S., Gurrin, L. C., Hayden, J. A., Heathers, J. A. J., Hunter, K. E., Hussey, I., Jung, L., Lam, E., Lasserson, T. J., Lensen, S., Li, T., Li, W., Liu, J., Loder, E., Lundh, A., Meyerowitz-Katz, G., Mol, B. W., Naudet, F., Noel-Storr, A., O’Connell, N. E., Parker, L., Redberg, R. F., Redman, B. K., Richardson, R., Seidler, A. L., Sheldrick, K., Sydenham, E., van Wely, M., Vorland, C. J., Wang, R., Weibel, S., Wjst, M., & Kirkham, J. J. (2026). INSPECT-SR tool for assessing trustworthiness of randomised controlled trials. *BMJ, 394*, e100611 doi:[10.1136/bmj-2026-100611](https://doi.org/10.1136/bmj-2026-100611)
+
+Vancouver format:
+
+> Wilkinson J, Bero L, Heal C, Flemyng E, Antoniou GA, Aburrow T, Alfirevic Z, Avenell A, Barbour V, Berghella V,  Bishop DVM, Bordewijk EM, Brown NJL, Christopher J, Clarke M, Dahly D, Dennis J, Dicker P, Dumville J, Frankish H, Grey A, Grohmann S, Gurrin LC, Hayden JA, Heathers JAJ, Hunter KE, Hussey I, Jung L, Lam E, Lasserson TJ, Lensen S, Li T, Li W, Liu J, Loder E, Lundh A, Meyerowitz-Katz G, Mol BW, Naudet F, Noel-Storr A, O’Connell, NE, Parker L, Redberg RF, Redman BK, Richardson R, Seidler AL, Sheldrick K, Sydenham E, van Wely M, Vorland CJ, Wang R, Weibel S, Wjst M, Kirkham JJ. INSPECT-SR tool for assessing trustworthiness of randomised controlled trials. BMJ. 2026;394:e100611. doi:[10.1136/bmj-2026-100611](https://doi.org/10.1136/bmj-2026-100611)
 
 You might also wish to include the version number of the guidance you used in the citation, which is available at the top of the home page of the website and below the list of authors on the first page of the pdf.
 
@@ -31,6 +37,7 @@ Each contributors role is listed below (e.g., contribution to the INSPECT-SR art
 | Contributor | Article | Guidance | 
 |:-----|:-------:|:--------:|
 | Jack Wilkinson [{{< ai orcid >}}](https://orcid.org/0000-0003-3513-4677) | Yes | Yes |
+| Lisa Bero [{{< ai orcid >}}](https://orcid.org/0000-0003-1893-6651) | Yes |  Yes |
 | Calvin Heal [{{< ai orcid >}}](https://orcid.org/0000-0002-6445-1551) | Yes |  Yes |
 | Ella Flemyng [{{< ai orcid >}}](https://orcid.org/0000-0002-9845-9076) | Yes | Yes |
 | Georgios A. Antoniou | Yes | Yes |
@@ -82,7 +89,6 @@ Each contributors role is listed below (e.g., contribution to the INSPECT-SR art
 | Rui Wang [{{< ai orcid >}}](https://orcid.org/0009-0005-1237-6376) | Yes | Yes |
 | Stephanie Weibel [{{< ai orcid >}}](https://orcid.org/0000-0003-1900-2535) | Yes | Yes |
 | Matthias Wjst [{{< ai orcid >}}](https://orcid.org/0000-0002-4974-5631) | Yes |  Yes |
-| Lisa Bero [{{< ai orcid >}}](https://orcid.org/0000-0003-1893-6651) | Yes |  Yes |
 | Jamie J. Kirkham [{{< ai orcid >}}](https://orcid.org/0000-0003-2579-9325) | Yes | Yes |
 :::
 
@@ -145,9 +151,10 @@ You are free to copy, share, adapt, and reuse the contents of this website — t
 
 This site is maintained by Ian Hussey and Jack Wilkinson. If you find issues etc, you can open an issue or pull request on the [GitHub repository](https://github.com/ianhussey/inspect-sr-guidance). The GitHub repository is archived on [Zenodo](https://doi.org/10.5281/zenodo.21905597). Technically, this guidance document has its own DOI and reference, listed below, but please cite the INSPECT-SR publication itself (see Citation section above).
 
-<!-- Jack Wilkinson, Calvin Heal, Ella Flemyng, Georgios A. Antoniou, Tony Aburrow, Zarko Alfirevic, Alison Avenell, Virginia Barbour, Vincenzo Berghella, Dorothy V. M. Bishop, Esmée M Bordewijk, Nicholas J. L. Brown, Jana Christopher, Mike Clarke, Darren Dahly, Jane Dennis, Patrick Dicker, Jo Dumville, Helen Frankish, Andrew Grey, Steph Grohmann,Lyle C. Gurrin, Jill A. Hayden, James Heathers, Kylie E Hunter, Ian Hussey, Lukas Jung, Emily Lam, Toby J. Lasserson, Sarah Lensen, Tianjing Li, Wentao Li, Jianping Liu, Elizabeth Loder, Andreas Lundh, Gideon Meyerowitz-Katz, Ben W. Mol, Florian Naudet, Anna Noel-Storr, Neil E. O’Connell, Lisa Parker, Rita F. Redberg, Barbara K. Redman, Rachel Richardson, Anna Lene Seidler, Kyle Sheldrick, Emma Sydenham, Madelon van Wely, Colby J. Vorland, Rui Wang, Stephanie Weibel, Matthias Wjst, Lisa Bero, & Jamie J. Kirkham (2026).  -->
+<!-- Jack Wilkinson, Lisa Bero, Calvin Heal, Ella Flemyng, Georgios A. Antoniou, Tony Aburrow, Zarko Alfirevic, Alison Avenell, Virginia Barbour, Vincenzo Berghella, Dorothy V. M. Bishop, Esmée M Bordewijk, Nicholas J. L. Brown, Jana Christopher, Mike Clarke, Darren Dahly, Jane Dennis, Patrick Dicker, Jo Dumville, Helen Frankish, Andrew Grey, Steph Grohmann,Lyle C. Gurrin, Jill A. Hayden, James Heathers, Kylie E Hunter, Ian Hussey, Lukas Jung, Emily Lam, Toby J. Lasserson, Sarah Lensen, Tianjing Li, Wentao Li, Jianping Liu, Elizabeth Loder, Andreas Lundh, Gideon Meyerowitz-Katz, Ben W. Mol, Florian Naudet, Anna Noel-Storr, Neil E. O’Connell, Lisa Parker, Rita F. Redberg, Barbara K. Redman, Rachel Richardson, Anna Lene Seidler, Kyle Sheldrick, Emma Sydenham, Madelon van Wely, Colby J. Vorland, Rui Wang, Stephanie Weibel, Matthias Wjst, & Jamie J. Kirkham (2026).  -->
+<!-- Wilkinson J, Bero L, Heal C, Flemyng E, Antoniou GA, Aburrow T, Alfirevic Z, Avenell A, Barbour V, Berghella V,  Bishop DVM, Bordewijk EM, Brown NJL, Christopher J, Clarke M, Dahly D, Dennis J, Dicker P, Dumville J, Frankish H, Grey A, Grohmann S, Gurrin LC, Hayden JA, Heathers JAJ, Hunter KE, Hussey I, Jung L, Lam E, Lasserson TJ, Lensen S, Li T, Li W, Liu J, Loder E, Lundh A, Meyerowitz-Katz G, Mol BW, Naudet F, Noel-Storr A, O’Connell, NE, Parker L, Redberg RF, Redman BK, Richardson R, Seidler AL, Sheldrick K, Sydenham E, van Wely M, Vorland CJ, Wang R, Weibel S, Wjst M, Kirkham JJ.  -->
 
-Wilkinson, J., Heal, C., Flemyng, E., Antoniou, G. A., Aburrow, T., Alfirevic, Z., Avenell, A., Barbour, V., Berghella, V., Bishop, D. V. M., Bordewijk, E. M., Brown, N. J. L., Christopher, J., Clarke, M., Dahly, D., Dennis, J., Dicker, P., Dumville, J., Frankish, H., Grey, A., Grohmann, S., Gurrin, L. C., Hayden, J. A., Heathers, J., Hunter, K. E., Hussey, I., Jung, L., Lam, E., Lasserson, T. J., Lensen, S., Li, T., Li, W., Liu, J., Loder, E., Lundh, A., Meyerowitz-Katz, G., Mol, B. W., Naudet, F., Noel-Storr, A., O'Connell, N. E., Parker, L., Redberg, R. F., Redman, B. K., Richardson, R., Seidler, A. L., Sheldrick, K., Sydenham, E., van Wely, M., Vorland, C. J., Wang, R., Weibel, S., Wjst, M., Bero, L., & Kirkham, J. J. (2026). INSPECT-SR Guidance. website: [inspect-sr.com](https://inspect-sr.com/). doi: [10.5281/zenodo.21905597](https://doi.org/10.5281/zenodo.21905597)
+Wilkinson, J., Bero, L., Heal, C., Flemyng, E., Antoniou, G. A., Aburrow, T., Alfirevic, Z., Avenell, A., Barbour, V., Berghella, V., Bishop, D. V. M., Bordewijk, E. M., Brown, N. J. L., Christopher, J., Clarke, M., Dahly, D., Dennis, J., Dicker, P., Dumville, J., Frankish, H., Grey, A., Grohmann, S., Gurrin, L. C., Hayden, J. A., Heathers, J., Hunter, K. E., Hussey, I., Jung, L., Lam, E., Lasserson, T. J., Lensen, S., Li, T., Li, W., Liu, J., Loder, E., Lundh, A., Meyerowitz-Katz, G., Mol, B. W., Naudet, F., Noel-Storr, A., O'Connell, N. E., Parker, L., Redberg, R. F., Redman, B. K., Richardson, R., Seidler, A. L., Sheldrick, K., Sydenham, E., van Wely, M., Vorland, C. J., Wang, R., Weibel, S., Wjst, M., & Kirkham, J. J. (2026). INSPECT-SR Guidance. website: [inspect-sr.com](https://inspect-sr.com/). doi: [10.5281/zenodo.21905597](https://doi.org/10.5281/zenodo.21905597)
 
 ## Resources
 

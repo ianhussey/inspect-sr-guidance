@@ -15,6 +15,8 @@ book:
     - name: Jack Wilkinson
       orcid: 0000-0003-3513-4677
       email: jack.wilkinson@manchester.ac.uk
+    - name: Lisa Bero
+      orcid: 0000-0003-1893-6651
     - name: Calvin Heal
       orcid: 0000-0002-6445-1551
     - name: Ella Flemyng
@@ -58,7 +60,7 @@ book:
     - name: Lyle C. Gurrin
     - name: Jill A. Hayden
       orcid: 0000-0001-7026-144X
-    - name: James Heathers
+    - name: James A. J. Heathers
       orcid: 0000-0002-0936-026X
     - name: Kylie E Hunter
       orcid: 0000-0002-2796-9220
@@ -115,8 +117,6 @@ book:
     - name: Matthias Wjst
       orcid: 0000-0002-4974-5631
     # tier 2 - senior authors
-    - name: Lisa Bero
-      orcid: 0000-0003-1893-6651
     - name: Jamie J. Kirkham
       orcid: 0000-0003-2579-9325
   #date: "2026-01-01" # ignored, date format below rendered instead
